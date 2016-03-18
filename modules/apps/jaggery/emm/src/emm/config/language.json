@@ -20,7 +20,7 @@
   "EK-Dashboard":"主面板",
   "EK-Notifications":"通知",
 
-  "EK-Platform_Configurations":"平台配置"
+  "EK-Platform_Configurations":"平台配置",
 
   "EK-Go_Back":"返回",
 
@@ -30,10 +30,5 @@
   //Scan QR code to start enrollment
   "EK-Scan_QR":"扫描二维码注册设备",
   //Please scan the QR code using your mobile device to retrieve enrollment URL.
-  "EK-Scan_QR_Retrieve_URL":"请用您的移动设备扫描二维码获取注册地址。",
-  "EK-Login":"登录",
-  "EK-Login":"登录",
-  "EK-Login":"登录",
-  "EK-Login":"登录",
-  "EK-Login":"登录"
+  "EK-Scan_QR_Retrieve_URL":"请用您的移动设备扫描二维码获取注册地址。"
 }
