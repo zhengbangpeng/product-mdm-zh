@@ -1,4 +1,23 @@
 {
-  "EK-zh-login-pageTitle":"这是一个登录页面",
-  "EK-en-login-pageTitle":"this is a login page"
+  "EK-Login":"登录",
+
+  "EK-Add_Policy":"添加策略",
+  "EK-Policy_Management":"策略管理",
+  "EK-Policy_Priority_Management":"策略优先级管理",
+  "EK-Edit_Policy":"策略编辑",
+
+  "EK-Add_Role":"添加角色",
+  "EK-Edit_Role":"角色编辑",
+  "EK-Edit_Role_permission":"角色权限编辑",
+  "EK-Role_Management":"角色管理",
+
+  "EK-Add_User":"添加用户",
+  "EK-Edit_User":"用户编辑",
+  "EK-User_Management":"用户管理",
+
+  "EK-Device_View":"查看设备",
+  "EK-Device_Management":"设备管理",
+  "EK-Dashboard":"主面板",
+  "EK-Notifications":"通知",
+  "EK-Platform_Configurations":"平台配置"
 }
