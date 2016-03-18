@@ -18,7 +18,7 @@
                             <i class="fw fw-ring fw-stack-2x"></i>
                             <i class="fw fw-left-arrow fw-stack-1x"></i>
                         </span>
-                        Go Back
+                         EK-Go_Back
                     </a><!--
              -->{{/if}}<!--
              -->{{#each currentActions}}<!--
@@ -30,20 +30,20 @@
                         {{title}}
                     </a><!--
              -->{{/each}}
-                <a href="/emm/notification-listing" class="cu-btn wr-notification-toggle-btn" title="Failures of operations on the device side will be listed here">
+                <a href="/emm/notification-listing" class="cu-btn wr-notification-toggle-btn" title="EK-Failures_operations">
                     <span class="fw-stack-md">
                         <i class="glyphicon glyphicon-bell"></i>
                     </span>
                     &nbsp;
                     <span class="wr-notification-bubble" id="notification-bubble">0</span>
                 </a>
-                {{#equal pageTitle "Device Management"}}
+                {{#equal pageTitle "EK-Device_Management"}}
                     <a href="javascript:toggleEnrollment()" class="cu-btn wr-notification-toggle-btn">
                         <span class="fw-stack-md">
                             <i class="fw fw-bpmn fw-stack-1-5x"></i>
                         </span>
                         &nbsp;
-                        Enroll Device
+                        EK-Policy_Management
                     </a>
                 {{/equal}}
             </div>
@@ -58,23 +58,23 @@
             {{defineZone "common-navigation"}}
 
             {{#if permissions.VIEW_DASHBOARD}}
-                <li><a href="/emm"><i class="fw fw-dashboard"></i>Admin Dashboard</a></li>
+                <li><a href="/emm"><i class="fw fw-dashboard"></i>EK-Dashboard</a></li>
             {{/if}}
             {{#if permissions.LIST_DEVICES}}
-                <li><a href="/emm/device-mgt"><i class="fw fw-mobile"></i>Device Management</a></li>
+                <li><a href="/emm/device-mgt"><i class="fw fw-mobile"></i>EK-Device_Management</a></li>
             {{/if}}
             {{#if permissions.LIST_USERS}}
-                <li><a href="/emm/users"><i class="fw fw-user"></i>User Management</a></li>
+                <li><a href="/emm/users"><i class="fw fw-user"></i>EK-User_Management</a></li>
             {{/if}}
 
             {{#if permissions.LIST_ROLES}}
-                <li><a href="/emm/roles"><i class="fw fw-bookmark"></i>Role Management</a></li>
+                <li><a href="/emm/roles"><i class="fw fw-bookmark"></i>EK-Role_Management</a></li>
             {{/if}}
             {{#if permissions.LIST_POLICIES}}
-                <li><a href="/emm/policies"><i class="fw fw-policy"></i>Policy Management</a></li>
+                <li><a href="/emm/policies"><i class="fw fw-policy"></i>EK-Policy_Management</a></li>
             {{/if}}
             {{#if permissions.TENANT_CONFIGURATION}}
-                <li><a href="/emm/platform-configuration"><i class="fw fw-settings"></i>Platform Configurations</a></li>
+                <li><a href="/emm/platform-configuration"><i class="fw fw-settings"></i>EK-Platform_Configurations</a></li>
             {{/if}}
         </ul>
     </div>
@@ -86,10 +86,10 @@
             <div class="row">
                 <div class="col-lg-5 col-md-6 col-centered">
                     <h3>
-                        Scan QR code to start enrollment
+                        EK-Scan_QR
                     </h3>
                     <h4>
-                        Please scan the QR code using your mobile device to retrieve enrollment URL.
+                        EK-Scan_QR_Retrieve_URL
                     </h4>
 
                     <div class="panel panel-default">
@@ -104,5 +104,6 @@
 {{/zone}}
 {{#zone "bottomJs"}}
     <script src="{{self.publicURL}}/js/appbar.js"></script>
+    <script src="{{self.publicURL}}/js/appbar-ek.js"></script>
     <script src="{{self.publicURL}}/js/jquery.qrcode.min.js"></script>
 {{/zone}}
