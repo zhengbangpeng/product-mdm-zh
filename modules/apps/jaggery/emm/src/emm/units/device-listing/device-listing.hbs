@@ -2,13 +2,13 @@
     <span id="permission" data-permission="{{permissions}}"></span>
     <div class="row wr-device-board">
         <div class="col-lg-12 wr-secondary-bar">
-            <span class="page-sub-title">DEVICES</span>
+            <span class="page-sub-title">EK-Devices</span>
         </div>
     </div>
     <div id="loading-content" class="col-centered">
         <i class="fw fw-settings fw-spin fw-2x"></i>
         &nbsp;&nbsp;&nbsp;
-        Loading devices . . .
+        EK-Devicesc EK-Loading  . . .
         <br>
     </div>
     <div class="container-fluid">
@@ -18,11 +18,11 @@
             <thead>
             <tr class="sort-row">
                 <th class="no-sort"></th>
-                <th>By Device Name</th>
-                <th>By Owner</th>
-                <th>By Status</th>
-                <th>By Platform</th>
-                <th>By Ownership</th>
+                <th>EK-By_Device_Name</th>
+                <th>EK-By_Owner</th>
+                <th>EK-By_Status</th>
+                <th>EK-By_Platform</th>
+                <th>EK-By_Ownership</th>
                 <th class="no-sort"></th>
             </tr>
             <tr class="filter-row filter-box">
@@ -40,8 +40,8 @@
                         {{unit "operation-bar"}}
                     </div>
                     <div id="operation-guide" class="bs-callout bs-callout-info">
-                        <h4>Enabling Device Operations</h4>
-                        <p>To enable device operations, select the desired platform from above filter.</p>
+                        <h4>EK-Enabling_Device_Operations</h4>
+                        <p>EK-enable_device_operations</p>
                     </div>
                 </th>
             </tr>
@@ -55,18 +55,19 @@
     </div>
     <br class="c-both"/>
     <div id="content-filter-types" style="display: none">
-        <div class="sort-title">Sort By</div>
+        <div class="sort-title">EK-Sort_By</div>
         <div class="sort-options">
-            <a href="#">By Device Name<span class="ico-sort-asc"></span></a>
-            <a href="#">By Owner</a>
-            <a href="#">By Status</a>
-            <a href="#">By Platform</a>
-            <a href="#">By Ownership</a>
+            <a href="#">EK-By_Device_Name<span class="ico-sort-asc"></span></a>
+            <a href="#">EK-By_Owner</a>
+            <a href="#">EK-By_Status</a>
+            <a href="#">EK-By_Platform</a>
+            <a href="#">EK-By_Ownership</a>
         </div>
     </div>
 
 {{/zone}}
 {{#zone "bottomJs"}}
     <script id="device-listing" data-current-user="{{currentUser.username}}" data-image-resource="{{self.publicURL}}/images/" src="{{self.publicURL}}/templates/device-listing.hbs" type="text/x-handlebars-template" ></script>
+    <script src="{{self.publicURL}}/js/device-listing-ek.js"></script>
     <script src="{{self.publicURL}}/js/device-listing.js"></script>
 {{/zone}}

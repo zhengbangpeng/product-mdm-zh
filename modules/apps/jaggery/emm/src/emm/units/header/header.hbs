@@ -20,10 +20,10 @@
                         <div class="dropdown-menu">
                             <div class="cu-arrow"></div>
                             <div class="dropdown-menu-content">
-                                <a href="javascript:void(0)" id="change-password" class="filter-item">Change Password</a>
+                                <a href="javascript:void(0)" id="change-password" class="filter-item">EK-Change_password</a>
                             </div>
                             <div class="dropdown-menu-content">
-                                <a href="{{logoutURL}}" class="filter-item">Log out</a>
+                                <a href="{{logoutURL}}" class="filter-item">EK-Log_out</a>
                             </div>
                         </div>
                     </div>
@@ -42,26 +42,26 @@
                             <i class="fw fw-ring fw-stack-2x"></i>
                             <i class="fw fw-key fw-stack-1x"></i>
                         </span>
-                        Change Password
+                        EK-Change_password
                         <br>
                     </h3>
                     <div id="notification-error-msg" class="alert alert-danger hidden" role="alert">
                         <i class="icon fw fw-error"></i><span></span>
                     </div>
                     <h4>
-                        Enter old password
+                        EK-Enter_Old_password
                         <br><br>
                         <div>
                             <input type="password" class="form-control modal-input operationDataKeys" id="old-password" data-key="message"/>
                         </div>
                         <br>
-                        Enter new password
+                        EK-Enter_New_password
                         <br><br>
                         <div>
                             <input type="password" class="form-control modal-input operationDataKeys" id="new-password" data-key="message"/>
                         </div>
                         <br>
-                        Retype new password
+                        EK-Retype_New_password
                         <br><br>
                         <div>
                             <input type="password" class="form-control modal-input operationDataKeys" id="confirmed-password" data-key="message"/>
@@ -70,11 +70,11 @@
                     </h4>
                     <div class="buttons">
                         <a href="#" id="change-password-yes-link" class="btn-operations">
-                            &nbsp;&nbsp;&nbsp;&nbsp;Yes&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;EK-yes&nbsp;&nbsp;&nbsp;&nbsp;
                         </a>
                         &nbsp;&nbsp;
                         <a href="#" id="change-password-cancel-link" class="btn-operations">
-                            &nbsp;&nbsp;&nbsp;&nbsp;Cancel&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;EK-cancel&nbsp;&nbsp;&nbsp;&nbsp;
                         </a>
                     </div>
                 </div>
@@ -85,10 +85,10 @@
         <div class="content">
             <div class="row">
                 <div class="col-lg-5 col-md-6 col-centered">
-                    <h3>Done. Password reset successful.</h3>
+                    <h3>EK-Password_Reset_successful</h3>
                     <div class="buttons">
                         <a href="#" id="change-password-success-link" class="btn-operations">
-                            &nbsp;&nbsp;&nbsp;&nbsp;Ok&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;EK-ok&nbsp;&nbsp;&nbsp;&nbsp;
                         </a>
                     </div>
                 </div>
@@ -97,5 +97,6 @@
     </div>
 {{/zone}}
 {{#zone "bottomJs"}}
+    <script src="{{self.publicURL}}/js/header-ek.js"></script>
     <script src="{{self.publicURL}}/js/header.js"></script>
 {{/zone}}
