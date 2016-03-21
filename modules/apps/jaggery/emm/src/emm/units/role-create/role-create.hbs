@@ -5,15 +5,15 @@
             <!-- content -->
             <div id="role-create-form" class="container col-centered wr-content">
                 <div class="wr-form">
-                    <p class="page-sub-title">Add Role</p>
-                    <p>Please note that * sign represents required fields of data.</p>
+                    <p class="page-sub-title">EK-Add_Role</p>
+                    <p>EK-Please_Note_*</p>
                     <hr />
                     <div class="row">
                         <div class="col-lg-8">
                             <div id="role-create-error-msg" class="alert alert-danger hidden" role="alert">
                                 <i class="icon fw fw-error"></i><span></span>
                             </div>
-                            <label class="wr-input-label">Domain</label>
+                            <label class="wr-input-label">EK-domain</label>
                             <div class="wr-input-control">
                                 <select id="domain" class="form-control select" >
                                     <option>PRIMARY</option>
@@ -23,14 +23,14 @@
                                 </select>
                             </div>
                             <label class="wr-input-label">
-                                Role Name * <br>
-                                ( should be in minimum 3 characters long, lower-case and not include any whitespaces )
+                                EK-Role_name * <br>
+                                ( EK-Should_Be_Minimum_3_characters )
                             </label>
                             <div class="wr-input-control">
-                                <input type="text" id="rolename" class="form-control" placeholder="[ Required field ]"/>
+                                <input type="text" id="rolename" class="form-control" placeholder="[ EK-Required_field ]"/>
                             </div>
                             <label class="wr-input-label">
-                                User list
+                                EK-User_list
                             </label>
                             <div class="wr-input-control">
                                 <select id="users" class="form-control select2" multiple="multiple">
@@ -39,22 +39,22 @@
                         </div>
                     </div>
                     <br>
-                    <button id="add-role-btn" class="wr-btn">&nbsp;&nbsp;&nbsp;&nbsp;Add Role&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                    <button id="add-role-btn" class="wr-btn">&nbsp;&nbsp;&nbsp;&nbsp;EK-Add_Role&nbsp;&nbsp;&nbsp;&nbsp;</button>
                 </div>
             </div>
             <div id="role-created-msg" class="container col-centered wr-content hidden">
                 <div class="wr-form">
-                    <p class="page-sub-title">Role was added successfully.</p>
-                    <br>Please click <b>"Add Another Role"</b>, if you wish to add another role or click
-                    <b>"View Role List"</b> to complete the process and go back to the role list.
+                    <p class="page-sub-title">EK-Role_Added_successfully</p>
+                    <br>EK-Add_Another_role,EK-Please_click <b>"EK-Add_Another_role"</b>,
+                    EK-Go_Back_To_Role_list,EK-Please_click<b>"EK-View_Role_list"</b>
                     <hr />
-                    <button class="wr-btn" onclick="window.location.href='/emm/roles'">View Role List</button>
+                    <button class="wr-btn" onclick="window.location.href='/emm/roles'">EK-View_Role_list</button>
                     <a href="/emm/roles/add-role" class="cu-btn-inner">
                         <span class="fw-stack">
                             <i class="fw fw-ring fw-stack-2x"></i>
                             <i class="fw fw-add fw-stack-1x"></i>
                         </span>
-                        Add Another Role
+                        EK-Add_Another_role
                     </a>
                 </div>
             </div>
@@ -64,6 +64,6 @@
     <!-- /content/body -->
 {{/zone}}
 {{#zone "bottomJs"}}
-    <script src="{{self.publicURL}}/js/bottomJs.js"></script>
+    <script src="{{self.publicURL}}/js/bottomJs-ek.js"></script>
 {{/zone}}
 

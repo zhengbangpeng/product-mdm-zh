@@ -116,5 +116,211 @@
   "EK-All_notifications":"所有通知",
   "EK-No_Unread_messages":"无未读通知",
   "EK-description":"描述",
-  "EK-action":"操作"
+  "EK-action":"操作",
+
+  //Operation cannot be performed !
+  "EK-Operation_Cannot_Be_performed":"操作不能进行",
+  // Please select a device or a list of devices to perform an operation.
+  "EK-Select_A_device":"请选择一个或多个设备进行操作",
+  //Operation queued successfully !
+  "EK-Operation_Queued_successfully":"操作已成功添加到队列",
+  //Operation has been queued successfully to be sent to the device.
+  "EK-Operation_Been_Queued_successfully":"操作已成功添加到队列",
+  "EK-Message_Sent_successfully":"消息发送成功",
+  //Message has been queued to be sent to the device.
+  "EK-Message_Been_Queued_successfully":"消息已成功添加到队列",
+
+  //Enter PIN code (Optional - This is required only if the device type is BYOD).
+  "EK-Enter_PIN_code":"输入PIN码",
+  "EK-optional":"可选",
+  //This is required only if the device type is BYOD
+  "EK-Required_For_BYOD":"只有设备类型为BYOD时必填",
+  //Type your message below.
+  "EK-Type_Your_Message_below":"请在下面输入您的消息",
+  //Type new lock-code below.
+  "EK-Type_New_Lockcode_below":"请在下面输入新的解锁码",
+  "EK-Enter_lockcode":"输入解锁码",
+  //Do you want to perform this operation on selected device(s)
+  "EK-Ask_Perform_operation":"确认在选中设备上执行该操作",
+
+  //General and Platform Specific Server Settings for the Tenant
+  "EK-General_Specific_settings":"常规配置和平台特定配置",
+  "EK-General_configurations":"常规配置",
+  "EK-configurations":"配置",
+  "EK-Policy_Compliance_monitoring":"策略执行监控",
+  "EK-Compliance_Monitoring_Time_interval":"监控周期",
+  "EK-Should_Be_In_seconds":"秒",
+  "EK-save":"保存",
+  "EK-Communication_Protocol_configuration":"通信协议配置",
+  "EK-Type_Of_communication":"通信类型",
+  "EK-Polling_interval":"轮询周期",
+  "EK-Required_field":"必填",
+  "EK-End_User_License_agreement":"终端用户许可协议",
+  "EK-certificate":"证书",
+  "EK-Profile_configurations":"配置文件",
+  "EK-Organization_Display_name":"组织名",
+  "EK-mode":"模式",
+  "EK-Device_Polling_configuration":"设备轮询配置",
+  "EK-Configuration_Saved_successfully":"配置保存成功",
+  "EK-exit":"退出",
+  "EK-Go_Back_To_configurations":"返回配置",
+  "EK-Please_click":"请点击",
+  "EK-Go_Back_To_dashboard":"返回主面板",
+  "EK-Select_A_platform":"选择平台",
+  "EK-Configure_profile":"配置",
+  "EK-Assign_To_groups":"分配",
+  "EK-Publish_To_devices":"发布",
+  "EK-Policy_Creation_successful":"策略创建成功",
+  "EK-View_Policy_list":"策略列表",
+  "EK-Go_Back_To_Policy_list":"返回策略列表",
+  "EK-Set_Policy_name":"策略名称",
+  "EK-Should_Be_1_30_Characters_long":"字符长度为1-30",
+  "EK-Add_A_description":"添加描述",
+  "EK-Optional_field":"选填",
+  "EK-back":"返回",
+
+  "EK-publish":"发布",
+  "EK-Set_Device_Ownership_type":"设备所有权类型",
+  "EK-Set_User_role(s)":"用户角色",
+  "EK-Set_user(s)":"用户",
+  "EK-Set_Action_Upon_non-compliance":"设备未遵守策略时操作",
+  "EK-continue":"继续",
+  "EK-Platform_features":"平台特定配置",
+  "EK-Policy_Creation_wizard":"策略创建向导",
+  "EK-Policy_list":"策略列表",
+  "EK-policies":"策略",
+
+  "EK-By_role":"角色",
+  "EK-By_user":"用户",
+  "EK-By_Compliance_type":"发布类型",
+  "EK-remove":"移除",
+  "EK-unpublish":"取消发布",
+  "EK-Re_configure":"重新配置",
+  //Do you really want to remove the selected policy(s)
+  "EK-Ask_Remove_Selected_policy":"确认删除选中策略",
+  //Done. Selected policy was successfully removed.
+  "EK-Selected_Policy_Successfully_removed":"选中策略删除成功",
+  //An unexpected error occurred. Please try again later.
+  "EK-Unexpected_Error_occurred":"发生未知错误，请稍后重试。",
+  //You cannot remove policies that are already applied to devices. Please deselect them and try again.
+  "EK-Cannot_Remove_Policies_applied":"不能删除已发布到设备的策略",
+  //Do you really want to publish the selected policy(s)
+  "EK-Ask_Publish_Selected_policy":"确认发布选中策略",
+  //Done. Selected policy was successfully published.
+  "EK-Selected_Policy_Successfully_Published":"选中策略发布成功",
+  //Do you really want to unpublish the selected policy(s)
+  "EK-Ask_Unpublish_Selected_policy":"确认取消发布选中策略",
+  //Done. Selected policy was successfully unpublished.
+  "EK-Selected_Policy_Successfully_Unpublished":"选中策略取消发布成功",
+  //Done. New Policy priorities were successfully updated.
+  "EK-New_Policy_Successfully_updated":"策略更新成功",
+  //Do you really want to apply changes to all policies
+  "EK-Ask_Apply_Changes_policies":"确认修改策略",
+  //Done. Changes applied successfully.
+  "EK-Changes_Applied_successfully":"修改应用成功",
+  //Please select a policy or a list of policies to unpublish.
+  "EK-Select_A_policy":"请选择一个或多个策略",
+  //You cannot select already inactive policies. Please deselect inactive policies and try again.
+  "EK-Cannot_Select_Inactive_policies":"不能选择不活跃设备",
+  //You cannot select already active policies. Please deselect active policies and try again.
+  "EK-Cannot_Select_Active_policies":"不能选择活跃设备",
+
+  "EK-Policy_List_By_Priority_order":"策略列表（根据优先级排序）",
+  //Assigned Role(s)
+  "EK-Assigned_role":"分配角色",
+  "EK-Assigned_user":"分配用户",
+  "EK-Save_New_Priority_order":"保存",
+  "EK-Apply_changes":"应用修改",
+  "EK-Policy_overview":"策略概况",
+  "EK-platform":"平台",
+  "EK-ownership":"所有权",
+  "EK-Action_Upon_non-compliance":"设备未遵守策略时操作",
+  "EK-Profile_information":"配置信息",
+  "EK-Edit_Current_profile":"修改现有配置",
+  "EK-Edit_Assignment_groups":"修改分配",
+  "EK-Republish_To_devices":"重新发布",
+  "EK-Policy_Successfully_re-configured":"策略重新发布成功",
+  "EK-Add_Another_policy":"添加策略",
+  "EK-View_Policy_list":"策略列表",
+  "EK-Go_Back_To_Policy_list":"返回策略列表",
+  //Please note that * sign represents required fields of data.
+  "EK-Please_Note_*":"请注意 * 为必填选项",
+  "EK-domain":"域",
+  "EK-Role_name":"角色名称",
+  //should be in minimum 3 characters long, lower-case and not include any whitespaces
+  "EK-Should_Be_Minimum_3_characters":"至少为3个字符，小写，且不能包含空格",
+  //should be in minimum 3 characters long and do not include any whitespaces or special characters
+  "EK-Should_Be_3_Not_Special_characters":"至少为3个字符，且不能包含空格和特殊字符",
+  "EK-User_list":"用户列表",
+  "EK-Role_Added_successfully":"角色添加成功",
+  "EK-Add_Another_role":"添加角色",
+  "EK-View_Role_list":"角色列表",
+  "EK-Go_Back_To_Role_list":"返回角色列表",
+  "EK-By_username":"用户名",
+  "EK-By_Role_name":"角色名称",
+  "EK-search":"搜索",
+  "EK-Search_By_Role_name":"根据角色名称搜索",
+  //Do you really want to remove this role from EMM User Store
+  "EK-Ask_Remove_role":"确认删除该角色",
+  //Done. Role was successfully removed.
+  "EK-Role_Successfully_removed":"角色删除成功",
+  "EK-edit":"编辑",
+  "EK-Edit_permission":"修改权限",
+  "EK-Change_Role_permissions":"修改角色权限",
+  "EK-Permissions_list":"权限列表",
+
+  "EK-Update_Role_permissions":"更新角色权限",
+  //Permissions were assigned to the role successfully.
+  "EK-Permissions_Assigned_Role_successfully":"角色权限更新成功",
+  //Can't deselect child permissions when parent permission is selected.
+  "EK-Can't_Deselect_Child_permissions":"若要取消子权限，请先取消父权限",
+  "EK-Update_role":"更新角色",
+  "EK-Role_Updated_successfully":"角色更新成功",
+  "EK-View_Updated_role":"查看更新角色",
+  "EK-device":"设备",
+  "EK-Device_properties":"设备属性",
+  "EK-property":"属性",
+  "EK-value":"值",
+  "EK-User_stores":"域",
+  "EK-User_name":"用户名",
+  "EK-First_name":"名",
+  "EK-Last_name":"姓",
+  "EK-Email_address":"邮件地址",
+  "EK-User_roles":"用户角色",
+  //User was added successfully.
+  "EK-User_Added_successfully":"用户添加成功",
+  // An invitation mail will be sent to this user to initiate device enrollment.
+  //Below QR code can also be used to enroll a device.
+  "EK-Invitation_Mail_Sent_To_user":"邀请邮件已发送给该用户。",
+  "EK-Below_QR_Enroll_A_device":"您也可以通过下面的二维码注册设备。",
+  "EK-Add_Another_user":"添加用户",
+  "EK-View_User_list":"用户列表",
+  "EK-Go_Bac_To_User_list":"返回用户列表",
+  "EK-Invite_selected":"邀请选中",
+  //An invitation mail will be mail to the selected user(s) to initiate an enrolment process.
+  //Do you wish to continue ?
+  "EK-Invitation_Mail_Sent_To_Selected_user":"邀请邮件将发送给选中的用户。",
+  "EK-Ask_Wish_To_continue":"确认继续",
+  //User invitation email for enrollment was successfully sent.
+  "EK-User_Invitation_Email_Successfully_sent":"用户邀请邮件发送成功",
+  "EK-Ask_Remove_user":"确认删除该用户",
+  //Done. User was successfully removed.
+  "EK-User_Successfully_removed":"用户删除成功",
+  //Please select a user or a list of users to send invitation emails.
+  "EK-Select_A_user":"请选择一个或多个用户",
+  "EK-Profile_overview":"配置概况",
+  "EK-email":"邮件",
+  "EK-Enrolled_devices":"注册设备",
+  "EK-Save_user":"保存用户",
+  "EK-User_Updated_successfully":"用户更新成功",
+  "EK-View_Updated_user":"登录",
+  "EK-Login":"登录",
+  "EK-Login":"登录",
+  "EK-Login":"登录",
+  "EK-Login":"登录",
+  "EK-Login":"登录",
+  "EK-Login":"登录",
+  "EK-Login":"登录",
+  "EK-Login":"登录",
+  "EK-Login":"登录"
 }

@@ -7,14 +7,14 @@
                         <i class="fw fw-ring fw-stack-2x"></i>
                         <i class="fw fw-error fw-stack-1x"></i>
                     </span>
-                    Operation cannot be performed !
+                    EK-Operation_Cannot_Be_performed
                 </h3>
                 <h4>
-                    Please select a device or a list of devices to perform an operation.
+                    EK-Select_A_device
                 </h4>
                 <div class="buttons">
                     <a href="javascript:hidePopup()" class="btn-operations">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ok&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EK-ok&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </a>
                 </div>
             </div>
@@ -30,14 +30,14 @@
                         <i class="fw fw-ring fw-stack-2x"></i>
                         <i class="fw fw-check fw-stack-1x"></i>
                     </span>
-                    Operation queued successfully !
+                    EK-Operation_Queued_successfully
                 </h3>
                 <h4>
-                    Operation has been queued successfully to be sent to the device.
+                    EK-Operation_Been_Queued_successfully
                 </h4>
                 <div class="buttons">
                     <a href="javascript:hidePopup()" class="btn-operations">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ok&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EK-ok&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </a>
                 </div>
             </div>
@@ -54,14 +54,14 @@
                         <i class="fw fw-ring fw-stack-2x"></i>
                         <i class="fw fw-check fw-stack-1x"></i>
                     </span>
-                    Message sent successfully !
+                    EK-Message_Sent_successfully
                 </h3>
                 <h4>
-                    Message has been queued to be sent to the device.
+                    EK-Message_Been_Queued_successfully
                 </h4>
                 <div class="buttons">
                     <a href="javascript:hidePopup()" class="btn-operations">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ok&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EK-ok&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </a>
                 </div>
             </div>
@@ -88,7 +88,7 @@
                     <h4>
                         {{#equal code "WIPE_DATA"}}
                             {{#equal type "android"}}
-                                Enter PIN code (Optional - This is required only if the device type is BYOD).
+                                EK-Enter_PIN_code (EK-optional - EK-Required_For_BYOD)
                                 <br><br>
                                 <div>
                                     <input type="password" class="form-control modal-input operationDataKeys" id="pin" data-key="pin"></textarea>
@@ -97,7 +97,7 @@
                             {{/equal}}
                         {{/equal}}
                         {{#equal code "NOTIFICATION"}}
-                            Type your message below.
+                            EK-Type_Your_Message_below
                             <br><br>
                             <div id="notification-error-msg" class="alert alert-danger hidden" role="alert">
                                 <i class="icon fw fw-error"></i><span></span>
@@ -108,21 +108,21 @@
                             <br>
                         {{/equal}}
                         {{#equal code "CHANGE_LOCK_CODE"}}
-                            Type new lock-code below.
+                            EK-Type_New_Lockcode_below
                             <br><br>
-                            <input type="password" class="form-control modal-input operationDataKeys" id="lockcode" data-key="lockCode" placeholder="Enter Lockcode" />
+                            <input type="password" class="form-control modal-input operationDataKeys" id="lockcode" data-key="lockCode" placeholder="EK-Enter_lockcode" />
                             <br>
                         {{/equal}}
-                        Do you want to perform this operation on selected device(s) ?
+                        EK-Ask_Perform_operation?
                         <br>
                     </h4>
                     <div class="buttons">
                         <a href="javascript:runOperation('{{code}}')" class="btn-operations">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EK-yes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </a>
                         &nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="javascript:hidePopup()" class="btn-operations">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cancel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EK-cancel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </a>
                     </div>
                 </div>

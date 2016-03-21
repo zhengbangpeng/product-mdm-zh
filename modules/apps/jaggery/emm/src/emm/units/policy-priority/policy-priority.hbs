@@ -2,7 +2,7 @@
     <div class="row wr-device-board">
         <div class="col-lg-12 wr-secondary-bar">
             <span class="page-sub-title">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Policy List by priority order
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EK-Policy_List_By_Priority_order
             </span>
         </div>
     </div>
@@ -44,25 +44,25 @@
                                     <div class="row no-gutter">
                                         <div class="wr-desc-list-configs highlight col-lg-4">
                                             <div>
-                                                <b>Ownership Type : </b> {{ownershipType}}
+                                                <b>EK-Ownership_Type : </b> {{ownershipType}}
                                             </div>
                                         </div>
                                         {{#if roles}}
                                             <div class="wr-desc-list-configs highlight col-lg-4">
                                                 <div>
-                                                    <b>Assigned Role(s) : </b> {{roles}}
+                                                    <b>EK-Assigned_role : </b> {{roles}}
                                                 </div>
                                             </div>
                                         {{else}}
                                             <div class="wr-desc-list-configs highlight col-lg-4">
                                                 <div>
-                                                    <b>Assigned User(s) : </b> {{users}}
+                                                    <b>EK-Assigned_user : </b> {{users}}
                                                 </div>
                                             </div>
                                         {{/if}}
                                         <div class="wr-desc-list-configs col-lg-4">
                                             <div>
-                                                <b>Compliance Type :</b> {{compliance}}
+                                                <b>EK-Compliance_Type :</b> {{compliance}}
                                             </div>
                                         </div>
                                     </div>
@@ -73,8 +73,8 @@
                 </div>
                 {{#equal noPolicy false}}
                     <div id="save-new-priorities-button" class="wr-input-control wr-btn-grp">
-                        <button class="wr-btn hide" id="sortUpdateBtn" data-policycount="{{policyCount}}" data-enabled="{{saveNewPrioritiesButtonEnabled}}" disabled>Save New Priority Order</button>
-                        <button class="wr-btn" id="applyChangesBtn">Apply Changes</button>
+                        <button class="wr-btn hide" id="sortUpdateBtn" data-policycount="{{policyCount}}" data-enabled="{{saveNewPrioritiesButtonEnabled}}" disabled>EK-Save_New_Priority_order</button>
+                        <button class="wr-btn" id="applyChangesBtn">EK-Apply_changes</button>
                     </div>
                 {{/equal}}
             </div>
@@ -86,14 +86,14 @@
         <div class="content">
             <div class="row">
                 <div class="col-lg-5 col-md-6 col-centered">
-                    <h3>Do you really want to apply changes to all policies?</h3>
+                    <h3>EK-Ask_Apply_Changes_policies?</h3>
                     <div class="buttons">
                         <a href="javascript:void(0)" id="change-policy-yes-link" class="btn-operations">
-                            &nbsp;&nbsp;&nbsp;&nbsp;Yes&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;EK-yes&nbsp;&nbsp;&nbsp;&nbsp;
                         </a>
                         &nbsp;&nbsp;
                         <a href="javascript:void(0)" id="change-policy-cancel-link" class="btn-operations">
-                            &nbsp;&nbsp;&nbsp;&nbsp;Cancel&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;EK-cancel&nbsp;&nbsp;&nbsp;&nbsp;
                         </a>
                     </div>
                 </div>
@@ -105,10 +105,10 @@
         <div class="content">
             <div class="row">
                 <div class="col-lg-5 col-md-6 col-centered">
-                    <h3>Done. Changes applied successfully.</h3>
+                    <h3>EK-Changes_Applied_successfully</h3>
                     <div class="buttons">
                         <a href="javascript:void(0)" id="change-policy-success-link" class="btn-operations">
-                            &nbsp;&nbsp;&nbsp;&nbsp;Ok&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;EK-ok&nbsp;&nbsp;&nbsp;&nbsp;
                         </a>
                     </div>
                 </div>
@@ -120,10 +120,10 @@
         <div class="content">
             <div class="row">
                 <div class="col-lg-5 col-md-6 col-centered">
-                    <h3>An unexpected error occurred. Please try again later.</h3>
+                    <h3>EK-Unexpected_Error_occurred</h3>
                     <div class="buttons">
                         <a href="javascript:void(0)" id="change-policy-error-link" class="btn-operations">
-                            &nbsp;&nbsp;&nbsp;&nbsp;Ok&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;EK-ok&nbsp;&nbsp;&nbsp;&nbsp;
                         </a>
                     </div>
                 </div>
@@ -135,10 +135,10 @@
         <div class="content">
             <div class="row">
                 <div class="col-lg-5 col-md-6 col-centered">
-                    <h3>An unexpected error occurred. Please try again later.</h3>
+                    <h3>EK-Unexpected_Error_occurred</h3>
                     <div class="buttons">
                         <a href="javascript:void(0)" id="remove-policy-error-link" class="btn-operations">
-                            &nbsp;&nbsp;&nbsp;&nbsp;Ok&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;EK-ok&nbsp;&nbsp;&nbsp;&nbsp;
                         </a>
                     </div>
                 </div>
@@ -150,10 +150,10 @@
         <div class="content">
             <div class="row">
                 <div class="col-lg-5 col-md-6 col-centered">
-                    <h3>Done. New Policy priorities were successfully updated.</h3>
+                    <h3>EK-New_Policy_Successfully_updated</h3>
                     <div class="buttons">
                         <a href="javascript:void(0)" id="save-policy-priorities-success-link" class="btn-operations">
-                            &nbsp;&nbsp;&nbsp;&nbsp;Ok&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;EK-ok&nbsp;&nbsp;&nbsp;&nbsp;
                         </a>
                     </div>
                 </div>
@@ -165,11 +165,11 @@
         <div class="content">
             <div class="row">
                 <div class="col-lg-5 col-md-6 col-centered">
-                    <h3>An unexpected error occurred. Please try again later.</h3>
+                    <h3>EK-Unexpected_Error_occurred</h3>
                     <h4 class="message-from-server"></h4>
                     <div class="buttons">
                         <a href="javascript:void(0)" id="save-policy-priorities-error-link" class="btn-operations">
-                            &nbsp;&nbsp;&nbsp;&nbsp;Ok&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;EK-ok&nbsp;&nbsp;&nbsp;&nbsp;
                         </a>
                     </div>
                 </div>

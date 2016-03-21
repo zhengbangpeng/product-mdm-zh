@@ -5,8 +5,8 @@
             <!-- content -->
             <div id="user-create-form" class="container col-centered wr-content">
                 <div class="wr-form">
-                    <p class="page-sub-title">Add User</p>
-                    <p>Please note that * sign represents required fields of data.</p>
+                    <p class="page-sub-title">EK-Add_User</p>
+                    <p>EK-Please_Note_*</p>
                     <hr />
                     <div class="row">
                         <div class="col-lg-8">
@@ -14,7 +14,7 @@
                                 <i class="icon fw fw-error"></i><span></span>
                             </div>
                             <label class="wr-input-label" title="List of available secondary user stores">
-                            User Stores
+                                EK-User_stores
                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </label>
                             <div class="wr-input-control">
@@ -26,29 +26,29 @@
                                 </select>
                             </div>
                             <label class="wr-input-label">
-                                User Name * <br>
-                                ( should be in minimum 3 characters long and do not include any whitespaces or special characters )
+                                EK-User_name * <br>
+                                ( EK-Should_Be_3_Not_Special_characters )
                             </label>
                             <div class="wr-input-control">
-                                <input limit="{{charLimit}}" type="text" id="username" class="form-control" placeholder="[ Required field ]"/>
+                                <input limit="{{charLimit}}" type="text" id="username" class="form-control" placeholder="[ EK-Required_field ]"/>
                             </div>
-                            <label class="wr-input-label">First Name *</label>
+                            <label class="wr-input-label">EK-First_name *</label>
                             <div class="wr-input-control">
-                                <input type="text" id="firstname" class="form-control" placeholder="[ Required field ]"/>
+                                <input type="text" id="firstname" class="form-control" placeholder="[ EK-Required_field ]"/>
                             </div>
-                            <label class="wr-input-label">Last Name *</label>
+                            <label class="wr-input-label">EK-Last_name *</label>
                             <div class="wr-input-control">
-                                <input type="text" id="lastname" class="form-control" placeholder="[ Required field ]"/>
+                                <input type="text" id="lastname" class="form-control" placeholder="[ EK-Required_field ]"/>
                             </div>
                             <label class="wr-input-label">
-                                Email Address * <br>
+                                EK-Email_address * <br>
                                 ( ex: sam@gmail.com )
                             </label>
                             <div class="wr-input-control">
-                                <input type="email" id="emailAddress" class="form-control" placeholder="[ Required field ]"/>
+                                <input type="email" id="emailAddress" class="form-control" placeholder="[ EK-Required_field ]"/>
                             </div>
                             <label class="wr-input-label" title="Optional field that can have 0-to-many roles for the user">
-                                User Roles
+                                EK-User_roles
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </label>
                             <div class="wr-input-control">
@@ -61,31 +61,31 @@
                         </div>
                     </div>
                     <br>
-                    <button id="add-user-btn" class="wr-btn">&nbsp;&nbsp;&nbsp;&nbsp;Add User&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                    <button id="add-user-btn" class="wr-btn">&nbsp;&nbsp;&nbsp;&nbsp;EK-Add_User&nbsp;&nbsp;&nbsp;&nbsp;</button>
                 </div>
             </div>
             <div id="user-created-msg" class="container col-centered wr-content hidden">
                 <div class="wr-form">
-                    <p class="page-sub-title">User was added successfully.</p>
+                    <p class="page-sub-title">EK-User_Added_successfully</p>
                     <br>
-                    An invitation mail will be sent to this user to initiate device enrollment.
-                    Below QR code can also be used to enroll a device.
+                    EK-Invitation_Mail_Sent_To_user
+                    EK-Below_QR_Enroll_A_device
 
                     <div class="panel panel-default">
                         <div class="panel-body">
                             <div class="qr-code col-lg-5 col-md-6 col-centered"></div>
                         </div>
                     </div>
-                    <br>Please click <b>"Add Another User"</b>, if you wish to add another user or click
-                    <b>"View User List"</b> to complete the process and go back to the user list.
+                    <br>EK-Add_Another_user,EK-Please_click <b>"EK-Add_Another_user"</b>,
+                    EK-Go_Bac_To_User_list,EK-Please_click <b>"EK-View_User_list"</b>
                     <hr />
-                    <button class="wr-btn" onclick="window.location.href='/emm/users'">View User List</button>
+                    <button class="wr-btn" onclick="window.location.href='/emm/users'">EK-View_User_list</button>
                     <a href="/emm/users/add-user" class="cu-btn-inner">
                         <span class="fw-stack">
                             <i class="fw fw-ring fw-stack-2x"></i>
                             <i class="fw fw-add fw-stack-1x"></i>
                         </span>
-                        Add Another User
+                        EK-Add_Another_user
                     </a>
                 </div>
             </div>
@@ -96,6 +96,6 @@
     <!-- /content/body -->
 {{/zone}}
 {{#zone "bottomJs"}}
-    <script src="{{self.publicURL}}/js/bottomJs.js"></script>
+    <script src="{{self.publicURL}}/js/bottomJs-ek.js"></script>
 {{/zone}}
 

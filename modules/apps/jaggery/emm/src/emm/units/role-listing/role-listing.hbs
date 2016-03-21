@@ -1,7 +1,7 @@
 {{#zone "main"}}
     <div class="row wr-device-board">
         <div class="col-lg-12 wr-secondary-bar">
-            <span class="page-sub-title">Roles</span>
+            <span class="page-sub-title">EK-Roles</span>
         </div>
     </div>
     <!-- content -->
@@ -15,7 +15,7 @@
             {{/if}}
             <i class="fw fw-settings fw-spin fw-2x"></i>
             &nbsp;&nbsp;&nbsp;
-            Loading roles . . .
+            EK-Roles EK-Loading . . .
             <br>
         </div>
         <span id="role-listing-status-msg"></span>
@@ -25,19 +25,19 @@
                 <thead>
                 <tr class="sort-row">
                     <th class="no-sort"></th>
-                    <th>By Username</th>
+                    <th>EK-By_username</th>
                     <th class="no-sort"></th>
                 </tr>
                 <tr class="filter-row filter-box">
                     <th colspan="2">
                         <label class="wr-input-label" for="search-by-name">
-                            By Role Name
+                            EK-By_Role_name
                         </label>
-                        <input id="search-by-name" type="text" class="form-control" placeholder="Search By Role Name">
+                        <input id="search-by-name" type="text" class="form-control" placeholder="EK-Search_By_Role_name">
                     </th>
                     <th style="vertical-align:bottom;">
                         <button id="search-btn" class="wr-btn">
-                            &nbsp;&nbsp;&nbsp;&nbsp;Search&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                            &nbsp;&nbsp;&nbsp;&nbsp;EK-search&nbsp;&nbsp;&nbsp;&nbsp;</button>
                     </th>
                 </tr>
                 <tr class="bulk-action-row">
@@ -52,9 +52,9 @@
     </div>
     <br class="c-both"/>
     <div id="content-filter-types" style="display: none">
-        <div class="sort-title">Sort By</div>
+        <div class="sort-title">EK-Sort_By</div>
         <div class="sort-options">
-            <th>By Role name</th>
+            <th>EK-By_Role_name</th>
         </div>
     </div>
 
@@ -63,15 +63,15 @@
         <div class="content">
             <div class="row">
                 <div class="col-lg-5 col-md-6 col-centered">
-                    <h3>Do you really want to remove this role from EMM User Store ?</h3>
+                    <h3>EK-Ask_Remove_role ?</h3>
 
                     <div class="buttons">
                         <a href="#" id="remove-role-yes-link" class="btn-operations">
-                            &nbsp;&nbsp;&nbsp;&nbsp;Yes&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;EK-yes&nbsp;&nbsp;&nbsp;&nbsp;
                         </a>
                         &nbsp;&nbsp;
                         <a href="#" id="remove-role-cancel-link" class="btn-operations">
-                            &nbsp;&nbsp;&nbsp;&nbsp;Cancel&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;EK-cancel&nbsp;&nbsp;&nbsp;&nbsp;
                         </a>
                     </div>
                 </div>
@@ -83,11 +83,11 @@
         <div class="content">
             <div class="row">
                 <div class="col-lg-5 col-md-6 col-centered">
-                    <h3>Done. Role was successfully removed.</h3>
+                    <h3>EK-Role_Successfully_removed</h3>
 
                     <div class="buttons">
                         <a href="#" id="remove-role-success-link" class="btn-operations">
-                            &nbsp;&nbsp;&nbsp;&nbsp;Ok&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;EK-ok&nbsp;&nbsp;&nbsp;&nbsp;
                         </a>
                     </div>
                 </div>
@@ -99,11 +99,11 @@
         <div class="content">
             <div class="row">
                 <div class="col-lg-5 col-md-6 col-centered">
-                    <h3>An unexpected error occurred. Please try again later.</h3>
+                    <h3>EK-Unexpected_Error_occurred</h3>
 
                     <div class="buttons">
                         <a href="#" id="remove-role-error-link" class="btn-operations">
-                            &nbsp;&nbsp;&nbsp;&nbsp;Ok&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;EK-ok&nbsp;&nbsp;&nbsp;&nbsp;
                         </a>
                     </div>
                 </div>
@@ -119,5 +119,5 @@
 {{#zone "bottomJs"}}
     <script id="role-listing" data-current-user="{{currentUser.username}}"
             src="{{self.publicURL}}/templates/role-listing.hbs" type="text/x-handlebars-template"></script>
-    <script src="{{self.publicURL}}/js/role-listing.js"></script>
+    <script src="{{self.publicURL}}/js/role-listing-ek.js"></script>
 {{/zone}}

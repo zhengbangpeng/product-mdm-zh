@@ -5,10 +5,10 @@
             <div id="config-save-form" class="container col-centered wr-content">
                 <br>
                 <h1 class="page-sub-title">
-                    Platform Configurations
+                    EK-Platform_Configurations
                 </h1>
                 <br>
-                General and Platform Specific Server Settings for the Tenant
+                EK-General_Specific_settings
                 <br>
                 <br>
                 <div class="wr-advance-operations">
@@ -18,7 +18,7 @@
                                 <span class="wr-hidden-operations-icon fw-stack">
                                     <i class="fw fw-settings fw-stack-2x"></i>
                                 </span>
-                                General Configurations
+                                EK-General_configurations
                             </a>
                             {{#each types}}
                                 {{#equal name "android"}}
@@ -26,7 +26,7 @@
                                         <span class="wr-hidden-operations-icon fw-stack">
                                             <i class="fw fw-android fw-stack-2x"></i>
                                         </span>
-                                        Android Configurations
+                                        Android EK-configurations
                                     </a>
                                 {{/equal}}
                                 {{#equal name "ios"}}
@@ -34,7 +34,7 @@
                                         <span class="wr-hidden-operations-icon fw-stack">
                                             <i class="fw fw-apple fw-stack-2x"></i>
                                         </span>
-                                        iOS Configurations
+                                        iOS EK-configurations
                                     </a>
                                 {{/equal}}
                                 {{#equal name "windows"}}
@@ -42,7 +42,7 @@
                                         <span class="wr-hidden-operations-icon fw-stack">
                                             <i class="fw fw-windows fw-stack-2x"></i>
                                         </span>
-                                        Windows Configurations
+                                        Windows EK-configurations
                                     </a>
                                 {{/equal}}
                             {{/each}}
@@ -57,23 +57,23 @@
                                             <i class="icon fw fw-error"></i><span></span>
                                         </div>
                                         <h4>
-                                            Policy Compliance Monitoring
+                                            EK-Policy_Compliance_monitoring
                                             <hr>
                                         </h4>
                                         <div class="wr-input-control">
                                             <label class="wr-input-label" for="config-frequency">
-                                                Compliance Monitoring Time Interval
+                                                EK-Compliance_Monitoring_Time_interval
                                                 <span class="helper" title="Time Interval after which EMM server will contact devices and monitor the compliance of policies applied to them">
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                                 </span>
                                                 <br>
-                                                ( Should be in seconds )
+                                                ( EK-Should_Be_In_seconds )
                                             </label>
                                             <input id="monitoring-config-frequency" type="text" class="form-control" placeholder="[ Required Field ]">
                                         </div>
                                         <div class="wr-input-control wr-btn-grp">
                                             <button id="save-general-btn" class="wr-btn">
-                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Save&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EK-save&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                             </button>
                                         </div>
                                     </div>
@@ -156,12 +156,12 @@
                                             <i class="icon fw fw-error"></i><span></span>
                                         </div>
                                         <h4>
-                                            Communication Protocol Configuration
+                                            EK-Communication_Protocol_configuration
                                             <hr>
                                         </h4>
                                         <div class="wr-input-control">
                                             <label class="wr-input-label" for="android-config-notifier">
-                                                Type of Communication
+                                                EK-Type_Of_communication
                                                 <span class="helper" title="Communication method of android agent to contact EMM server">
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                                 </span>
@@ -175,14 +175,14 @@
                                         <div id="local-inputs">
                                             <div class="wr-input-control">
                                                 <label class="wr-input-label" for="android-config-notifier-frequency">
-                                                    Polling Interval
+                                                    EK-Polling_interval
                                                     <span class="helper" title="Time interval after which Android agent will contact EMM server each time to fetch data">
                                                         <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                                     </span>
                                                     <br>
-                                                    ( Should be in seconds )
+                                                    ( EK-Should_Be_In_seconds )
                                                 </label>
-                                                <input id="android-config-notifier-frequency" type="text" class="form-control" placeholder="[ Required Field ]">
+                                                <input id="android-config-notifier-frequency" type="text" class="form-control" placeholder="[ EK-Required_field ]">
                                             </div>
                                         </div>
 
@@ -194,7 +194,7 @@
                                                         <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                                     </span>
                                                 </label>
-                                                <input id="android-config-gcm-api-key" type="text" class="form-control" placeholder="[ Required Field ]">
+                                                <input id="android-config-gcm-api-key" type="text" class="form-control" placeholder="[ EK-Required_field ]">
                                             </div>
 
                                             <div class="wr-input-control">
@@ -204,11 +204,11 @@
                                                         <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                                     </span>
                                                 </label>
-                                                <input id="android-config-gcm-sender-id" type="text" class="form-control" placeholder="[ Required Field ]">
+                                                <input id="android-config-gcm-sender-id" type="text" class="form-control" placeholder="[ EK-Required_field ]">
                                             </div>
                                         </div>
                                         <h4>
-                                            End User License Agreement ( EULA )
+                                            EK-End_User_License_agreement ( EULA )
                                             <hr>
                                         </h4>
 
@@ -216,7 +216,7 @@
                                             <textarea id="android-eula" type="text" class="form-control"></textarea>
                                         </div>
                                         <div class="wr-input-control wr-btn-grp">
-                                            <button id="save-android-btn" class="wr-btn">&nbsp;&nbsp;&nbsp;&nbsp;Save&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                                            <button id="save-android-btn" class="wr-btn">&nbsp;&nbsp;&nbsp;&nbsp;EK-save&nbsp;&nbsp;&nbsp;&nbsp;</button>
                                         </div>
                                     </div>
                                 </div>
@@ -231,7 +231,7 @@
                                             <i class="icon fw fw-error"></i><span></span>
                                         </div>
                                         <h4>
-                                            iOS SCEP Certificate Configurations
+                                            iOS SCEP EK-certificate EK-configurations
                                             <hr>
                                         </h4>
                                         <div id="ios-scep-config-error-msg" class="alert alert-danger hidden" role="alert">
@@ -245,7 +245,7 @@
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                                 </span>
                                             </label>
-                                            <input id="ios-config-country" type="text" class="form-control" placeholder="[ Required Field ]">
+                                            <input id="ios-config-country" type="text" class="form-control" placeholder="[ EK-Required_field ]">
                                         </div>
 
                                         <div class="wr-input-control">
@@ -255,7 +255,7 @@
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                                 </span>
                                             </label>
-                                            <input id="ios-config-state" type="text" class="form-control" placeholder="[ Required Field ]">
+                                            <input id="ios-config-state" type="text" class="form-control" placeholder="[ EK-Required_field ]">
                                         </div>
 
                                         <div class="wr-input-control">
@@ -265,7 +265,7 @@
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                                 </span>
                                             </label>
-                                            <input id="ios-config-locality" type="text" class="form-control" placeholder="[ Required Field ]">
+                                            <input id="ios-config-locality" type="text" class="form-control" placeholder="[ EK-Required_field ]">
                                         </div>
 
                                         <div class="wr-input-control">
@@ -275,7 +275,7 @@
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                                 </span>
                                             </label>
-                                            <input id="ios-config-organization" type="text" class="form-control" placeholder="[ Required Field ]">
+                                            <input id="ios-config-organization" type="text" class="form-control" placeholder="[ EK-Required_field ]">
                                         </div>
 
                                         <div class="wr-input-control">
@@ -285,11 +285,11 @@
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                                 </span>
                                             </label>
-                                            <input id="ios-config-organization-unit" type="text" class="form-control" placeholder="[ Required Field ]">
+                                            <input id="ios-config-organization-unit" type="text" class="form-control" placeholder="[ EK-Required_field ]">
                                         </div>
 
                                         <h4>
-                                            iOS Profile Configurations
+                                            iOS EK-Profile_configurations
                                             <hr>
                                         </h4>
 
@@ -298,16 +298,16 @@
                                         </div>
                                         <div class="wr-input-control">
                                             <label class="wr-input-label" for="ios-org-display-name">
-                                                Organization Display Name
+                                                EK-Organization_Display_name
                                                 <span class="helper" title="Organization display name">
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                                 </span>
                                             </label>
-                                            <input id="ios-org-display-name" type="text" class="form-control" placeholder="[ Required Field ]">
+                                            <input id="ios-org-display-name" type="text" class="form-control" placeholder="[ EK-Required_field ]">
                                         </div>
 
                                         <h4>
-                                            iOS MDM Configurations
+                                            iOS MDM EK-configurations
                                             <hr>
                                         </h4>
 
@@ -316,39 +316,39 @@
                                         </div>
                                         <div class="wr-input-control">
                                             <label class="wr-input-label" for="ios-config-mdm-certificate">
-                                                MDM Certificate
+                                                MDM EK-certificate
                                                 <span class="helper" title="Upload MDM Certificate">
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                                 </span>
                                             </label><br>
                                             <label class="wr-input-label" id="mdm-cert-file-name">
                                             </label>
-                                            <input id="ios-config-mdm-certificate" type="file" class="form-control" placeholder="[ Required Field ]">
+                                            <input id="ios-config-mdm-certificate" type="file" class="form-control" placeholder="[ EK-Required_field ]">
                                         </div>
 
                                         <div class="wr-input-control">
                                             <label class="wr-input-label" for="ios-config-mdm-certificate-password">
-                                                MDM Certificate Password
+                                                MDM EK-certificate EK-password
                                                 <span class="helper" title="MDM Certificate Password">
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                                 </span>
                                             </label>
-                                            <input id="ios-config-mdm-certificate-password" type="password" class="form-control" placeholder="[ Required Field ]">
+                                            <input id="ios-config-mdm-certificate-password" type="password" class="form-control" placeholder="[ EK-Required_field ]">
                                         </div>
 
                                         <div class="wr-input-control">
                                             <label class="wr-input-label" for="ios-config-mdm-certificate-topic-id">
-                                                MDM Certificate Topic ID
+                                                MDM EK-certificate Topic ID
                                                 <span class="helper" title="MDM Certificate Topic ID">
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                                 </span>
                                             </label>
-                                            <input id="ios-config-mdm-certificate-topic-id" type="text" class="form-control" placeholder="[ Required Field ]">
+                                            <input id="ios-config-mdm-certificate-topic-id" type="text" class="form-control" placeholder="[ EK-Required_field ]">
                                         </div>
 
                                         <div class="wr-input-control">
                                             <label class="wr-input-label" for="ios-config-mdm-mode">
-                                                Mode
+                                                EK-mode
                                                 <span class="helper" title="Release mode">
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                                 </span>
@@ -360,7 +360,7 @@
                                         </div>
 
                                         <h4>
-                                            iOS APNS Configurations
+                                            iOS APNS EK-configurations
                                             <hr>
                                         </h4>
 
@@ -369,29 +369,29 @@
                                         </div>
                                         <div class="wr-input-control">
                                             <label class="wr-input-label" for="ios-config-apns-certificate">
-                                                APNS Certificate
+                                                APNS EK-certificate
                                                 <span class="helper" title="Upload APNS Certificate">
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                                 </span>
                                             </label><br>
                                             <label class="wr-input-label" id="apns-cert-file-name">
                                             </label>
-                                            <input id="ios-config-apns-certificate" type="file" class="form-control" placeholder="[ Required Field ]">
+                                            <input id="ios-config-apns-certificate" type="file" class="form-control" placeholder="[ EK-Required_field ]">
                                         </div>
 
                                         <div class="wr-input-control">
                                             <label class="wr-input-label" for="ios-config-apns-certificate-password">
-                                                APNS Certificate Password
+                                                APNS EK-certificate EK-password
                                                 <span class="helper" title="APNS Certificate Password">
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                                 </span>
                                             </label>
-                                            <input id="ios-config-apns-certificate-password" type="password" class="form-control" placeholder="[ Required Field ]">
+                                            <input id="ios-config-apns-certificate-password" type="password" class="form-control" placeholder="[ EK-Required_field ]">
                                         </div>
 
                                         <div class="wr-input-control">
                                             <label class="wr-input-label" for="ios-config-apns-mode">
-                                                Mode
+                                                EK-mode
                                                 <span class="helper" title="Release mode">
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                                 </span>
@@ -403,7 +403,7 @@
                                         </div>
 
                                         <h4>
-                                            End User License Agreement (EULA)
+                                            EK-End_User_License_agreement (EULA)
                                             <hr>
                                         </h4>
 
@@ -411,7 +411,7 @@
                                             <textarea id="ios-eula" type="text" class="form-control"></textarea>
                                         </div>
                                         <div class="wr-input-control wr-btn-grp">
-                                            <button id="save-ios-btn" class="wr-btn">&nbsp;&nbsp;&nbsp;&nbsp;Save&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                                            <button id="save-ios-btn" class="wr-btn">&nbsp;&nbsp;&nbsp;&nbsp;EK-save&nbsp;&nbsp;&nbsp;&nbsp;</button>
                                         </div>
                                     </div>
                                 </div>
@@ -426,31 +426,31 @@
                                             <i class="icon fw fw-error"></i><span></span>
                                         </div>
                                         <h4>
-                                            Device Polling Configuration
+                                            EK-Device_Polling_configuration
                                             <hr>
                                         </h4>
                                         <div id="local-inputs">
                                             <div class="wr-input-control">
                                                 <label class="wr-input-label" for="windows-config-notifier-frequency">
-                                                    Polling Interval
+                                                    EK-Polling_interval
                                                     <span class="helper" title="Time interval after which windows agent will contact EMM server each time to fetch data">
                                                         <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                                     </span>
                                                     <br>
-                                                    ( Should be in seconds )
+                                                    ( EK-Should_Be_In_seconds )
                                                 </label>
                                                 <input id="windows-config-notifier-frequency" type="text" class="form-control" placeholder="[ Required Field ]">
                                             </div>
                                         </div>
                                         <h4>
-                                            End User License Agreement ( EULA )
+                                            EK-End_User_License_agreement ( EULA )
                                             <hr>
                                         </h4>
                                         <div class="wr-input-control">
                                             <textarea id="windows-eula" type="text" class="form-control"></textarea>
                                         </div>
                                         <div class="wr-input-control wr-btn-grp">
-                                            <button id="save-windows-btn" class="wr-btn">&nbsp;&nbsp;&nbsp;&nbsp;Save&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                                            <button id="save-windows-btn" class="wr-btn">&nbsp;&nbsp;&nbsp;&nbsp;EK-save&nbsp;&nbsp;&nbsp;&nbsp;</button>
                                         </div>
                                     </div>
                                 </div>
@@ -463,13 +463,13 @@
 
             <div id="record-created-msg" class="container col-centered wr-content hidden">
                 <div class="wr-form">
-                    <p class="page-sub-title">Configuration was saved successfully.</p>
+                    <p class="page-sub-title">EK-Configuration_Saved_successfully</p>
                     <br>
-                    <br>Please click <b>"Go back to configurations"</b>, if you wish to save another configuration or click
-                    <b>"Exit"</b> to complete the process and go back to the dashboard.
+                    <br>EK-Go_Back_To_configurations,EK-Please_click <b>"EK-Go_Back_To_configurations"</b>,
+                    EK-Go_Back_To_dashboard,EK-Please_click<b>"EK-exit"</b>
                     <hr />
-                    <button id=btnBack class="wr-btn" onclick="window.location.href='/emm/platform-configuration'">Go back to configurations</button>
-                    <button id=btnExit class="wr-btn" onclick="window.location.href='/emm'">&nbsp;&nbsp;&nbsp;&nbsp;Exit&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                    <button id=btnBack class="wr-btn" onclick="window.location.href='/emm/platform-configuration'">EK-Go_Back_To_configurations</button>
+                    <button id=btnExit class="wr-btn" onclick="window.location.href='/emm'">&nbsp;&nbsp;&nbsp;&nbsp;EK-exit&nbsp;&nbsp;&nbsp;&nbsp;</button>
                 </div>
             </div>
             <!-- /content -->
@@ -477,5 +477,5 @@
     </div>
 {{/zone}}
 {{#zone "bottomJs"}}
-    <script src="{{self.publicURL}}/js/platform-configuration.js"></script>
+    <script src="{{self.publicURL}}/js/platform-configuration-ek.js"></script>
 {{/zone}}
