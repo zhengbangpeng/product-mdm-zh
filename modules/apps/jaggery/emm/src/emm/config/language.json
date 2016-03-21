@@ -83,7 +83,7 @@
   "EK-By_owner":"用户名",
   "EK-By_status":"状态",
   "EK-By_platform":"平台",
-  "EK-By_ownership":"所有权",
+  "EK-By_Owner_ship":"所有权",
   "EK-Enabling_Device_operations":"启用设备操作",
   //To enable device operations, select the desired platform from above filter.
   "EK-Enable_Device_operations":"若要启用设备操作，请选择上述平台选项。",
