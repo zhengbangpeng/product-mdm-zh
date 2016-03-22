@@ -173,10 +173,10 @@ $.fn.datatables_extended = function(settings){
                     if($(button).html() == '全选') {
                         thisTable.api().rows().every(function () {
                             $(this.node()).addClass(rowSelectedClass);
-                            $(button).html('全部取消');
+                            $(button).html('取消全选');
                         });
                     }
-                    else if($(button).html() == '全部取消') {
+                    else if($(button).html() == '取消全选') {
                         thisTable.api().rows().every(function () {
                             $(this.node()).removeClass(rowSelectedClass);
                             $(button).html('全选');

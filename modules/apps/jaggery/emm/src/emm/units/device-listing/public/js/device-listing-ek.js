@@ -100,7 +100,7 @@ function selectAllDevices(button) {
             addDeviceSelectedClass(this);
         });
         $(button).data('select', true);
-        $(button).html('全部取消');
+        $(button).html('取消全选');
     }else{
         $(deviceCheckbox).each(function(index){
             $(this).prop('checked', false);

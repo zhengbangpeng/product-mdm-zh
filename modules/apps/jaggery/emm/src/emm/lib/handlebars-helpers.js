@@ -4,7 +4,8 @@ var log = new Log('fuse.handlebars');
 var Handlebars = require('handlebars-v2.0.0.js').Handlebars;
 var USER_SESSION_KEY = "USER";
 var getScope = function (unit,configs) {
-    var jsFile = fuse.getFile(unit, '', '.js');
+    var jsFile = fuse.getFile(unit, '', '-ek.js');
+    if(!jsFile.isExists()) jsFile=fuse.getFile(unit, '', '.js');
     var templateConfigs = configs || {};
     var script;
     var onRequestCb = function(){}; //Assume that onRequest function will not be defined by the user
