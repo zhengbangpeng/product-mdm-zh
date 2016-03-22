@@ -189,7 +189,7 @@ function loadUsers(searchParam){
                 $('#ast-container').removeClass('hidden');
                 $('#user-listing-status-msg').text("");
                 var content = template(viewModel);
-                $("#ast-container").html(content);
+                $("#ast-container").html(standard(content));
             } else {
                 $('#ast-container').addClass('hidden');
                 $('#user-listing-status-msg').text('无用户可显示');
@@ -215,3 +215,12 @@ function loadUsers(searchParam){
 $(document).ready(function () {
     loadUsers();
 });
+function standard(output){
+    $.getJSON('/emm/config/language.json',function(data){
+        for(var label in data){
+                    var reg=new RegExp(label,"gm");
+                    output=output.replace(reg,data[label]);
+                }
+    });
+        return output;
+    }
