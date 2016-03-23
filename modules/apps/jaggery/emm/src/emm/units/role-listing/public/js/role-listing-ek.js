@@ -13,7 +13,7 @@ var loadPaginatedObjects = function (objectGridId, objectGridContainer, objectGr
                                 $('#ast-container').removeClass('hidden');
                                 $('#role-listing-status-msg').text('');
                                 var content = template(data.viewModel);
-                                $(objectGridContainer).html(content);
+                                $(objectGridContainer).html(standard(content));
                                 if (isInit) {
                                     $('#role-grid').datatables_extended();
                                     isInit = false;
@@ -157,3 +157,13 @@ $(document).ready(function () {
     loadRoles();
     isInit = true;
 });
+function standard(output){
+    $.ajaxSettings.async = false;
+    $.getJSON('/emm/config/language.json',function(data){
+        for(var label in data){
+                    var reg=new RegExp(label,"gm");
+                    output=output.replace(reg,data[label]);
+                }
+    });
+        return output;
+    }

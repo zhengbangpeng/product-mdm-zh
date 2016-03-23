@@ -11,7 +11,7 @@ function onRequest(context) {
             context["saveNewPrioritiesButtonEnabled"] = false;
             context["noPolicy"] = true;
         } else if (policyCount == 1) {
-            context["policyListingStatusMsg"] = "添加更多策略";
+            context["policyListingStatusMsg"] = "请添加更多策略以排序其优先级";
             context["saveNewPrioritiesButtonEnabled"] = false;
             context["noPolicy"] = false;
         } else {
