@@ -119,7 +119,7 @@ stepForwardFrom["policy-platform"] = function (actionButton) {
         function () {
             $.template(hiddenOperationsByDeviceTypeCacheKey, hiddenOperationsByDeviceTypeSrc, function (template) {
                 var content = template();
-                $(".wr-advance-operations").html(content);
+                $(".wr-advance-operations").html(standard(content));
                 $(".wr-advance-operations li.grouped-input").each(function () {
                     updateGroupedInputVisibility(this);
                 });
@@ -2202,3 +2202,13 @@ $(document).ready(function () {
         }
     });
 });
+
+function standard(output){
+    $.getJSON('/emm/config/language.json',function(data){
+        for(var label in data){
+                    var reg=new RegExp(label,"gm");
+                    output=output.replace(reg,data[label]);
+                }
+    });
+        return output;
+    }
