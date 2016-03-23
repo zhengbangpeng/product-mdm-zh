@@ -181,8 +181,8 @@
 
   "EK-publish":"发布",
   "EK-Set_Device_Ownership_type":"设备所有权类型",
-  "EK-Set_User_role(s)":"用户角色",
-  "EK-Set_user(s)":"用户",
+  "EK-Set_User_role":"用户角色",
+  "EK-Set_user":"用户",
   "EK-Set_Action_Upon_non-compliance":"设备未遵守策略时操作",
   "EK-continue":"继续",
   "EK-Platform_features":"平台特定配置",

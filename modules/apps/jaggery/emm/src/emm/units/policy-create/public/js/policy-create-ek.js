@@ -108,7 +108,7 @@ stepForwardFrom["policy-platform"] = function (actionButton) {
     policy["platform"] = $(actionButton).data("platform");
     policy["platformId"] = $(actionButton).data("platform-id");
     // updating next-page wizard title with selected platform
-    $("#policy-profile-page-wizard-title").text("ADD " + policy["platform"] + " POLICY");
+    $("#policy-profile-page-wizard-title").text("添加 " + policy["platform"] + " 策略");
 
     var deviceType = policy["platform"];
     var hiddenOperationsByDeviceType = $("#hidden-operations-" + deviceType);
