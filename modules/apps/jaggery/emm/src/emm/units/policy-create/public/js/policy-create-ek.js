@@ -163,7 +163,7 @@ validateStep["policy-profile"] = function () {
             // updating validationStatus
             validationStatus = {
                 "error": true,
-                "mainErrorMsg": "You cannot continue. Zero configured features."
+                "mainErrorMsg": "配置不能为空"
             };
             // updating validationStatusArray with validationStatus
             validationStatusArray.push(validationStatus);
@@ -182,14 +182,14 @@ validateStep["policy-profile"] = function () {
                     if (!$.isNumeric(passcodePolicyMaxPasscodeAgeInDays)) {
                         validationStatus = {
                             "error": true,
-                            "subErrorMsg": "Provided passcode age is not a number.",
+                            "subErrorMsg": "密码天数格式错误",
                             "erroneousFeature": operation
                         };
                         continueToCheckNextInputs = false;
                     } else if (!inputIsValidAgainstRange(passcodePolicyMaxPasscodeAgeInDays, 1, 730)) {
                         validationStatus = {
                             "error": true,
-                            "subErrorMsg": "Provided passcode age is not with in the range of 1-to-730.",
+                            "subErrorMsg": "密码天数必须1-730",
                             "erroneousFeature": operation
                         };
                         continueToCheckNextInputs = false;
@@ -203,14 +203,14 @@ validateStep["policy-profile"] = function () {
                         if (!$.isNumeric(passcodePolicyPasscodeHistory)) {
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "Provided passcode history is not a number.",
+                                "subErrorMsg": "密码历史格式错误",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
                         } else if (!inputIsValidAgainstRange(passcodePolicyPasscodeHistory, 1, 50)) {
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "Provided passcode history is not with in the range of 1-to-50.",
+                                "subErrorMsg": "密码历史必须为1-50",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
@@ -265,7 +265,7 @@ validateStep["policy-profile"] = function () {
                 if (!wifiSSID) {
                     validationStatus = {
                         "error": true,
-                        "subErrorMsg": "WIFI SSID is not given. You cannot proceed.",
+                        "subErrorMsg": "WIFI SSID 不能为空",
                         "erroneousFeature": operation
                     };
                     continueToCheckNextInputs = false;
@@ -289,7 +289,7 @@ validateStep["policy-profile"] = function () {
             // updating validationStatus
             validationStatus = {
                 "error": true,
-                "mainErrorMsg": "You cannot continue. Zero configured features."
+                "mainErrorMsg": "配置不能为空"
             };
             // updating validationStatusArray with validationStatus
             validationStatusArray.push(validationStatus);
@@ -308,14 +308,14 @@ validateStep["policy-profile"] = function () {
                     if (!$.isNumeric(passcodePolicyMaxPasscodeAgeInDays)) {
                         validationStatus = {
                             "error": true,
-                            "subErrorMsg": "Provided passcode age is not a number.",
+                            "subErrorMsg": "密码天数格式错误",
                             "erroneousFeature": operation
                         };
                         continueToCheckNextInputs = false;
                     } else if (!inputIsValidAgainstRange(passcodePolicyMaxPasscodeAgeInDays, 1, 730)) {
                         validationStatus = {
                             "error": true,
-                            "subErrorMsg": "Provided passcode age is not with in the range of 1-to-730.",
+                            "subErrorMsg": "密码天数必须1-730",
                             "erroneousFeature": operation
                         };
                         continueToCheckNextInputs = false;
@@ -329,14 +329,14 @@ validateStep["policy-profile"] = function () {
                         if (!$.isNumeric(passcodePolicyPasscodeHistory)) {
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "Provided passcode history is not a number.",
+                                "subErrorMsg": "密码历史格式错误",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
                         } else if (!inputIsValidAgainstRange(passcodePolicyPasscodeHistory, 1, 50)) {
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "Provided passcode history is not with in the range of 1-to-50.",
+                                "subErrorMsg": "密码历史必须为1-50",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
@@ -387,7 +387,7 @@ validateStep["policy-profile"] = function () {
             // updating validationStatus
             validationStatus = {
                 "error": true,
-                "mainErrorMsg": "You cannot continue. Zero configured features."
+                "mainErrorMsg": "配置不能为空"
             };
             // updating validationStatusArray with validationStatus
             validationStatusArray.push(validationStatus);
@@ -406,14 +406,14 @@ validateStep["policy-profile"] = function () {
                     if (!$.isNumeric(passcodePolicyMaxPasscodeAgeInDays)) {
                         validationStatus = {
                             "error": true,
-                            "subErrorMsg": "Provided passcode age is not a number.",
+                            "subErrorMsg": "密码天数格式错误",
                             "erroneousFeature": operation
                         };
                         continueToCheckNextInputs = false;
                     } else if (!inputIsValidAgainstRange(passcodePolicyMaxPasscodeAgeInDays, 1, 730)) {
                         validationStatus = {
                             "error": true,
-                            "subErrorMsg": "Provided passcode age is not with in the range of 1-to-730.",
+                            "subErrorMsg": "密码天数必须1-730",
                             "erroneousFeature": operation
                         };
                         continueToCheckNextInputs = false;
@@ -427,14 +427,14 @@ validateStep["policy-profile"] = function () {
                         if (!$.isNumeric(passcodePolicyPasscodeHistory)) {
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "Provided passcode history is not a number.",
+                                "subErrorMsg": "密码历史格式错误",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
                         } else if (!inputIsValidAgainstRange(passcodePolicyPasscodeHistory, 1, 50)) {
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "Provided passcode history is not with in the range of 1-to-50.",
+                                "subErrorMsg": "密码历史必须为1-50",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
@@ -499,16 +499,14 @@ validateStep["policy-profile"] = function () {
                         // if empty child inputs are present
                         validationStatus = {
                             "error": true,
-                            "subErrorMsg": "One or more permitted App ID entries in " +
-                                "Autonomous Single App Mode are empty.",
+                            "subErrorMsg": "App ID 不能为空",
                             "erroneousFeature": operation
                         };
                         continueToCheckNextInputs = false;
                     } else if (duplicatesExist) {
                         validationStatus = {
                             "error": true,
-                            "subErrorMsg": "Duplicate values exist with permitted App ID entries in " +
-                                "Autonomous Single App Mode.",
+                            "subErrorMsg": "App ID 重复输入",
                             "erroneousFeature": operation
                         };
                         continueToCheckNextInputs = false;
@@ -540,7 +538,7 @@ validateStep["policy-profile"] = function () {
                 if (!wifiSSID && !wifiDomainName) {
                     validationStatus = {
                         "error": true,
-                        "subErrorMsg": "Both Wi-Fi SSID and Wi-Fi Domain Name are not given. You cannot proceed.",
+                        "subErrorMsg": " Wi-Fi SSID 和 Wi-Fi Domain 不能为空",
                         "erroneousFeature": operation
                     };
                     continueToCheckNextInputs = false;
@@ -555,7 +553,7 @@ validateStep["policy-profile"] = function () {
                         if (!wifiProxyServer) {
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "Wi-Fi Proxy Server is required. You cannot proceed.",
+                                "subErrorMsg": "Wi-Fi 代理服务器不能为空",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
@@ -566,22 +564,21 @@ validateStep["policy-profile"] = function () {
                             if (!wifiProxyPort) {
                                 validationStatus = {
                                     "error": true,
-                                    "subErrorMsg": "Wi-Fi Proxy Port is required. You cannot proceed.",
+                                    "subErrorMsg": "Wi-Fi 代理端口不能为空",
                                     "erroneousFeature": operation
                                 };
                                 continueToCheckNextInputs = false;
                             } else if (!$.isNumeric(wifiProxyPort)) {
                                 validationStatus = {
                                     "error": true,
-                                    "subErrorMsg": "Wi-Fi Proxy Port requires a number input.",
+                                    "subErrorMsg": "Wi-Fi 代理端口格式错误",
                                     "erroneousFeature": operation
                                 };
                                 continueToCheckNextInputs = false;
                             } else if (!inputIsValidAgainstRange(wifiProxyPort, 0, 65535)) {
                                 validationStatus = {
                                     "error": true,
-                                    "subErrorMsg": "Wi-Fi Proxy Port is not within the range " +
-                                        "of valid port numbers.",
+                                    "subErrorMsg": "Wi-Fi 代理端口无效",
                                     "erroneousFeature": operation
                                 };
                                 continueToCheckNextInputs = false;
@@ -628,16 +625,14 @@ validateStep["policy-profile"] = function () {
                                 // if empty child inputs are present
                                 validationStatus = {
                                     "error": true,
-                                    "subErrorMsg": "One or more Payload Certificate " +
-                                        "Anchor UUIDs are empty.",
+                                    "subErrorMsg": "Payload Certificate 不能为空",
                                     "erroneousFeature": operation
                                 };
                                 continueToCheckNextInputs = false;
                             } else if (duplicatesExist) {
                                 validationStatus = {
                                     "error": true,
-                                    "subErrorMsg": "Duplicate values exist " +
-                                        "with Payload Certificate Anchor UUIDs.",
+                                    "subErrorMsg": "Payload Certificate 重复输入",
                                     "erroneousFeature": operation
                                 };
                                 continueToCheckNextInputs = false;
@@ -679,7 +674,7 @@ validateStep["policy-profile"] = function () {
                                     // if empty child inputs are present
                                     validationStatus = {
                                         "error": true,
-                                        "subErrorMsg": "One or more TLS Trusted Server Names are empty.",
+                                        "subErrorMsg": "TLS Trusted Server Names 不能为空",
                                         "erroneousFeature": operation
                                     };
                                     continueToCheckNextInputs = false;
@@ -738,7 +733,7 @@ validateStep["policy-profile"] = function () {
                             // if empty child inputs are present
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "One or more Roaming Consortium OIs are empty.",
+                                "subErrorMsg": "Roaming Consortium OIs 不能为空",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
@@ -746,8 +741,7 @@ validateStep["policy-profile"] = function () {
                             // if outOfMaxAllowedLength input is present
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "One or more Roaming Consortium OIs " +
-                                    "are out of allowed length.",
+                                "subErrorMsg": "Roaming Consortium OIs 过长",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
@@ -755,15 +749,14 @@ validateStep["policy-profile"] = function () {
                             // if invalid inputs in terms of hexadecimal format are present
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "One or more Roaming Consortium OIs " +
-                                    "contain non-hexadecimal characters.",
+                                "subErrorMsg": "Roaming Consortium OIs 格式错误",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
                         } else if (duplicatesExist) {
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "Duplicate values exist with Roaming Consortium OIs.",
+                                "subErrorMsg": "Roaming Consortium OIs 重复输入",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
@@ -805,14 +798,14 @@ validateStep["policy-profile"] = function () {
                             // if empty child inputs are present
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "One or more NAI Realm Names are empty.",
+                                "subErrorMsg": "NAI Realm Names 不能为空",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
                         } else if (duplicatesExist) {
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "Duplicate values exist with NAI Realm Names.",
+                                "subErrorMsg": "NAI Realm Names 重复输入",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
@@ -874,7 +867,7 @@ validateStep["policy-profile"] = function () {
                             // if empty child inputs are present
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "One or more MCC/MNC pairs are empty.",
+                                "subErrorMsg": "MCC/MNC pairs 不能为空",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
@@ -882,7 +875,7 @@ validateStep["policy-profile"] = function () {
                             // if notNumeric input is present
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "One or more MCC/MNC pairs are not numeric.",
+                                "subErrorMsg": "MCC/MNC pairs 格式错误",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
@@ -890,15 +883,14 @@ validateStep["policy-profile"] = function () {
                             // if outOfAllowedLength input is present
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "One or more MCC/MNC pairs " +
-                                    "do not fulfill the accepted length of 6 digits.",
+                                "subErrorMsg": "MCC/MNC pairs 格式错误",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
                         } else if (duplicatesExist) {
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "Duplicate values exist with MCC/MNC pairs.",
+                                "subErrorMsg": "MCC/MNC pairs 错误输入",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
@@ -930,7 +922,7 @@ validateStep["policy-profile"] = function () {
                     !inputIsValidAgainstRegExp(/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/, emailAddress)) {
                     validationStatus = {
                         "error": true,
-                        "subErrorMsg": "Email Address is not valid.",
+                        "subErrorMsg": "邮件地址无效",
                         "erroneousFeature": operation
                     };
                     continueToCheckNextInputs = false;
@@ -941,7 +933,7 @@ validateStep["policy-profile"] = function () {
                     if (!emailIncomingMailServerHostname) {
                         validationStatus = {
                             "error": true,
-                            "subErrorMsg": "Incoming Mail Server Hostname is empty. You cannot proceed.",
+                            "subErrorMsg": "接收邮件服务器主机名不能为空",
                             "erroneousFeature": operation
                         };
                         continueToCheckNextInputs = false;
@@ -954,15 +946,14 @@ validateStep["policy-profile"] = function () {
                         if (!$.isNumeric(emailIncomingMailServerPort)) {
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "Incoming Mail Server Port requires a number input.",
+                                "subErrorMsg": "接收邮件服务器端口不能为空",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
                         } else if (!inputIsValidAgainstRange(emailIncomingMailServerPort, 0, 65535)) {
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "Incoming Mail Server Port is not within the range " +
-                                    "of valid port numbers.",
+                                "subErrorMsg": "接收邮件服务器端口无效",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
@@ -975,7 +966,7 @@ validateStep["policy-profile"] = function () {
                     if (!emailOutgoingMailServerHostname) {
                         validationStatus = {
                             "error": true,
-                            "subErrorMsg": "Outgoing Mail Server Hostname is empty. You cannot proceed.",
+                            "subErrorMsg": "发送邮件服务器主机名不能为空",
                             "erroneousFeature": operation
                         };
                         continueToCheckNextInputs = false;
@@ -988,15 +979,14 @@ validateStep["policy-profile"] = function () {
                         if (!$.isNumeric(emailOutgoingMailServerPort)) {
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "Outgoing Mail Server Port requires a number input.",
+                                "subErrorMsg": "发送邮件服务器端口不能为空",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
                         } else if (!inputIsValidAgainstRange(emailOutgoingMailServerPort, 0, 65535)) {
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "Outgoing Mail Server Port is not within the range " +
-                                    "of valid port numbers.",
+                                "subErrorMsg": "发送邮件服务器端口无效",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
@@ -1029,7 +1019,7 @@ validateStep["policy-profile"] = function () {
                     $(airplayDestinationsGridChildInputs).length == 0) {
                     validationStatus = {
                         "error": true,
-                        "subErrorMsg": "AirPlay settings have zero configurations attached.",
+                        "subErrorMsg": "AirPlay settings 无任何配置",
                         "erroneousFeature": operation
                     };
                     continueToCheckNextInputs = false;
@@ -1074,8 +1064,7 @@ validateStep["policy-profile"] = function () {
                             // if empty child inputs are present
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "One or more Device Names of " +
-                                    "AirPlay Credentials are empty.",
+                                "subErrorMsg": "Device Names 不能为空",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
@@ -1083,8 +1072,7 @@ validateStep["policy-profile"] = function () {
                             // if duplicate input is present
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "Duplicate values exist with " +
-                                    "Device Names of AirPlay Credentials.",
+                                "subErrorMsg": "Device Names 重复输入",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
@@ -1131,7 +1119,7 @@ validateStep["policy-profile"] = function () {
                             // if empty child inputs are present
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "One or more AirPlay Destination fields are empty.",
+                                "subErrorMsg": "AirPlay Destination 不能为空",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
@@ -1139,8 +1127,7 @@ validateStep["policy-profile"] = function () {
                             // if invalidAgainstRegEx inputs are present
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "One or more AirPlay Destination fields " +
-                                    "do not fulfill expected format.",
+                                "subErrorMsg": "AirPlay Destination 格式错误",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
@@ -1148,7 +1135,7 @@ validateStep["policy-profile"] = function () {
                             // if duplicate input is present
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "Duplicate values exist with AirPlay Destinations.",
+                                "subErrorMsg": "AirPlay Destinations 重复输入",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
@@ -1179,7 +1166,7 @@ validateStep["policy-profile"] = function () {
                 if (!ldapAccountHostname) {
                     validationStatus = {
                         "error": true,
-                        "subErrorMsg": "LDAP Account Hostname URL is empty. You cannot proceed.",
+                        "subErrorMsg": "LDAP Account Hostname URL 不能为空",
                         "erroneousFeature": operation
                     };
                     continueToCheckNextInputs = false;
@@ -1231,7 +1218,7 @@ validateStep["policy-profile"] = function () {
                             // if empty child inputs are present
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "One or more Search Setting Scope fields are empty.",
+                                "subErrorMsg": "Search Setting Scope 不能为空",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
@@ -1239,8 +1226,7 @@ validateStep["policy-profile"] = function () {
                             // if duplicate input is present
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "Duplicate values exist with " +
-                                    "Search Setting Search Base and Scope pairs.",
+                                "subErrorMsg": "Search Setting Search Base and Scope pairs 重复输入",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
@@ -1271,7 +1257,7 @@ validateStep["policy-profile"] = function () {
                 if (!calendarAccountHostname) {
                     validationStatus = {
                         "error": true,
-                        "subErrorMsg": "Account Hostname URL is empty. You cannot proceed.",
+                        "subErrorMsg": "Account Hostname URL 不能为空",
                         "erroneousFeature": operation
                     };
                     continueToCheckNextInputs = false;
@@ -1282,22 +1268,21 @@ validateStep["policy-profile"] = function () {
                     if (!calendarAccountPort) {
                         validationStatus = {
                             "error": true,
-                            "subErrorMsg": "Account Port is empty. You cannot proceed.",
+                            "subErrorMsg": "Account Port 不能为空",
                             "erroneousFeature": operation
                         };
                         continueToCheckNextInputs = false;
                     } else if (!$.isNumeric(calendarAccountPort)) {
                         validationStatus = {
                             "error": true,
-                            "subErrorMsg": "Account Port requires a number input.",
+                            "subErrorMsg": "Account Port 格式错误",
                             "erroneousFeature": operation
                         };
                         continueToCheckNextInputs = false;
                     } else if (!inputIsValidAgainstRange(calendarAccountPort, 0, 65535)) {
                         validationStatus = {
                             "error": true,
-                            "subErrorMsg": "Account Port is not within the range " +
-                                "of valid port numbers.",
+                            "subErrorMsg": "Account Port 无效",
                             "erroneousFeature": operation
                         };
                         continueToCheckNextInputs = false;
@@ -1327,7 +1312,7 @@ validateStep["policy-profile"] = function () {
                 if (!calendarSubscriptionHostname) {
                     validationStatus = {
                         "error": true,
-                        "subErrorMsg": "Account Hostname URL is empty. You cannot proceed.",
+                        "subErrorMsg": "Account Hostname URL 不能为空",
                         "erroneousFeature": operation
                     };
                     continueToCheckNextInputs = false;
@@ -1356,7 +1341,7 @@ validateStep["policy-profile"] = function () {
                 if ($(apnConfigurationsGridChildInputs).length == 0) {
                     validationStatus = {
                         "error": true,
-                        "subErrorMsg": "APN Settings have zero configurations attached.",
+                        "subErrorMsg": "APN Settings 不能为空",
                         "erroneousFeature": operation
                     };
                     continueToCheckNextInputs = false;
@@ -1399,7 +1384,7 @@ validateStep["policy-profile"] = function () {
                         // if empty child inputs are present
                         validationStatus = {
                             "error": true,
-                            "subErrorMsg": "One or more APN fields of Configurations are empty.",
+                            "subErrorMsg": "APN fields of Configurations 不能为空",
                             "erroneousFeature": operation
                         };
                         continueToCheckNextInputs = false;
@@ -1407,8 +1392,7 @@ validateStep["policy-profile"] = function () {
                         // if duplicate input is present
                         validationStatus = {
                             "error": true,
-                            "subErrorMsg": "Duplicate values exist with " +
-                                "APN fields of Configurations.",
+                            "subErrorMsg": "APN fields of Configurations 重复输入",
                             "erroneousFeature": operation
                         };
                         continueToCheckNextInputs = false;
@@ -1438,7 +1422,7 @@ validateStep["policy-profile"] = function () {
                 if (!cellularAttachAPNName) {
                     validationStatus = {
                         "error": true,
-                        "subErrorMsg": "Cellular Configuration Name is empty. You cannot proceed.",
+                        "subErrorMsg": "Cellular Configuration Name 不能为空",
                         "erroneousFeature": operation
                     };
                     continueToCheckNextInputs = false;
@@ -1485,7 +1469,7 @@ validateStep["policy-profile"] = function () {
                             // if empty child inputs are present
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "One or more APN fields of APN Configurations are empty.",
+                                "subErrorMsg": "APN fields of APN Configurations 不能为空",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
@@ -1493,8 +1477,7 @@ validateStep["policy-profile"] = function () {
                             // if duplicate input is present
                             validationStatus = {
                                 "error": true,
-                                "subErrorMsg": "Duplicate values exist with " +
-                                    "APN fields of APN Configurations.",
+                                "subErrorMsg": "APN fields of APN Configurations 重复输入",
                                 "erroneousFeature": operation
                             };
                             continueToCheckNextInputs = false;
@@ -1656,11 +1639,11 @@ validateStep["policy-naming"] = function () {
     // starting validation process and updating validationStatus
     if (!policyName) {
         validationStatus["error"] = true;
-        validationStatus["mainErrorMsg"] = "Policy name is empty. You cannot proceed.";
+        validationStatus["mainErrorMsg"] = "策略名称不能为空";
     } else if (!inputIsValidAgainstLength(policyName, 1, 30)) {
         validationStatus["error"] = true;
         validationStatus["mainErrorMsg"] =
-            "Policy name exceeds maximum allowed length.";
+            "策略名称过长";
     } else {
         validationStatus["error"] = false;
     }
@@ -1689,11 +1672,11 @@ validateStep["policy-naming-publish"] = function () {
     // starting validation process and updating validationStatus
     if (!policyName) {
         validationStatus["error"] = true;
-        validationStatus["mainErrorMsg"] = "Policy name is empty. You cannot proceed.";
+        validationStatus["mainErrorMsg"] = "策略名称不能为空";
     } else if (!inputIsValidAgainstLength(policyName, 1, 30)) {
         validationStatus["error"] = true;
         validationStatus["mainErrorMsg"] =
-            "Policy name exceeds maximum allowed length.";
+            "策略名称过长";
     } else {
         validationStatus["error"] = false;
     }
