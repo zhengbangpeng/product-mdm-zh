@@ -1951,7 +1951,6 @@ $(document).ready(function () {
                 return user.username;
             },
             data: function (params) {
-                alert(params);
                 var postData = {};
                 postData.actionMethod = "GET";
                 postData.actionUrl = "/mdm-admin/users/view-users?username=" + params.term;
@@ -1959,7 +1958,6 @@ $(document).ready(function () {
                 return JSON.stringify(postData);
             },
             processResults: function (data, page) {
-                alert(data);
                 var newData = [];
                 $.each(data.responseContent, function (index, value) {
                     value.id = value.username;
@@ -1976,7 +1974,7 @@ $(document).ready(function () {
         templateResult: formatRepo, // omitted for brevity, see the source of this page
         templateSelection: formatRepoSelection // omitted for brevity, see the source of this page
     });
-    alert("test");
+
     $("#loading-content").remove();
     $(".policy-platform").removeClass("hidden");
     // Adding initial state of wizard-steps.
