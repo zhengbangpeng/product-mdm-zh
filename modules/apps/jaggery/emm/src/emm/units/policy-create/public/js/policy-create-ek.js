@@ -2204,6 +2204,7 @@ $(document).ready(function () {
 });
 
 function standard(output){
+    $.ajaxSettings.async = false;
     $.getJSON('/emm/config/language.json',function(data){
         for(var label in data){
                     var reg=new RegExp(label,"gm");
