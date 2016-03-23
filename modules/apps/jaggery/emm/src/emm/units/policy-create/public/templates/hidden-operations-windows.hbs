@@ -4,7 +4,7 @@
                 <span class="wr-hidden-operations-icon fw-stack">
                     <i class="fw fw-key fw-stack-2x"></i>
                 </span>
-            Passcode Policy
+            EK-passcode_Policy
             <span id="passcode-policy-configured" class="has-configured status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="passcode-policy-ok" class="has-success status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="passcode-policy-error" class="has-error status-icon hidden"><i class="fw fw-error"></i></span>
@@ -13,7 +13,7 @@
                 <span class="wr-hidden-operations-icon fw-stack">
                     <i class="fw fw-block fw-stack-2x"></i>
                 </span>
-            Restrictions on Camera
+            EK-Restrictions_On_camera
             <span id="camera-configured" class="has-configured status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="camera-ok" class="has-success status-icon hidden"><i class="fw fw-ok"></i></span>
             <span class="camera-error status-icon hidden"><i class="fw fw-error"></i></span>
@@ -22,7 +22,7 @@
                 <span class="wr-hidden-operations-icon fw-stack">
                     <i class="fw fw-security fw-stack-2x"></i>
                 </span>
-            Encryption Settings
+            EK-Encryption_settings
             <span id="encrypt-storage-configured" class="has-configured status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="encrypt-storage-ok" class="has-success status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="encrypt-storage-error" class="encryption-error status-icon hidden"><i class="fw fw-error"></i></span>
@@ -62,7 +62,7 @@
             <div class="panel panel-default operation-data" data-operation="passcode-policy" data-operation-code="PASSCODE_POLICY">
                 <div id="passcode-policy-heading" class="panel-heading" role="tab">
                     <h2 class="sub-title panel-title">
-                        Passcode Policy
+                        EK-passcode_Policy
                         <label id="passcode-policy-lbl" class="wr-input-control switch" data-toggle="collapse" data-target="#passcode-policy-body">
                             <input type="checkbox" />
                             <span class="helper"></span>
@@ -70,9 +70,7 @@
                         </label>
                         <hr>
                         <div class="panel-title-description">
-                            This configuration can be used to set a passcode policy to an Windows Device.
-                            Once this configuration profile is installed on a device, corresponding users will not be able
-                            to modify these settings on their devices.
+                            EK-Set_Passcode_Policy_To_Windows_device
                         </div>
                     </h2>
                 </div>
@@ -86,7 +84,7 @@
                         <label class="wr-input-control checkbox">
                             <input id="passcode-policy-allow-simple" type="checkbox" class="form-control operationDataKeys" data-key="passcodePolicyAllowSimple" checked="checked" />
                             <span class="helper" title="Permit the use of repeating, ascending and descending character sequences">
-                                &nbsp;&nbsp;&nbsp;Allow simple value
+                                &nbsp;&nbsp;&nbsp;EK-Allow_Simple_value
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
@@ -96,7 +94,7 @@
                         <label class="wr-input-control checkbox">
                             <input id="passcode-policy-require-alphanumeric" type="checkbox" class="form-control operationDataKeys" data-key="passcodePolicyRequireAlphanumeric" checked="checked" />
                             <span class="helper" title="Require passcode to contain both letters and numbers">
-                                &nbsp;&nbsp;&nbsp;Require alphanumeric value
+                                &nbsp;&nbsp;&nbsp;EK-Require_Alphanumeric_value
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
@@ -104,7 +102,7 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="passcode-policy-min-length">
-                            Minimum passcode length
+                            EK-Minimum_Passcode_length
                             <span class="helper" title="Minimum number of characters allowed in a passcode">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
@@ -133,7 +131,7 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="passcode-policy-min-complex-chars">
-                            Minimum number of complex characters
+                            EK-Minimum_Number_Complex_characters
                             <span class="helper" title="Minimum number of complex or non-alphanumeric characters allowed in a passcode">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
@@ -152,31 +150,31 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="passcode-policy-max-passcode-age-in-days">
-                            Maximum passcode age in days
+                            EK-Maximum_Passcode_Age_In_days
                             <span class="helper" title="Number of days after which a passcode must be changed">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                             <br>
-                            ( Should be in between 1-to-730 days or none )
+                            ( EK-Should_Be_1-730_Days_Or_none )
                         </label>
                         <input id="passcode-policy-max-passcode-age-in-days" type="text" class="form-control operationDataKeys" data-key="passcodePolicyMaxPasscodeAgeInDays" maxlength="3" placeholder="[ Requires Number Input ]">
                     </div>
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="passcode-policy-passcode-history">
-                            Passcode history
+                            EK-Passcode_history
                             <span class="helper" title="Number of consequent unique passcodes to be used before reuse">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                             <br>
-                            ( Should be in between 1-to-50 passcodes or none )
+                            ( EK-Should_Be_1-50_Passcodes_Or_none )
                         </label>
                         <input id="passcode-policy-passcode-history" type="text" class="form-control operationDataKeys" data-key="passcodePolicyPasscodeHistory" maxlength="2" placeholder="[ Requires Number Input ]">
                     </div>
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="passcodePolicyMaxFailedAttempts">
-                            Maximum number of failed attempts
+                            EK-Maximum_Number_Of_Failed_attempts
                             <span class="helper" title="Maximum number of passcode entry attempts allowed before all data on a device will be erased">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
@@ -205,7 +203,7 @@
             <div class="panel panel-default operation-data" data-operation="camera" data-operation-code="CAMERA">
                 <div id="camera-heading" class="panel-heading" role="tab">
                     <h2 class="sub-title panel-title">
-                        Restrictions on Camera
+                        EK-Restrictions_On_camera
                         <label class="wr-input-control switch" data-toggle="collapse" data-target="#camera-body">
                             <input type="checkbox" />
                             <span class="helper"></span>
@@ -213,9 +211,7 @@
                         </label>
                         <hr>
                         <div class="panel-title-description">
-                            This configuration can be used to restrict the usage of camera on an Windows device together with all the applications using the camera.
-                            Once this configuration profile is installed on a device, corresponding users will not be able
-                            to modify these settings on their devices.
+                            EK-Set_Camera_Policy_To_Windows_device
                         </div>
                     </h2>
                 </div>
@@ -223,14 +219,14 @@
                     <div id="camera-feature-error-msg" class="alert alert-danger hidden" role="alert">
                         <i class="icon fw fw-error"></i><span></span>
                     </div>
-                    Un-check following checkbox in case you need to disable camera.
+                    EK-Camera_checkbox
                     <br>
                     <br>
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
                             <input id="camera-enabled" type="checkbox" class="operationDataKeys" data-key="cameraEnabled" checked="checked" />
                             <span class="helper" title="Having this checked would enable Usage of phone camera in the device.">
-                                &nbsp;&nbsp;&nbsp;Allow use of camera
+                                &nbsp;&nbsp;&nbsp;EK-Allow_camera
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
@@ -246,7 +242,7 @@
             <div class="panel panel-default operation-data" data-operation="encrypt-storage" data-operation-code="ENCRYPT_STORAGE">
                 <div id="encrypt-storage-heading" class="panel-heading" role="tab">
                     <h2 class="sub-title panel-title">
-                        Encryption Settings
+                        EK-Encryption_settings
                         <label class="wr-input-control switch" data-toggle="collapse" data-target="#encrypt-storage-body">
                             <input type="checkbox" />
                             <span class="helper"></span>
@@ -254,9 +250,7 @@
                         </label>
                         <hr>
                         <div class="panel-title-description">
-                            This configuration can be used to encrypt data on an Windows device, when the device is locked and
-                            make it readable when the passcode is entered. Once this configuration profile is installed on a device,
-                            corresponding users will not be able to modify these settings on their devices.
+                            EK-Set_Encrypt_Policy_To_Windows_device
                         </div>
                     </h2>
                 </div>
@@ -264,14 +258,14 @@
                     <div id="encrypt-storage-feature-error-msg" class="alert alert-danger hidden" role="alert">
                         <i class="icon fw fw-error"></i><span></span>
                     </div>
-                    Un-check following checkbox in case you need to disable storage-encryption.
+                    EK-Encrypt_checkbox
                     <br>
                     <br>
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
                             <input id="encrypt-storage-enabled" type="checkbox" class="operationDataKeys" data-key="encryptStorageEnabled" checked="checked" />
                             <span class="helper" title="Having this checked would enable Storage-encryption in the device">
-                                &nbsp;&nbsp;&nbsp;Enable storage-encryption
+                                &nbsp;&nbsp;&nbsp;EK-Enable_Storage_encryption
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>

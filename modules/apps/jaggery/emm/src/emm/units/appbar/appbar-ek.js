@@ -38,7 +38,7 @@ function onRequest(context) {
     }
     if (uiPermissions["ADD_ROLE"]) {
         links["role-mgt"].push({
-            "title": "Add ROLE",
+            "title": "添加角色",
             "icon": "fw-add",
             "url": "/emm/roles/add-role"
         });
@@ -46,7 +46,7 @@ function onRequest(context) {
 
     if (uiPermissions["ADD_POLICY"]) {
         links["policy-mgt"].push({
-            "title": "Add Policy",
+            "title": "添加策略",
             "icon": "fw-add",
             "url": "/emm/policies/add-policy"
         });
@@ -54,13 +54,13 @@ function onRequest(context) {
 
     if (uiPermissions["CHANGE_POLICY_PRIORITY"]) {
         links["policy-mgt"].push({
-            "title": "Policy Priority",
+            "title": "策略优先级",
             "icon": "fw-throttling-policy",
             "url": "/emm/policies/priority"
         });
 
         links["policy-mgt"].push({
-            "title": "Apply Changes",
+            "title": "应用修改",
             "icon": "fw-check",
             "url": "#",
             "tooltip": "Click to apply policy changes to devices (This depends on policy priority if you have multiple policies)",
