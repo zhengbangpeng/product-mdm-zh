@@ -4,7 +4,7 @@
             <span class="wr-hidden-operations-icon fw-stack">
                 <i class="fw fw-key fw-stack-2x"></i>
             </span>
-            Passcode Policy
+            EK-Passcode_policy
             <span id="passcode-policy-configured" class="has-configured status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="passcode-policy-ok" class="has-success status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="passcode-policy-error" class="has-error status-icon hidden"><i class="fw fw-error"></i></span>
@@ -13,7 +13,7 @@
             <span class="wr-hidden-operations-icon fw-stack">
                 <i class="fw fw-block fw-stack-2x"></i>
             </span>
-            Restrictions
+            EK-restrictions
             <span id="restrictions-configured" class="has-configured status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="restrictions-ok" class="has-success status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="restrictions-error" class="has-error status-icon hidden"><i class="fw fw-error"></i></span>
@@ -22,7 +22,7 @@
             <span class="wr-hidden-operations-icon fw-stack">
                 <i class="fw fw-wifi fw-stack-2x"></i>
             </span>
-            Wi-Fi Settings
+            EK-WiFi_settings
             <span id="wifi-configured" class="has-configured status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="wifi-ok" class="has-success status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="wifi-error" class="has-error status-icon hidden"><i class="fw fw-error"></i></span>
@@ -31,7 +31,7 @@
             <span class="wr-hidden-operations-icon fw-stack">
                 <i class="fw fw-invitation fw-stack-2x"></i>
             </span>
-            Email Settings
+            Email EK-settings
             <span id="email-configured" class="has-configured status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="email-ok" class="has-success status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="email-error" class="has-error status-icon hidden"><i class="fw fw-error"></i></span>
@@ -40,7 +40,7 @@
             <span class="wr-hidden-operations-icon fw-stack">
                 <i class="fw fw-airplay fw-stack-2x"></i>
             </span>
-            AirPlay Settings
+            AirPlay EK-settings
             <span id="airplay-configured" class="has-configured status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="airplay-ok" class="has-success status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="airplay-error" class="has-error status-icon hidden"><i class="fw fw-error"></i></span>
@@ -49,7 +49,7 @@
             <span class="wr-hidden-operations-icon fw-stack">
                 <i class="fw fw-ldap fw-stack-2x"></i>
             </span>
-            LDAP Settings
+            LDAP EK-settings
             <span id="ldap-configured" class="has-configured status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="ldap-ok" class="has-success status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="ldap-error" class="has-error status-icon hidden"><i class="fw fw-error"></i></span>
@@ -58,7 +58,7 @@
             <span class="wr-hidden-operations-icon fw-stack">
                 <i class="fw fw-calendar fw-stack-2x"></i>
             </span>
-            Calendar
+            EK-calendar
             <span id="calendar-configured" class="has-configured status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="calendar-ok" class="has-success status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="calendar-error" class="has-error status-icon hidden"><i class="fw fw-error"></i></span>
@@ -67,7 +67,7 @@
             <span class="wr-hidden-operations-icon fw-stack">
                 <i class="fw fw-subscribed-calendar fw-stack-2x"></i>
             </span>
-            Calendar Subscription
+            EK-Calendar_subscription
             <span id="calendar-subscription-configured" class="has-configured status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="calendar-subscription-ok" class="has-success status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="calendar-subscription-error" class="has-error status-icon hidden"><i class="fw fw-error"></i></span>
@@ -85,7 +85,7 @@
             <span class="wr-hidden-operations-icon fw-stack">
                 <i class="fw fw-service-provider fw-stack-2x"></i>
             </span>
-            Cellular Network Settings
+            Cellular Network EK-settings
             <span id="cellular-configured" class="has-configured status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="cellular-ok" class="has-success status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="cellular-error" class="has-error status-icon hidden"><i class="fw fw-error"></i></span>
@@ -104,12 +104,12 @@
     </div>
 
     <div class="wr-hidden-operations-content col-lg-8">
-        <!-- Passcode policy -->
+        <!-- EK-Passcode_policy -->
         <div class="wr-hidden-operation" data-operation="passcode-policy" style="display: block">
             <div class="panel panel-default operation-data" data-operation="passcode-policy" data-operation-code="PASSCODE_POLICY">
                 <div id="passcode-policy-heading" class="panel-heading" role="tab">
                     <h2 class="sub-title panel-title">
-                        Passcode Policy
+                        EK-Passcode_policy
                         <label id="passcode-policy-lbl" class="wr-input-control switch" data-toggle="collapse" data-target="#passcode-policy-body">
                             <input type="checkbox" />
                             <span class="helper"></span>
@@ -117,9 +117,7 @@
                         </label>
                         <hr>
                         <div class="panel-title-description">
-                            This configuration can be used to set a passcode policy to an iOS Device.
-                            Once this configuration profile is installed on a device, corresponding users will not be able
-                            to modify these settings on their devices.
+                            EK-Set_Passcode_Policy_To_IOS_device
                         </div>
                     </h2>
                 </div>
@@ -133,7 +131,7 @@
                         <label class="wr-input-control checkbox">
                             <input id="passcode-policy-force-pin" type="checkbox" class="form-control operationDataKeys" data-key="passcodePolicyForcePIN" checked="checked" />
                             <span class="helper" title="Determines whether the user is forced to set a passcode.">
-                                &nbsp;&nbsp;&nbsp;Force Passcode
+                                &nbsp;&nbsp;&nbsp;EK-Force_passcode
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
@@ -143,7 +141,7 @@
                         <label class="wr-input-control checkbox">
                             <input id="passcode-policy-allow-simple" type="checkbox" class="form-control operationDataKeys" data-key="passcodePolicyAllowSimple" checked="checked" />
                             <span class="helper" title="Permit the use of repeating, ascending and descending character sequences">
-                                &nbsp;&nbsp;&nbsp;Allow simple value
+                                &nbsp;&nbsp;&nbsp;EK-Allow_Simple_value
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
@@ -153,7 +151,7 @@
                         <label class="wr-input-control checkbox">
                             <input id="passcode-policy-require-alphanumeric" type="checkbox" class="form-control operationDataKeys" data-key="passcodePolicyRequireAlphanumeric" checked="checked" />
                             <span class="helper" title="Require passcode to contain both letters and numbers">
-                                &nbsp;&nbsp;&nbsp;Require alphanumeric value
+                                &nbsp;&nbsp;&nbsp;EK-Require_Alphanumeric_value
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
@@ -161,7 +159,7 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="passcode-policy-min-length">
-                            Minimum passcode length
+                            EK-Minimum_Passcode_length
                             <span class="helper" title="Minimum number of characters allowed in a passcode">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
@@ -170,7 +168,7 @@
                             <option value="" selected="selected">
                                 None
                             </option>
-                            <option value="1">01</opt"ion>
+                            <option value="1">01</option>
                             <option value="2">02</option>
                             <option value="3">03</option>
                             <option value="4">04</option>
@@ -191,7 +189,7 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="passcode-policy-min-complex-chars">
-                            Minimum number of complex characters
+                            EK-Minimum_Number_Complex_characters
                             <span class="helper" title="Minimum number of complex or non-alphanumeric characters allowed in a passcode">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
@@ -209,8 +207,8 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="passcode-policy-max-passcode-age-in-days">
-                            Maximum passcode age in days <br>
-                            ( Should be in between 1-to-730 days or none )
+                            EK-Maximum_Passcode_Age_In_days <br>
+                            ( EK-Should_Be_1-730_Days_Or_none )
                             <span class="helper" title="Number of days after which a passcode must be changed">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
@@ -220,8 +218,8 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="passcode-policy-passcode-history">
-                            Passcode history <br>
-                            ( Should be in between 1-to-50 passcodes or none )
+                            EK-Passcode_history <br>
+                            ( EK-Should_Be_1-50_Passcodes_Or_none )
                             <span class="helper" title="Number of consequent unique passcodes to be used before reuse">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
@@ -231,7 +229,7 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="passcode-policy-max-auto-lock">
-                            Auto Lock Time in minutes
+                            EK-Auto_Lock _Time_In_minutes
                             <span class="helper" title="A device will be automatically locked when this time period elapses">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
@@ -250,7 +248,7 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="passcode-policy-grace-period">
-                            Grace period in minutes for device lock
+                            EK-Grace_Period_In_Minutes_For_Device_lock
                             <span class="helper" title="Amount of time the device will be locked without prompting for passcode on unlock">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
@@ -271,7 +269,7 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="passcode-policy-max-failed-attempts">
-                            Maximum number of failed attempts
+                            EK-Maximum_Number_Of_Failed_attempts
                             <span class="helper" title="Maximum number of passcode entry attempts allowed before all data on a device will be erased">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
@@ -293,14 +291,14 @@
                 </div>
             </div>
         </div>
-        <!-- End of Passcode policy -->
+        <!-- End of EK-Passcode_policy -->
 
         <!-- Wifi -->
         <div class="wr-hidden-operation" data-operation="wifi">
             <div class="panel panel-default operation-data" data-operation="wifi" data-operation-code="WIFI">
                 <div id="wifi-heading" class="panel-heading" role="tab">
                     <h2 class="sub-title panel-title">
-                        Wi-Fi Settings
+                        EK-WiFi_settings
                         <label class="wr-input-control switch" data-toggle="collapse" data-target="#wifi-body">
                             <input type="checkbox" />
                             <span class="helper"></span>
@@ -308,9 +306,7 @@
                         </label>
                         <hr>
                         <div class="panel-title-description">
-                            These configurations can be used to set how devices connect to your wireless network(s), including the necessary authentication
-                            information. Once this configuration profile is installed on an iOS device, corresponding users will not be able
-                            to modify these settings on their devices.
+                            EK-Set_Passcode_Policy_To_IOS_device
                         </div>
                     </h2>
                 </div>
@@ -345,7 +341,7 @@
                         <label class="wr-input-control checkbox">
                             <input id="wifi-hidden-network" type="checkbox" class="form-control operationDataKeys" data-key="wifiHiddenNetwork" data-default="false" />
                             <span class="helper" title="Enable this if target network is not open or broadcasting">
-                                &nbsp;&nbsp;&nbsp;Hidden Network
+                                &nbsp;&nbsp;&nbsp;EK-Hidden_network
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
@@ -365,7 +361,7 @@
                         <label class="wr-input-control checkbox">
                             <input id="wifi-service-provider-roaming-enabled" type="checkbox" class="form-control operationDataKeys" data-key="wifiServiceProviderRoamingEnabled" data-default="false" />
                             <span class="helper" title="Indicates if connecting to roaming service providers is allowed. Available in iOS 7.0 and later.">
-                                &nbsp;&nbsp;&nbsp;Enable Service Provider Roaming
+                                &nbsp;&nbsp;&nbsp;EK-Enable_Service_Provider_roaming
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
@@ -375,7 +371,7 @@
                         <label class="wr-input-control checkbox">
                             <input id="wifi-auto-join" type="checkbox" class="form-control operationDataKeys" data-key="wifiAutoJoin" data-default="true" checked="checked" />
                             <span class="helper" title="If unchecked, user has to tap the network name to join it. Available in iOS 5.0 and later.">
-                                &nbsp;&nbsp;&nbsp;Auto Join
+                                &nbsp;&nbsp;&nbsp;EK-Auto_join
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
@@ -383,7 +379,7 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="wifi-displayed-operator-name">
-                            Displayed Operator Name
+                            EK-Displayed_Operator_name
                             <span class="helper" title="Operator name to display. Available in iOS 7.0 and later.">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
@@ -393,7 +389,7 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="wifi-proxy-type">
-                            Proxy Setup
+                            EK-Proxy_setup
                             <span class="helper" title="Configures type of proxy setup to be used with this network. Available in iOS 5.0 and later.">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
@@ -409,14 +405,14 @@
 
                     <div id="manual-proxy-setup" class="slidable-pane" style="display:none;">
 
-                        For Manual Proxy Setup :
+                        EK-For_Manual_Proxy_setup :
                         <br>
                         <br>
 
                         <div class="wr-input-control">
                             <label class="wr-input-label" for="wifi-proxy-server">
-                                Proxy Server <br>
-                                ( Server URL or IP Address )
+                                EK-Proxy_server <br>
+                                ( EK-Server_URL_Or_IP_address )
                                 <span class="helper" title="Proxy server URL or network IP address">
                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                 </span>
@@ -426,7 +422,7 @@
 
                         <div class="wr-input-control">
                             <label class="wr-input-label" for="wifi-proxy-port">
-                                Proxy Server Port
+                                EK-Proxy_Server_port
                                 <span class="helper" title="Proxy server port">
                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                 </span>
@@ -436,7 +432,7 @@
 
                         <div class="wr-input-control">
                             <label class="wr-input-label" for="wifi-proxy-username">
-                                Proxy Username
+                                EK-Proxy_username
                                 <span class="helper" title="Username used to authenticate to the proxy server">
                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                 </span>
@@ -446,7 +442,7 @@
 
                         <div class="wr-input-control">
                             <label class="wr-input-label" for="wifi-proxy-password">
-                                Proxy Password
+                                EK-Proxy_password
                                 <span class="helper" title="Password used to authenticate to the proxy server">
                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                 </span>
@@ -478,7 +474,7 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="wifi-encryption-type">
-                            Encryption Security Type
+                            EK-Encryption_Security_type
                             <span class="helper" title="Wireless network encryption to use when connecting. Available in iOS 4.0 and later. The None value is available in iOS 5.0 and later.">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
@@ -493,13 +489,13 @@
 
                     <div id="advanced-security-config" class="slidable-pane" style="display:none;">
 
-                    For WEP, WPA or ANY Encryption Security Type :
+                    WEP, WPA or ANY EK-Encryption_Security_type :
                     <br>
                     <br>
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="wifi-password">
-                            Wi-Fi Password
+                            EK-WiFi_password
                             <span class="helper" title="Password used for encryption security. Absence of a password does not prevent a network from being added to the list of known networks. The user is eventually prompted to provide the password when connecting to that network.">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
@@ -509,13 +505,13 @@
 
                     <div class="eap-client-config">
 
-                    EAP Client Configuration ( Optional ) :
+                    EAP EK-Client_configuration ( EK-optional ) :
                     <br>
                     <br>
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="wifi-accepted-eap-types">
-                            Accepted EAP Types
+                            EK-Accepted_EAP_types
                             <span class="helper" title="Authentication protocols supported on target network.">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
@@ -576,7 +572,7 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="wifi-eap-username">
-                            Username
+                            EK-username
                             <span class="helper" title="Unless you enter a user name, this property won't appear in an imported configuration. Users can enter this information by themselves when they authenticate.">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
@@ -586,7 +582,7 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="wifi-eap-password">
-                            Password
+                            EK-password
                             <span class="helper" title="If not provided, the user will be prompted during login.">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
@@ -598,7 +594,7 @@
                         <label class="wr-input-control checkbox">
                             <input id="wifi-eap-one-time-password" type="checkbox" class="form-control operationDataKeys" data-key="wifiEAPOneTimePassword" data-default="false" />
                             <span class="helper" title="If checked, the user will be prompted for a password each time they connect to the network.">
-                                &nbsp;&nbsp;&nbsp;One Time Password
+                                &nbsp;&nbsp;&nbsp;EK-One_Time_password
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
@@ -634,7 +630,7 @@
                                 <tbody data-add-form-container="#wifi-payload-certificate-anchor-uuids-grid">
                                     <tr data-help-text="add-form">
                                         <td colspan="3">
-                                            No entries added yet .
+                                            EK-No_Entries_Added_yet
                                         </td>
                                     </tr>
                                 </tbody>
@@ -694,7 +690,7 @@
                                 <tbody data-add-form-container="#wifi-tls-trusted-server-names-grid">
                                     <tr data-help-text="add-form">
                                         <td colspan="3">
-                                            No entries added yet .
+                                            EK-No_Entries_Added_yet
                                         </td>
                                     </tr>
                                 </tbody>
@@ -872,7 +868,7 @@
                                 <tbody data-add-form-container="#wifi-roaming-consortium-ois-grid">
                                 <tr data-help-text="add-form">
                                     <td colspan="3">
-                                        No entries added yet .
+                                        EK-No_Entries_Added_yet
                                     </td>
                                 </tr>
                                 </tbody>
@@ -932,7 +928,7 @@
                                 <tbody data-add-form-container="#wifi-nai-realm-names-grid">
                                     <tr data-help-text="add-form">
                                         <td colspan="3">
-                                            No entries added yet .
+                                            EK-No_Entries_Added_yet
                                         </td>
                                     </tr>
                                 </tbody>
@@ -993,7 +989,7 @@
                                 <tbody data-add-form-container="#wifi-mcc-and-mncs-grid">
                                 <tr data-help-text="add-form">
                                     <td colspan="4">
-                                        No entries added yet .
+                                        EK-No_Entries_Added_yet
                                     </td>
                                 </tr>
                                 </tbody>
@@ -1058,7 +1054,7 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="email-account-description">
-                            Account Description
+                            EK-Account_description
                             <span class="helper" title="Display name of the account. ( e.g. Company Mail Account )">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
@@ -1068,7 +1064,7 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="email-account-type">
-                            Account Type
+                            EK-Account_type
                             <span class="helper" title="Protocol for accessing the email account.">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
@@ -1384,7 +1380,7 @@
                                 <tbody data-add-form-container="#airplay-credentials-grid">
                                     <tr data-help-text="add-form">
                                         <td colspan="4">
-                                            No entries added yet .
+                                            EK-No_Entries_Added_yet
                                         </td>
                                     </tr>
                                 </tbody>
@@ -1447,7 +1443,7 @@
                                 <tbody data-add-form-container="#airplay-destinations-grid">
                                     <tr data-help-text="add-form">
                                         <td colspan="3">
-                                            No entries added yet .
+                                            EK-No_Entries_Added_yet
                                         </td>
                                     </tr>
                                 </tbody>
@@ -1587,7 +1583,7 @@
                                 <tbody data-add-form-container="#ldap-search-settings-grid">
                                     <tr data-help-text="add-form">
                                         <td colspan="5">
-                                            No entries added yet .
+                                            EK-No_Entries_Added_yet
                                         </td>
                                     </tr>
                                 </tbody>
@@ -1872,7 +1868,7 @@
                                 <tbody data-add-form-container="#apn-configurations-grid">
                                     <tr data-help-text="add-form">
                                         <td colspan="7">
-                                            No entries added yet .
+                                            EK-No_Entries_Added_yet
                                         </td>
                                     </tr>
                                 </tbody>
@@ -2022,7 +2018,7 @@
                                 <tbody data-add-form-container="#cellular-apn-configurations-grid">
                                     <tr data-help-text="add-form">
                                         <td colspan="8">
-                                            No entries added yet .
+                                            EK-No_Entries_Added_yet
                                         </td>
                                     </tr>
                                 </tbody>
@@ -2882,7 +2878,7 @@
                                             <tbody data-add-form-container="#restrictions-autonomous-single-app-mode-permitted-app-ids-grid">
                                                 <tr data-help-text="add-form">
                                                     <td colspan="3">
-                                                        No entries added yet .
+                                                        EK-No_Entries_Added_yet
                                                     </td>
                                                 </tr>
                                             </tbody>
