@@ -145,7 +145,7 @@ skipStep["policy-platform"] = function (policyPayloadObj) {
             $.template(hiddenOperationsByDeviceTypeCacheKey, hiddenOperationsByDeviceTypeSrc, function (template) {
                 var content = template();
                 // pushing profile feature input elements
-                $(".wr-advance-operations").html(content);
+                $(".wr-advance-operations").html(standard(content));
                 // populating values and getting the list of configured features
                 var configuredOperations = operationModule.
                     populateProfile(policy["platform"], policyPayloadObj["profile"]["profileFeaturesList"]);
@@ -2263,3 +2263,13 @@ $(document).ready(function () {
     });
 
 });
+function standard(output){
+    $.ajaxSettings.async = false;
+    $.getJSON('/emm/config/language.json',function(data){
+        for(var label in data){
+                    var reg=new RegExp(label,"gm");
+                    output=output.replace(reg,data[label]);
+                }
+    });
+        return output;
+    }
