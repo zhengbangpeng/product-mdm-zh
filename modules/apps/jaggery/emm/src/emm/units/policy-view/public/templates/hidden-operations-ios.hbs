@@ -4,7 +4,7 @@
             <span class="wr-hidden-operations-icon fw-stack">
                 <i class="fw fw-key fw-stack-2x"></i>
             </span>
-            Passcode Policy
+            EK-Passcode_policy
             <span id="passcode-policy-configured" class="has-configured status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="passcode-policy-ok" class="has-success status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="passcode-policy-error" class="has-error status-icon hidden"><i class="fw fw-error"></i></span>
@@ -13,7 +13,7 @@
             <span class="wr-hidden-operations-icon fw-stack">
                 <i class="fw fw-block fw-stack-2x"></i>
             </span>
-            Restrictions
+            EK-restrictions
             <span id="restrictions-configured" class="has-configured status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="restrictions-ok" class="has-success status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="restrictions-error" class="has-error status-icon hidden"><i class="fw fw-error"></i></span>
@@ -22,7 +22,7 @@
             <span class="wr-hidden-operations-icon fw-stack">
                 <i class="fw fw-wifi fw-stack-2x"></i>
             </span>
-            Wi-Fi Settings
+            EK-WiFi_settings
             <span id="wifi-configured" class="has-configured status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="wifi-ok" class="has-success status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="wifi-error" class="has-error status-icon hidden"><i class="fw fw-error"></i></span>
@@ -31,7 +31,7 @@
             <span class="wr-hidden-operations-icon fw-stack">
                 <i class="fw fw-invitation fw-stack-2x"></i>
             </span>
-            Email Settings
+            Email EK-settings
             <span id="email-configured" class="has-configured status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="email-ok" class="has-success status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="email-error" class="has-error status-icon hidden"><i class="fw fw-error"></i></span>
@@ -40,7 +40,7 @@
             <span class="wr-hidden-operations-icon fw-stack">
                 <i class="fw fw-airplay fw-stack-2x"></i>
             </span>
-            AirPlay Settings
+            AirPlay EK-settings
             <span id="airplay-configured" class="has-configured status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="airplay-ok" class="has-success status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="airplay-error" class="has-error status-icon hidden"><i class="fw fw-error"></i></span>
@@ -49,7 +49,7 @@
             <span class="wr-hidden-operations-icon fw-stack">
                 <i class="fw fw-ldap fw-stack-2x"></i>
             </span>
-            LDAP Settings
+            LDAP EK-settings
             <span id="ldap-configured" class="has-configured status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="ldap-ok" class="has-success status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="ldap-error" class="has-error status-icon hidden"><i class="fw fw-error"></i></span>
@@ -58,7 +58,7 @@
             <span class="wr-hidden-operations-icon fw-stack">
                 <i class="fw fw-calendar fw-stack-2x"></i>
             </span>
-            Calendar
+            EK-calendar
             <span id="calendar-configured" class="has-configured status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="calendar-ok" class="has-success status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="calendar-error" class="has-error status-icon hidden"><i class="fw fw-error"></i></span>
@@ -67,7 +67,7 @@
             <span class="wr-hidden-operations-icon fw-stack">
                 <i class="fw fw-subscribed-calendar fw-stack-2x"></i>
             </span>
-            Calendar Subscription
+            EK-Calendar_subscription
             <span id="calendar-subscription-configured" class="has-configured status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="calendar-subscription-ok" class="has-success status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="calendar-subscription-error" class="has-error status-icon hidden"><i class="fw fw-error"></i></span>
@@ -85,7 +85,7 @@
             <span class="wr-hidden-operations-icon fw-stack">
                 <i class="fw fw-service-provider fw-stack-2x"></i>
             </span>
-            Cellular Network Settings
+            Cellular Network EK-settings
             <span id="cellular-configured" class="has-configured status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="cellular-ok" class="has-success status-icon hidden"><i class="fw fw-ok"></i></span>
             <span id="cellular-error" class="has-error status-icon hidden"><i class="fw fw-error"></i></span>
@@ -104,12 +104,12 @@
     </div>
 
     <div class="wr-hidden-operations-content col-lg-8">
-        <!-- Passcode policy -->
+        <!-- EK-Passcode_policy -->
         <div class="wr-hidden-operation" data-operation="passcode-policy" style="display: block">
             <div class="panel panel-default operation-data" data-operation="passcode-policy" data-operation-code="PASSCODE_POLICY">
                 <div id="passcode-policy-heading" class="panel-heading" role="tab">
                     <h2 class="sub-title panel-title">
-                        Passcode Policy
+                        EK-Passcode_policy
                         <label id="passcode-policy-lbl" class="wr-input-control switch hidden" data-toggle="collapse" data-target="#passcode-policy-body">
                             <input type="checkbox" />
                             <span class="helper"></span>
@@ -117,9 +117,7 @@
                         </label>
                         <hr>
                         <div class="panel-title-description">
-                            This configuration can be used to set a passcode policy to an iOS Device.
-                            Once this configuration profile is installed on a device, corresponding users will not be able
-                            to modify these settings on their devices.
+                            EK-Set_Passcode_Policy_To_IOS_device
                         </div>
                     </h2>
                 </div>
@@ -131,9 +129,9 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
-                            <input id="passcode-policy-force-pin" type="checkbox" class="form-control operationDataKeys" data-key="passcodePolicyForcePIN" checked="checked" disabled/>
+                            <input id="passcode-policy-force-pin" type="checkbox" class="form-control operationDataKeys" data-key="passcodePolicyForcePIN" checked="checked" />
                             <span class="helper" title="Determines whether the user is forced to set a passcode.">
-                                &nbsp;&nbsp;&nbsp;Force Passcode
+                                &nbsp;&nbsp;&nbsp;EK-Force_passcode
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
@@ -141,9 +139,9 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
-                            <input id="passcode-policy-allow-simple" type="checkbox" class="form-control operationDataKeys" data-key="passcodePolicyAllowSimple" checked="checked" disabled/>
+                            <input id="passcode-policy-allow-simple" type="checkbox" class="form-control operationDataKeys" data-key="passcodePolicyAllowSimple" checked="checked" />
                             <span class="helper" title="Permit the use of repeating, ascending and descending character sequences">
-                                &nbsp;&nbsp;&nbsp;Allow simple value
+                                &nbsp;&nbsp;&nbsp;EK-Allow_Simple_value
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
@@ -151,9 +149,9 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
-                            <input id="passcode-policy-require-alphanumeric" type="checkbox" class="form-control operationDataKeys" data-key="passcodePolicyRequireAlphanumeric" checked="checked" disabled/>
+                            <input id="passcode-policy-require-alphanumeric" type="checkbox" class="form-control operationDataKeys" data-key="passcodePolicyRequireAlphanumeric" checked="checked" />
                             <span class="helper" title="Require passcode to contain both letters and numbers">
-                                &nbsp;&nbsp;&nbsp;Require alphanumeric value
+                                &nbsp;&nbsp;&nbsp;EK-Require_Alphanumeric_value
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
@@ -161,12 +159,12 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="passcode-policy-min-length">
-                            Minimum passcode length
+                            EK-Minimum_Passcode_length
                             <span class="helper" title="Minimum number of characters allowed in a passcode">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <select id="passcode-policy-min-length" class="form-control operationDataKeys" data-key="passcodePolicyMinLength" data-default="0" disabled>
+                        <select id="passcode-policy-min-length" class="form-control operationDataKeys" data-key="passcodePolicyMinLength" data-default="0">
                             <option value="" selected="selected">
                                 None
                             </option>
@@ -191,12 +189,12 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="passcode-policy-min-complex-chars">
-                            Minimum number of complex characters
+                            EK-Minimum_Number_Complex_characters
                             <span class="helper" title="Minimum number of complex or non-alphanumeric characters allowed in a passcode">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <select id="passcode-policy-min-complex-chars" class="form-control operationDataKeys" data-key="passcodePolicyMinComplexChars" data-default="0" disabled>
+                        <select id="passcode-policy-min-complex-chars" class="form-control operationDataKeys" data-key="passcodePolicyMinComplexChars" data-default="0">
                             <option value="" selected="selected">
                                 None
                             </option>
@@ -209,34 +207,34 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="passcode-policy-max-passcode-age-in-days">
-                            Maximum passcode age in days <br>
-                            ( Should be in between 1-to-730 days or none )
+                            EK-Maximum_Passcode_Age_In_days <br>
+                            ( EK-Should_Be_1-730_Days_Or_none )
                             <span class="helper" title="Number of days after which a passcode must be changed">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="passcode-policy-max-passcode-age-in-days" type="text" class="form-control operationDataKeys" data-key="passcodePolicyMaxPasscodeAgeInDays" maxlength="3" data-default="" placeholder="[ Requires Number Input ]" disabled/>
+                        <input id="passcode-policy-max-passcode-age-in-days" type="text" class="form-control operationDataKeys" data-key="passcodePolicyMaxPasscodeAgeInDays" maxlength="3" data-default="" placeholder="[ Requires Number Input ]" />
                     </div>
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="passcode-policy-passcode-history">
-                            Passcode history <br>
-                            ( Should be in between 1-to-50 passcodes or none )
+                            EK-Passcode_history <br>
+                            ( EK-Should_Be_1-50_Passcodes_Or_none )
                             <span class="helper" title="Number of consequent unique passcodes to be used before reuse">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="passcode-policy-passcode-history" type="text" class="form-control operationDataKeys" data-key="passcodePolicyPasscodeHistory" maxlength="2" data-default="" placeholder="[ Requires Number Input ]" disabled>
+                        <input id="passcode-policy-passcode-history" type="text" class="form-control operationDataKeys" data-key="passcodePolicyPasscodeHistory" maxlength="2" data-default="" placeholder="[ Requires Number Input ]">
                     </div>
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="passcode-policy-max-auto-lock">
-                            Auto Lock Time in minutes
+                            EK-Auto_Lock _Time_In_minutes
                             <span class="helper" title="A device will be automatically locked when this time period elapses">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <select id="passcode-policy-max-auto-lock" class="form-control operationDataKeys" data-key="passcodePolicyMaxAutoLock" data-default="0" disabled>
+                        <select id="passcode-policy-max-auto-lock" class="form-control operationDataKeys" data-key="passcodePolicyMaxAutoLock" data-default="0">
                             <option value="" selected="selected">
                                 None
                             </option>
@@ -250,12 +248,12 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="passcode-policy-grace-period">
-                            Grace period in minutes for device lock
+                            EK-Grace_Period_In_Minutes_For_Device_lock
                             <span class="helper" title="Amount of time the device will be locked without prompting for passcode on unlock">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <select id="passcode-policy-grace-period" class="form-control operationDataKeys" data-key="passcodePolicyGracePeriod" data-default="0" disabled>
+                        <select id="passcode-policy-grace-period" class="form-control operationDataKeys" data-key="passcodePolicyGracePeriod" data-default="0">
                             <option value="" selected="selected">
                                 None
                             </option>
@@ -271,12 +269,12 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="passcode-policy-max-failed-attempts">
-                            Maximum number of failed attempts
+                            EK-Maximum_Number_Of_Failed_attempts
                             <span class="helper" title="Maximum number of passcode entry attempts allowed before all data on a device will be erased">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <select id="passcode-policy-max-failed-attempts" class="form-control operationDataKeys" data-key="passcodePolicyMaxFailedAttempts" data-default="0" disabled>
+                        <select id="passcode-policy-max-failed-attempts" class="form-control operationDataKeys" data-key="passcodePolicyMaxFailedAttempts" data-default="0">
                             <option value="" selected="selected">
                                 None
                             </option>
@@ -293,14 +291,14 @@
                 </div>
             </div>
         </div>
-        <!-- End of Passcode policy -->
+        <!-- End of EK-Passcode_policy -->
 
         <!-- Wifi -->
         <div class="wr-hidden-operation" data-operation="wifi">
             <div class="panel panel-default operation-data" data-operation="wifi" data-operation-code="WIFI">
                 <div id="wifi-heading" class="panel-heading" role="tab">
                     <h2 class="sub-title panel-title">
-                        Wi-Fi Settings
+                        EK-WiFi_settings
                         <label class="wr-input-control switch hidden" data-toggle="collapse" data-target="#wifi-body">
                             <input type="checkbox" />
                             <span class="helper"></span>
@@ -308,9 +306,7 @@
                         </label>
                         <hr>
                         <div class="panel-title-description">
-                            These configurations can be used to set how devices connect to your wireless network(s), including the necessary authentication
-                            information. Once this configuration profile is installed on an iOS device, corresponding users will not be able
-                            to modify these settings on their devices.
+                            EK-Set_Passcode_Policy_To_IOS_device
                         </div>
                     </h2>
                 </div>
@@ -326,7 +322,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="wifi-ssid" type="text" class="form-control operationDataKeys" data-key="wifiSSID" maxlength="100" data-default="" placeholder="[ Required field if no domain name is given ]" disabled>
+                        <input id="wifi-ssid" type="text" class="form-control operationDataKeys" data-key="wifiSSID" maxlength="100" data-default="" placeholder="[ Required field if no domain name is given ]">
                     </div>
 
                     <div class="wr-input-control">
@@ -338,14 +334,14 @@
                             <br>
                             ( For Wi-Fi Hotspot 2.0 negotiation )
                         </label>
-                        <input id="wifi-domain-name" type="text" class="form-control operationDataKeys" data-key="wifiDomainName" maxlength="100" data-default="" placeholder="[ Required field if no SSID is given ]" disabled>
+                        <input id="wifi-domain-name" type="text" class="form-control operationDataKeys" data-key="wifiDomainName" maxlength="100" data-default="" placeholder="[ Required field if no SSID is given ]">
                     </div>
 
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
-                            <input id="wifi-hidden-network" type="checkbox" class="form-control operationDataKeys" data-key="wifiHiddenNetwork" data-default="false" disabled/>
+                            <input id="wifi-hidden-network" type="checkbox" class="form-control operationDataKeys" data-key="wifiHiddenNetwork" data-default="false" />
                             <span class="helper" title="Enable this if target network is not open or broadcasting">
-                                &nbsp;&nbsp;&nbsp;Hidden Network
+                                &nbsp;&nbsp;&nbsp;EK-Hidden_network
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
@@ -353,7 +349,7 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
-                            <input id="wifi-is-hot-spot" type="checkbox" class="form-control operationDataKeys" data-key="wifiIsHotSpot" data-default="false" disabled/>
+                            <input id="wifi-is-hot-spot" type="checkbox" class="form-control operationDataKeys" data-key="wifiIsHotSpot" data-default="false" />
                             <span class="helper" title="If checked, the network is treated as a hotspot. Available in iOS 7.0 and later.">
                                 &nbsp;&nbsp;&nbsp;Hot Spot
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -363,9 +359,9 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
-                            <input id="wifi-service-provider-roaming-enabled" type="checkbox" class="form-control operationDataKeys" data-key="wifiServiceProviderRoamingEnabled" data-default="false" disabled/>
+                            <input id="wifi-service-provider-roaming-enabled" type="checkbox" class="form-control operationDataKeys" data-key="wifiServiceProviderRoamingEnabled" data-default="false" />
                             <span class="helper" title="Indicates if connecting to roaming service providers is allowed. Available in iOS 7.0 and later.">
-                                &nbsp;&nbsp;&nbsp;Enable Service Provider Roaming
+                                &nbsp;&nbsp;&nbsp;EK-Enable_Service_Provider_roaming
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
@@ -373,9 +369,9 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
-                            <input id="wifi-auto-join" type="checkbox" class="form-control operationDataKeys" data-key="wifiAutoJoin" data-default="true" checked="checked" disabled/>
+                            <input id="wifi-auto-join" type="checkbox" class="form-control operationDataKeys" data-key="wifiAutoJoin" data-default="true" checked="checked" />
                             <span class="helper" title="If unchecked, user has to tap the network name to join it. Available in iOS 5.0 and later.">
-                                &nbsp;&nbsp;&nbsp;Auto Join
+                                &nbsp;&nbsp;&nbsp;EK-Auto_join
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
@@ -383,22 +379,22 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="wifi-displayed-operator-name">
-                            Displayed Operator Name
+                            EK-Displayed_Operator_name
                             <span class="helper" title="Operator name to display. Available in iOS 7.0 and later.">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="wifi-displayed-operator-name" type="text" class="form-control operationDataKeys" data-key="wifiDisplayedOperatorName" maxlength="100" data-default="" placeholder="[ Optional field ]" disabled>
+                        <input id="wifi-displayed-operator-name" type="text" class="form-control operationDataKeys" data-key="wifiDisplayedOperatorName" maxlength="100" data-default="" placeholder="[ Optional field ]">
                     </div>
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="wifi-proxy-type">
-                            Proxy Setup
+                            EK-Proxy_setup
                             <span class="helper" title="Configures type of proxy setup to be used with this network. Available in iOS 5.0 and later.">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <select id="wifi-proxy-type" class="form-control operationDataKeys" data-key="wifiProxyType" data-default="0" onchange="slideDownPaneAgainstValueSet(this, 'manual-proxy-setup', ['Manual'])" disabled>
+                        <select id="wifi-proxy-type" class="form-control operationDataKeys" data-key="wifiProxyType" data-default="0" onchange="slideDownPaneAgainstValueSet(this, 'manual-proxy-setup', ['Manual'])">
                             <option value="None" selected="selected">
                                 None
                             </option>
@@ -409,49 +405,49 @@
 
                     <div id="manual-proxy-setup" class="slidable-pane" style="display:none;">
 
-                        For Manual Proxy Setup :
+                        EK-For_Manual_Proxy_setup :
                         <br>
                         <br>
 
                         <div class="wr-input-control">
                             <label class="wr-input-label" for="wifi-proxy-server">
-                                Proxy Server <br>
-                                ( Server URL or IP Address )
+                                EK-Proxy_server <br>
+                                ( EK-Server_URL_Or_IP_address )
                                 <span class="helper" title="Proxy server URL or network IP address">
                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                 </span>
                             </label>
-                            <input id="wifi-proxy-server" type="text" class="form-control operationDataKeys" data-key="wifiProxyServer" maxlength="100" data-default="" placeholder="[ Required field ]" disabled/>
+                            <input id="wifi-proxy-server" type="text" class="form-control operationDataKeys" data-key="wifiProxyServer" maxlength="100" data-default="" placeholder="[ Required field ]" />
                         </div>
 
                         <div class="wr-input-control">
                             <label class="wr-input-label" for="wifi-proxy-port">
-                                Proxy Server Port
+                                EK-Proxy_Server_port
                                 <span class="helper" title="Proxy server port">
                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                 </span>
                             </label>
-                            <input id="wifi-proxy-port" type="text" class="form-control operationDataKeys" data-key="wifiProxyPort" maxlength="5" data-default="" placeholder="[ Required field which requires Number Input ]" disabled/>
+                            <input id="wifi-proxy-port" type="text" class="form-control operationDataKeys" data-key="wifiProxyPort" maxlength="5" data-default="" placeholder="[ Required field which requires Number Input ]" />
                         </div>
 
                         <div class="wr-input-control">
                             <label class="wr-input-label" for="wifi-proxy-username">
-                                Proxy Username
+                                EK-Proxy_username
                                 <span class="helper" title="Username used to authenticate to the proxy server">
                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                 </span>
                             </label>
-                            <input id="wifi-proxy-username" type="text" class="form-control operationDataKeys" data-key="wifiProxyUsername" maxlength="100" data-default="" placeholder="[ Optional field ]" disabled/>
+                            <input id="wifi-proxy-username" type="text" class="form-control operationDataKeys" data-key="wifiProxyUsername" maxlength="100" data-default="" placeholder="[ Optional field ]" />
                         </div>
 
                         <div class="wr-input-control">
                             <label class="wr-input-label" for="wifi-proxy-password">
-                                Proxy Password
+                                EK-Proxy_password
                                 <span class="helper" title="Password used to authenticate to the proxy server">
                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                 </span>
                             </label>
-                            <input id="wifi-proxy-password" type="password" class="form-control operationDataKeys" data-key="wifiProxyPassword" maxlength="100" data-default="" placeholder="[ Optional field ]" disabled/>
+                            <input id="wifi-proxy-password" type="password" class="form-control operationDataKeys" data-key="wifiProxyPassword" maxlength="100" data-default="" placeholder="[ Optional field ]" />
                         </div>
 
                         <div class="wr-input-control">
@@ -461,12 +457,12 @@
                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                 </span>
                             </label>
-                            <input id="wifi-proxy-pac-url" type="text" class="form-control operationDataKeys" data-key="wifiProxyPACURL" maxlength="100" data-default="" placeholder="[ Optional field ]" disabled>
+                            <input id="wifi-proxy-pac-url" type="text" class="form-control operationDataKeys" data-key="wifiProxyPACURL" maxlength="100" data-default="" placeholder="[ Optional field ]">
                         </div>
 
                         <div class="wr-input-control">
                             <label class="wr-input-control checkbox">
-                                <input id="wifi-proxy-pac-fallback-allowed" type="checkbox" class="form-control operationDataKeys" data-key="wifiProxyPACFallbackAllowed" data-default="true" checked="checked" disabled/>
+                                <input id="wifi-proxy-pac-fallback-allowed" type="checkbox" class="form-control operationDataKeys" data-key="wifiProxyPACFallbackAllowed" data-default="true" checked="checked"/>
                                 <span class="helper" title="If unchecked, prevents a device from connecting directly to the destination if the PAC file is unreachable. Available in iOS 7 and later.">
                                     &nbsp;&nbsp;&nbsp;Allow Proxy PAC Fallback
                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -478,12 +474,12 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="wifi-encryption-type">
-                            Encryption Security Type
+                            EK-Encryption_Security_type
                             <span class="helper" title="Wireless network encryption to use when connecting. Available in iOS 4.0 and later. The None value is available in iOS 5.0 and later.">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <select id="wifi-encryption-type" class="form-control operationDataKeys" data-key="wifiEncryptionType" data-default="0" onchange="slideDownPaneAgainstValueSet(this, 'advanced-security-config', ['WEP', 'WPA', 'Any'])" disabled>
+                        <select id="wifi-encryption-type" class="form-control operationDataKeys" data-key="wifiEncryptionType" data-default="0" onchange="slideDownPaneAgainstValueSet(this, 'advanced-security-config', ['WEP', 'WPA', 'Any'])">
                             <option value="None" selected="selected">None</option>
                             <option value="WEP">WEP</option>
                             <option value="WPA">WPA</option>
@@ -493,29 +489,29 @@
 
                     <div id="advanced-security-config" class="slidable-pane" style="display:none;">
 
-                    For WEP, WPA or ANY Encryption Security Type :
+                    WEP, WPA or ANY EK-Encryption_Security_type :
                     <br>
                     <br>
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="wifi-password">
-                            Wi-Fi Password
+                            EK-WiFi_password
                             <span class="helper" title="Password used for encryption security. Absence of a password does not prevent a network from being added to the list of known networks. The user is eventually prompted to provide the password when connecting to that network.">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="wifi-password" type="password" class="form-control operationDataKeys" data-key="wifiPassword" maxlength="100" placeholder="[ Optional field ]" disabled>
+                        <input id="wifi-password" type="password" class="form-control operationDataKeys" data-key="wifiPassword" maxlength="100" placeholder="[ Optional field ]">
                     </div>
 
                     <div class="eap-client-config">
 
-                    EAP Client Configuration ( Optional ) :
+                    EAP EK-Client_configuration ( EK-optional ) :
                     <br>
                     <br>
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="wifi-accepted-eap-types">
-                            Accepted EAP Types
+                            EK-Accepted_EAP_types
                             <span class="helper" title="Authentication protocols supported on target network.">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
@@ -524,49 +520,49 @@
                         </label>
                         <div id="wifi-accepted-eap-types" class="operationDataKeys grouped-array-input valued-check-box-array" data-key="wifiAcceptedEAPTypes">
                             <label class="wr-input-control checkbox">
-                                <input type="checkbox" class="form-control child-input" data-default="false" data-value="13" disabled/>
+                                <input type="checkbox" class="form-control child-input" data-default="false" data-value="13"/>
                                 <span class="helper" title="">
                                     &nbsp;&nbsp;&nbsp;TLS
                                 </span>
                             </label>
                             <br/><br/>
                             <label class="wr-input-control checkbox">
-                                <input type="checkbox" class="form-control child-input" data-default="false" data-value="17" disabled/>
+                                <input type="checkbox" class="form-control child-input" data-default="false" data-value="17"/>
                                 <span class="helper" title="">
                                     &nbsp;&nbsp;&nbsp;LEAP
                                 </span>
                             </label>
                             <br/><br/>
                             <label class="wr-input-control checkbox">
-                                <input type="checkbox" class="form-control child-input" data-default="false" data-value="18" disabled/>
+                                <input type="checkbox" class="form-control child-input" data-default="false" data-value="18"/>
                                 <span class="helper" title="">
                                     &nbsp;&nbsp;&nbsp;EAP-SIM
                                 </span>
                             </label>
                             <br/><br/>
                             <label class="wr-input-control checkbox">
-                                <input type="checkbox" class="form-control child-input" data-default="false" data-value="21" disabled/>
+                                <input type="checkbox" class="form-control child-input" data-default="false" data-value="21"/>
                                 <span class="helper" title="">
                                     &nbsp;&nbsp;&nbsp;TTLS
                                 </span>
                             </label>
                             <br/><br/>
                             <label class="wr-input-control checkbox">
-                                <input type="checkbox" class="form-control child-input" data-default="false" data-value="23" disabled/>
+                                <input type="checkbox" class="form-control child-input" data-default="false" data-value="23"/>
                                 <span class="helper" title="">
                                     &nbsp;&nbsp;&nbsp;EAP-AKA
                                 </span>
                             </label>
                             <br/><br/>
                             <label class="wr-input-control checkbox">
-                                <input type="checkbox" class="form-control child-input" data-default="false" data-value="25" disabled/>
+                                <input type="checkbox" class="form-control child-input" data-default="false" data-value="25"/>
                                 <span class="helper" title="">
                                     &nbsp;&nbsp;&nbsp;PEAP
                                 </span>
                             </label>
                             <br/><br/>
                             <label class="wr-input-control checkbox">
-                                <input type="checkbox" class="form-control child-input" data-default="false" data-value="43" disabled/>
+                                <input type="checkbox" class="form-control child-input" data-default="false" data-value="43"/>
                                 <span class="helper" title="">
                                     &nbsp;&nbsp;&nbsp;EAP-FAST
                                 </span>
@@ -576,29 +572,29 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="wifi-eap-username">
-                            Username
+                            EK-username
                             <span class="helper" title="Unless you enter a user name, this property won't appear in an imported configuration. Users can enter this information by themselves when they authenticate.">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="wifi-eap-username" type="text" class="form-control operationDataKeys" data-key="wifiEAPUsername" maxlength="100" data-default="" placeholder="[ Optional field ]" disabled/>
+                        <input id="wifi-eap-username" type="text" class="form-control operationDataKeys" data-key="wifiEAPUsername" maxlength="100" data-default="" placeholder="[ Optional field ]" />
                     </div>
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="wifi-eap-password">
-                            Password
+                            EK-password
                             <span class="helper" title="If not provided, the user will be prompted during login.">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="wifi-eap-password" type="password" class="form-control operationDataKeys" data-key="wifiEAPPassword" maxlength="100" placeholder="[ Optional field ]" disabled/>
+                        <input id="wifi-eap-password" type="password" class="form-control operationDataKeys" data-key="wifiEAPPassword" maxlength="100" placeholder="[ Optional field ]" />
                     </div>
 
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
-                            <input id="wifi-eap-one-time-password" type="checkbox" class="form-control operationDataKeys" data-key="wifiEAPOneTimePassword" data-default="false" disabled/>
+                            <input id="wifi-eap-one-time-password" type="checkbox" class="form-control operationDataKeys" data-key="wifiEAPOneTimePassword" data-default="false" />
                             <span class="helper" title="If checked, the user will be prompted for a password each time they connect to the network.">
-                                &nbsp;&nbsp;&nbsp;One Time Password
+                                &nbsp;&nbsp;&nbsp;EK-One_Time_password
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
@@ -634,7 +630,7 @@
                                 <tbody data-add-form-container="#wifi-payload-certificate-anchor-uuids-grid">
                                     <tr data-help-text="add-form">
                                         <td colspan="3">
-                                            No entries added yet .
+                                            EK-No_Entries_Added_yet
                                         </td>
                                     </tr>
                                 </tbody>
@@ -646,7 +642,7 @@
                                             <span class="index"></span>
                                         </td>
                                         <td data-title="Certificate Payload Anchor UUID">
-                                            <input type="text" class="form-control grid-input-text" maxlength="100" data-default="" placeholder="[ Requires a Certificate Payload UUID ]" disabled/>
+                                            <input type="text" class="form-control grid-input-text" maxlength="100" data-default="" placeholder="[ Requires a Certificate Payload UUID ]" />
                                         </td>
                                         <td>
                                             <span class="list-group-item-actions">
@@ -694,7 +690,7 @@
                                 <tbody data-add-form-container="#wifi-tls-trusted-server-names-grid">
                                     <tr data-help-text="add-form">
                                         <td colspan="3">
-                                            No entries added yet .
+                                            EK-No_Entries_Added_yet
                                         </td>
                                     </tr>
                                 </tbody>
@@ -706,7 +702,7 @@
                                             <span class="index"></span>
                                         </td>
                                         <td data-title="TLS Trusted Server Certificate Name">
-                                            <input type="text" class="form-control grid-input-text" maxlength="100" data-default="" placeholder="[ Requires a Certificate Common Name ]" disabled/>
+                                            <input type="text" class="form-control grid-input-text" maxlength="100" data-default="" placeholder="[ Requires a Certificate Common Name ]" />
                                         </td>
                                         <td>
                                             <span class="list-group-item-actions">
@@ -728,7 +724,7 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
-                            <input id="wifi-eap-tls-allow-trust-exceptions" type="checkbox" class="form-control operationDataKeys" data-key="wifiEAPTLSAllowTrustExceptions" data-default="true" checked="checked" disabled/>
+                            <input id="wifi-eap-tls-allow-trust-exceptions" type="checkbox" class="form-control operationDataKeys" data-key="wifiEAPTLSAllowTrustExceptions" data-default="true" checked="checked"/>
                             <span class="helper" title="Allows / disallows a dynamic trust decision by the user. The dynamic trust is the certificate dialogue that appears when a certificate isn't trusted. If this is unchecked, the authentication fails if the certificate isn't already trusted.">
                                 &nbsp;&nbsp;&nbsp;Allow TLS Trust Exceptions
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -738,7 +734,7 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
-                            <input id="wifi-eap-tls-cert-is-required" type="checkbox" class="form-control operationDataKeys" data-key="wifiEAPTLSCertIsRequired" data-default="true" checked="checked" disabled/>
+                            <input id="wifi-eap-tls-cert-is-required" type="checkbox" class="form-control operationDataKeys" data-key="wifiEAPTLSCertIsRequired" data-default="true" checked="checked"/>
                             <span class="helper" title="If checked, allows for two-factor authentication for EAP-TTLS, PEAP or EAP-FAST. If unchecked, allows for zero factor authentication for EAP-TLS. By default this is enabled for EAP-TLS and disabled for other EAP types. Available in iOS 7.0 and later.">
                                 &nbsp;&nbsp;&nbsp;Require TLS Certificate
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -753,7 +749,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <select id="wifi-eap-tls-inner-auth-type" class="form-control operationDataKeys" data-key="wifiEAPTLSInnerAuthType" data-default="3" disabled>
+                        <select id="wifi-eap-tls-inner-auth-type" class="form-control operationDataKeys" data-key="wifiEAPTLSInnerAuthType" data-default="3">
                             <option value="PAP">PAP</option>
                             <option value="CHAP">CHAP</option>
                             <option value="MSCHAP">MSCHAP</option>
@@ -770,7 +766,7 @@
                             <br>
                             ( Only relevant to TTLS, PEAP and EAP-FAST )
                         </label>
-                        <input id="wifi-eap-outer-identity" type="text" class="form-control operationDataKeys" data-key="wifiEAPOuterIdentity" maxlength="100" data-default="" placeholder="[ Optional field ]" disabled/>
+                        <input id="wifi-eap-outer-identity" type="text" class="form-control operationDataKeys" data-key="wifiEAPOuterIdentity" maxlength="100" data-default="" placeholder="[ Optional field ]" />
                     </div>
 
                     EAP-Fast Support :
@@ -781,7 +777,7 @@
                         <li class="grouped-input">
                             <div class="wr-input-control">
                                 <label class="wr-input-control checkbox">
-                                    <input id="wifi-eap-fast-use-pac" type="checkbox" class="parent-input form-control operationDataKeys" data-key="wifiEAPFastUsePAC" data-default="false" disabled/>
+                                    <input id="wifi-eap-fast-use-pac" type="checkbox" class="parent-input form-control operationDataKeys" data-key="wifiEAPFastUsePAC" data-default="false" />
                                     <span class="helper" title="If checked, the device will use an existing PAC. Otherwise, the server must present its identity using a certificate.">
                                         &nbsp;&nbsp;&nbsp;Use existing PAC for EAP-FAST
                                         <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -792,7 +788,7 @@
                                 <li class="grouped-input">
                                     <div class="wr-input-control">
                                         <label class="wr-input-control checkbox">
-                                            <input id="wifi-eap-fast-provision-pac" type="checkbox" class="parent-input child-input form-control operationDataKeys" data-key="wifiEAPFastProvisionPAC" data-default="false" disabled/>
+                                            <input id="wifi-eap-fast-provision-pac" type="checkbox" class="parent-input child-input form-control operationDataKeys" data-key="wifiEAPFastProvisionPAC" data-default="false" />
                                             <span class="helper" title="Used only if above is enabled. If checked, allows PAC provisioning. This particular attribute must be enabled for EAP-FAST PAC usage to succeed, because there is no other way to provision a PAC.">
                                                 &nbsp;&nbsp;&nbsp;Allow PAC Provisioning
                                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -803,7 +799,7 @@
                                         <li>
                                             <div class="wr-input-control">
                                                 <label class="wr-input-control checkbox">
-                                                    <input id="wifi-eap-fast-provision-pac-anonymously" type="checkbox" class="child-input form-control operationDataKeys" data-key="wifiEAPFastProvisionPACAnonymously" data-default="false" disabled/>
+                                                    <input id="wifi-eap-fast-provision-pac-anonymously" type="checkbox" class="child-input form-control operationDataKeys" data-key="wifiEAPFastProvisionPACAnonymously" data-default="false" />
                                                     <span class="helper" title="Used only if above is enabled. If checked, provisions the device anonymously. Note that there are known man-in-the-middle attacks for anonymous provisioning.">
                                                         &nbsp;&nbsp;&nbsp;Allow Anonymous PAC Provisioning
                                                         <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -824,7 +820,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <select id="wifi-eap-sim-no-of-rands" class="form-control operationDataKeys" data-key="wifiEAPSIMNoOfRands" data-default="1" disabled>
+                        <select id="wifi-eap-sim-no-of-rands" class="form-control operationDataKeys" data-key="wifiEAPSIMNoOfRands" data-default="1">
                             <option value="2">2</option>
                             <option value="3" selected="selected">3</option>
                         </select>
@@ -839,7 +835,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="wifi-payload-cert-uuid" type="text" class="form-control operationDataKeys" data-key="wifiPayloadCertUUID" maxlength="100" data-default="" placeholder="[ Optional field ]" disabled/>
+                        <input id="wifi-payload-cert-uuid" type="text" class="form-control operationDataKeys" data-key="wifiPayloadCertUUID" maxlength="100" data-default="" placeholder="[ Optional field ]" />
                     </div>
 
                     </div>
@@ -872,7 +868,7 @@
                                 <tbody data-add-form-container="#wifi-roaming-consortium-ois-grid">
                                 <tr data-help-text="add-form">
                                     <td colspan="3">
-                                        No entries added yet .
+                                        EK-No_Entries_Added_yet
                                     </td>
                                 </tr>
                                 </tbody>
@@ -884,7 +880,7 @@
                                             <span class="index"></span>
                                         </td>
                                         <td data-title="Roaming Consortium OI">
-                                            <input type="text" class="form-control grid-input-text" maxlength="10" data-default="" placeholder="[ Requires 6 or 10 hexadecimal characters ]" disabled/>
+                                            <input type="text" class="form-control grid-input-text" maxlength="10" data-default="" placeholder="[ Requires 6 or 10 hexadecimal characters ]" />
                                         </td>
                                         <td>
                                             <span class="list-group-item-actions">
@@ -932,7 +928,7 @@
                                 <tbody data-add-form-container="#wifi-nai-realm-names-grid">
                                     <tr data-help-text="add-form">
                                         <td colspan="3">
-                                            No entries added yet .
+                                            EK-No_Entries_Added_yet
                                         </td>
                                     </tr>
                                 </tbody>
@@ -944,7 +940,7 @@
                                         <span class="index"></span>
                                     </td>
                                     <td data-title="NAI Realm Name">
-                                        <input type="text" class="form-control grid-input-text" maxlength="100" data-default="" placeholder="[ Requires unique name ]" disabled/>
+                                        <input type="text" class="form-control grid-input-text" maxlength="100" data-default="" placeholder="[ Requires unique name ]" />
                                     </td>
                                     <td>
                                         <span class="list-group-item-actions">
@@ -993,7 +989,7 @@
                                 <tbody data-add-form-container="#wifi-mcc-and-mncs-grid">
                                 <tr data-help-text="add-form">
                                     <td colspan="4">
-                                        No entries added yet .
+                                        EK-No_Entries_Added_yet
                                     </td>
                                 </tr>
                                 </tbody>
@@ -1005,10 +1001,10 @@
                                         <span class="index"></span>
                                     </td>
                                     <td data-title="Mobile Country Code ( MCC )">
-                                        <input type="text" class="form-control grid-input-text" data-input="1" maxlength="3" data-default="" placeholder="[ Requires 3-digit-input ]" disabled/>
+                                        <input type="text" class="form-control grid-input-text" data-input="1" maxlength="3" data-default="" placeholder="[ Requires 3-digit-input ]" />
                                     </td>
                                     <td data-title="Mobile Network Code ( MNC )">
-                                        <input type="text" class="form-control grid-input-text"  data-input="2" maxlength="3" data-default="" placeholder="[ Requires 3-digit-input ]" disabled/>
+                                        <input type="text" class="form-control grid-input-text"  data-input="2" maxlength="3" data-default="" placeholder="[ Requires 3-digit-input ]" />
                                     </td>
                                     <td>
                                         <span class="list-group-item-actions">
@@ -1058,22 +1054,22 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="email-account-description">
-                            Account Description
+                            EK-Account_description
                             <span class="helper" title="Display name of the account. ( e.g. Company Mail Account )">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="email-account-description" type="text" class="form-control operationDataKeys" data-key="emailAccountDescription" maxlength="100" data-default="" placeholder="[ Optional field ]" disabled/>
+                        <input id="email-account-description" type="text" class="form-control operationDataKeys" data-key="emailAccountDescription" maxlength="100" data-default="" placeholder="[ Optional field ]" />
                     </div>
 
                     <div class="wr-input-control">
                         <label class="wr-input-label" for="email-account-type">
-                            Account Type
+                            EK-Account_type
                             <span class="helper" title="Protocol for accessing the email account.">
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <select id="email-account-type" class="form-control operationDataKeys" data-key="emailAccountType" data-default="0" onchange="slideDownPaneAgainstValueSet(this, 'imap-account-type', ['EmailTypeIMAP'])" disabled>
+                        <select id="email-account-type" class="form-control operationDataKeys" data-key="emailAccountType" data-default="0" onchange="slideDownPaneAgainstValueSet(this, 'imap-account-type', ['EmailTypeIMAP'])">
                             <option value="EmailTypeIMAP" selected="selected">IMAP</option>
                             <option value="EmailTypePOP">POP</option>
                         </select>
@@ -1085,7 +1081,7 @@
                             <label class="wr-input-label" for="email-incoming-mail-server-imap-path-prefix">
                                 Path Prefix
                             </label>
-                            <input id="email-incoming-mail-server-imap-path-prefix" type="text" class="form-control operationDataKeys" data-key="emailIncomingMailServerIMAPPathPrefix" maxlength="100" data-default="" placeholder="[ Optional field ]" disabled/>
+                            <input id="email-incoming-mail-server-imap-path-prefix" type="text" class="form-control operationDataKeys" data-key="emailIncomingMailServerIMAPPathPrefix" maxlength="100" data-default="" placeholder="[ Optional field ]" />
                         </div>
 
                     </div>
@@ -1097,7 +1093,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="email-account-name" type="text" class="form-control operationDataKeys" data-key="emailAccountName" maxlength="100" data-default="" placeholder="[ Optional field ]" disabled/>
+                        <input id="email-account-name" type="text" class="form-control operationDataKeys" data-key="emailAccountName" maxlength="100" data-default="" placeholder="[ Optional field ]" />
                     </div>
 
                     <div class="wr-input-control">
@@ -1107,12 +1103,12 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="email-address" type="text" class="form-control operationDataKeys" data-key="emailAddress" maxlength="100" data-default="" placeholder="[ Optional field. Set On Device ]" disabled/>
+                        <input id="email-address" type="text" class="form-control operationDataKeys" data-key="emailAddress" maxlength="100" data-default="" placeholder="[ Optional field. Set On Device ]" />
                     </div>
 
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
-                            <input id="email-prevent-move" type="checkbox" class="form-control operationDataKeys" data-key="emailPreventMove" data-default="false" disabled/>
+                            <input id="email-prevent-move" type="checkbox" class="form-control operationDataKeys" data-key="emailPreventMove" data-default="false" />
                             <span class="helper" title="When checked, messages may not be moved out of this email account into another account. Also prevents forwarding or replying from a different account than the message was originated from. Available only in iOS 5.0 and later.">
                                 &nbsp;&nbsp;&nbsp;Prevent Move
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -1122,7 +1118,7 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
-                            <input id="email-prevent-app-sheet" type="checkbox" class="form-control operationDataKeys" data-key="emailPreventAppSheet" data-default="false" disabled/>
+                            <input id="email-prevent-app-sheet" type="checkbox" class="form-control operationDataKeys" data-key="emailPreventAppSheet" data-default="false" />
                             <span class="helper" title="When checked, this account is not available for sending mail in third-party applications. Available only in iOS 5.0 and later.">
                                 &nbsp;&nbsp;&nbsp;Prevent App Sheet
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -1132,7 +1128,7 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
-                            <input id="email-smime-enabled" type="checkbox" class="form-control operationDataKeys" data-key="emailSMIMEEnabled" data-default="false" disabled/>
+                            <input id="email-smime-enabled" type="checkbox" class="form-control operationDataKeys" data-key="emailSMIMEEnabled" data-default="false" />
                             <span class="helper" title="When checked, this account supports S/MIME. Available only in iOS 5.0 and later.">
                                 &nbsp;&nbsp;&nbsp;Enable S/MIME
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -1147,7 +1143,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="email-smime-signing-certificate-uuid" type="text" class="form-control operationDataKeys" data-key="emailSMIMESigningCertificateUUID" maxlength="100" data-default="" placeholder="[ Optional field ]" disabled/>
+                        <input id="email-smime-signing-certificate-uuid" type="text" class="form-control operationDataKeys" data-key="emailSMIMESigningCertificateUUID" maxlength="100" data-default="" placeholder="[ Optional field ]" />
                     </div>
 
                     <div class="wr-input-control">
@@ -1157,12 +1153,12 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="email-smime-encryption-certificate-uuid" type="text" class="form-control operationDataKeys" data-key="emailSMIMEEncryptionCertificateUUID" maxlength="100" data-default="" placeholder="[ Optional field ]" disabled/>
+                        <input id="email-smime-encryption-certificate-uuid" type="text" class="form-control operationDataKeys" data-key="emailSMIMEEncryptionCertificateUUID" maxlength="100" data-default="" placeholder="[ Optional field ]" />
                     </div>
 
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
-                            <input id="email-smime-enable-per-message-switch" type="checkbox" class="form-control operationDataKeys" data-key="emailSMIMEEnablePerMessageSwitch" data-default="false" disabled/>
+                            <input id="email-smime-enable-per-message-switch" type="checkbox" class="form-control operationDataKeys" data-key="emailSMIMEEnablePerMessageSwitch" data-default="false" />
                             <span class="helper" title="When checked, enable per-message signing and encryption switch.">
                                 &nbsp;&nbsp;&nbsp;Enable Per-Message Signing and Encryption Switch
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -1172,7 +1168,7 @@
 
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
-                            <input id="email-disable-mail-recent-syncing" type="checkbox" class="form-control operationDataKeys" data-key="emailDisableMailRecentSyncing" data-default="false" disabled/>
+                            <input id="email-disable-mail-recent-syncing" type="checkbox" class="form-control operationDataKeys" data-key="emailDisableMailRecentsSyncing" data-default="false" />
                             <span class="helper" title="When checked, this account is excluded from recent address syncing. Available only in iOS 6.0 and later.">
                                 &nbsp;&nbsp;&nbsp;Allow Recent Address syncing
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -1191,12 +1187,12 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="email-incoming-mail-server-hostname" type="text" class="form-control operationDataKeys" data-key="emailIncomingMailServerHostname" maxlength="100" data-default="" placeholder="[ Required field ]" disabled/>
+                        <input id="email-incoming-mail-server-hostname" type="text" class="form-control operationDataKeys" data-key="emailIncomingMailServerHostname" maxlength="100" data-default="" placeholder="[ Required field ]" />
                     </div>
 
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
-                            <input id="email-incoming-use-ssl" type="checkbox" class="form-control operationDataKeys" data-key="emailIncomingUseSSL" data-default="true" checked="checked" disabled/>
+                            <input id="email-incoming-use-ssl" type="checkbox" class="form-control operationDataKeys" data-key="emailIncomingUseSSL" data-default="true" checked="checked" />
                             <span class="helper" title="Designates whether the incoming mail server uses SSL for authentication.">
                                 &nbsp;&nbsp;&nbsp;Use Secure Socket Layer ( SSL )
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -1211,7 +1207,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="email-incoming-mail-server-port" type="text" class="form-control operationDataKeys" data-key="emailIncomingMailServerPort" maxlength="5" data-default="" placeholder="[ Required field which requires a number input ]" disabled/>
+                        <input id="email-incoming-mail-server-port" type="text" class="form-control operationDataKeys" data-key="emailIncomingMailServerPort" maxlength="5" data-default="" />
                     </div>
 
                     <div class="wr-input-control">
@@ -1221,7 +1217,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <select id="email-incoming-mail-server-authentication" class="form-control operationDataKeys" data-key="emailIncomingMailServerAuthentication" data-default="0" disabled>
+                        <select id="email-incoming-mail-server-authentication" class="form-control operationDataKeys" data-key="emailIncomingMailServerAuthentication" data-default="0">
                             <option value="EmailAuthNone" selected="selected">None</option>
                             <option value="EmailAuthPassword">Password</option>
                         </select>
@@ -1234,7 +1230,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="email-incoming-mail-server-username" type="text" class="form-control operationDataKeys" data-key="emailIncomingMailServerUsername" maxlength="100" data-default="" placeholder="[ Optional field ]" disabled>
+                        <input id="email-incoming-mail-server-username" type="text" class="form-control operationDataKeys" data-key="emailIncomingMailServerUsername" maxlength="100" data-default="" placeholder="[ Optional field ]">
                     </div>
 
                     <div class="wr-input-control">
@@ -1244,7 +1240,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="email-incoming-mail-server-password" type="password" class="form-control operationDataKeys" data-key="emailIncomingMailServerPassword" maxlength="100" data-default="" placeholder="[ Optional field ]" disabled>
+                        <input id="email-incoming-mail-server-password" type="password" class="form-control operationDataKeys" data-key="emailIncomingMailServerPassword" maxlength="100" data-default="" placeholder="[ Optional field ]">
                     </div>
 
                     <br>
@@ -1258,12 +1254,12 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="email-outgoing-mail-server-hostname" type="text" class="form-control operationDataKeys" data-key="emailOutgoingMailServerHostname" maxlength="100" data-default="" placeholder="[ Required field ]" disabled/>
+                        <input id="email-outgoing-mail-server-hostname" type="text" class="form-control operationDataKeys" data-key="emailOutgoingMailServerHostname" maxlength="100" data-default="" placeholder="[ Required field ]" />
                     </div>
 
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
-                            <input id="email-outgoing-use-ssl" type="checkbox" class="form-control operationDataKeys" data-key="emailOutgoingUseSSL" data-default="true" checked="checked" disabled/>
+                            <input id="email-outgoing-use-ssl" type="checkbox" class="form-control operationDataKeys" data-key="emailOutgoingUseSSL" data-default="true" checked="checked" />
                             <span class="helper" title="Designates whether the outgoing mail server uses SSL for authentication.">
                                 &nbsp;&nbsp;&nbsp;Use Secure Socket Layer ( SSL )
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -1278,7 +1274,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="email-outgoing-mail-server-port" type="text" class="form-control operationDataKeys" data-key="emailOutgoingMailServerPort" maxlength="5" data-default="" placeholder="[ Required field which requires a number input ]" disabled/>
+                        <input id="email-outgoing-mail-server-port" type="text" class="form-control operationDataKeys" data-key="emailOutgoingMailServerPort" maxlength="5" data-default="" />
                     </div>
 
                     <div class="wr-input-control">
@@ -1288,7 +1284,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <select id="email-outgoing-mail-server-authentication" class="form-control operationDataKeys" data-key="emailOutgoingMailServerAuthentication" data-default="0" disabled>
+                        <select id="email-outgoing-mail-server-authentication" class="form-control operationDataKeys" data-key="emailOutgoingMailServerAuthentication" data-default="0">
                             <option value="EmailAuthNone" selected="selected">None</option>
                             <option value="EmailAuthPassword">Password</option>
                         </select>
@@ -1301,12 +1297,12 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="email-outgoing-mail-server-username" type="text" class="form-control operationDataKeys" data-key="emailOutgoingMailServerUsername" maxlength="100" data-default="" placeholder="[ Optional field ]" disabled>
+                        <input id="email-outgoing-mail-server-username" type="text" class="form-control operationDataKeys" data-key="emailOutgoingMailServerUsername" maxlength="100" data-default="" placeholder="[ Optional field ]">
                     </div>
 
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
-                            <input id="email-outgoing-password-same-as-incoming-password" type="checkbox" class="form-control operationDataKeys" data-key="emailOutgoingPasswordSameAsIncomingPassword" data-default="false" disabled/>
+                            <input id="email-outgoing-password-same-as-incoming-password" type="checkbox" class="form-control operationDataKeys" data-key="emailOutgoingPasswordSameAsIncomingPassword" data-default="false" />
                             <span class="helper" title="When checked, the user will be prompted for the password only once and it will be used for both outgoing and incoming mail.">
                                 &nbsp;&nbsp;&nbsp;Outgoing password same as incoming password
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -1321,7 +1317,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="email-outgoing-mail-server-password" type="password" class="form-control operationDataKeys" data-key="emailOutgoingMailServerPassword" maxlength="100" data-default="" placeholder="[ Optional field ]" disabled>
+                        <input id="email-outgoing-mail-server-password" type="password" class="form-control operationDataKeys" data-key="emailOutgoingMailServerPassword" maxlength="100" data-default="" placeholder="[ Optional field ]">
                     </div>
 
                 </div>
@@ -1384,7 +1380,7 @@
                                 <tbody data-add-form-container="#airplay-credentials-grid">
                                     <tr data-help-text="add-form">
                                         <td colspan="4">
-                                            No entries added yet .
+                                            EK-No_Entries_Added_yet
                                         </td>
                                     </tr>
                                 </tbody>
@@ -1396,10 +1392,10 @@
                                             <span class="index"></span>
                                         </td>
                                         <td data-title="Device Name">
-                                            <input type="text" class="form-control grid-input-text" data-child-key="deviceName" maxlength="100" data-default="" placeholder="[ Requires AirPlay destination name ]" disabled/>
+                                            <input type="text" class="form-control grid-input-text" data-child-key="deviceName" maxlength="100" data-default="" placeholder="[ Requires AirPlay destination name ]" />
                                         </td>
                                         <td data-title="Password">
-                                            <input type="password" class="form-control grid-input-text" data-child-key="password" maxlength="100" data-default="" placeholder="[ Optional ]" disabled/>
+                                            <input type="password" class="form-control grid-input-text" data-child-key="password" maxlength="100" data-default="" placeholder="[ Optional ]" />
                                         </td>
                                         <td>
                                             <span class="list-group-item-actions">
@@ -1447,7 +1443,7 @@
                                 <tbody data-add-form-container="#airplay-destinations-grid">
                                     <tr data-help-text="add-form">
                                         <td colspan="3">
-                                            No entries added yet .
+                                            EK-No_Entries_Added_yet
                                         </td>
                                     </tr>
                                 </tbody>
@@ -1459,7 +1455,7 @@
                                             <span class="index"></span>
                                         </td>
                                         <td data-title="Destination">
-                                            <input type="text" class="form-control grid-input-text" maxlength="17" data-default="00:00:00:00:00:00" value="00:00:00:00:00:00" placeholder="[ Requires Device ID of AirPlay destination ]" disabled/>
+                                            <input type="text" class="form-control grid-input-text" maxlength="17" data-default="00:00:00:00:00:00" value="00:00:00:00:00:00" placeholder="[ Requires Device ID of AirPlay destination ]" />
                                         </td>
                                         <td>
                                             <span class="list-group-item-actions">
@@ -1514,7 +1510,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="ldap-account-description" type="text" class="form-control operationDataKeys" data-key="ldapAccountDescription" maxlength="100" data-default="Company LDAP Account" value="Company LDAP Account" placeholder="[ Optional field ]" disabled/>
+                        <input id="ldap-account-description" type="text" class="form-control operationDataKeys" data-key="ldapAccountDescription" maxlength="100" data-default="Company LDAP Account" value="Company LDAP Account" placeholder="[ Optional field ]" />
                     </div>
 
                     <div class="wr-input-control">
@@ -1524,12 +1520,12 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="ldap-account-hostname" type="text" class="form-control operationDataKeys" data-key="ldapAccountHostname" maxlength="100" data-default="" placeholder="[ Required field ]" disabled/>
+                        <input id="ldap-account-hostname" type="text" class="form-control operationDataKeys" data-key="ldapAccountHostname" maxlength="100" data-default="" placeholder="[ Required field ]" />
                     </div>
 
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
-                            <input id="ldap-use-ssl" type="checkbox" class="form-control operationDataKeys" data-key="ldapUseSSL" data-default="true" checked="checked" disabled/>
+                            <input id="ldap-use-ssl" type="checkbox" class="form-control operationDataKeys" data-key="ldapUseSSL" data-default="true" checked="checked" />
                             <span class="helper" title="Having this checked, would enable Secure Socket Layer communication.">
                                 &nbsp;&nbsp;&nbsp;Use Secure Socket Layer ( SSL )
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -1544,7 +1540,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="ldap-account-username" type="text" class="form-control operationDataKeys" data-key="ldapAccountUsername" maxlength="100" data-default="" placeholder="[ Optional field ]" disabled>
+                        <input id="ldap-account-username" type="text" class="form-control operationDataKeys" data-key="ldapAccountUsername" maxlength="100" data-default="" placeholder="[ Optional field ]">
                     </div>
 
                     <div class="wr-input-control">
@@ -1554,7 +1550,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="ldap-account-password" type="password" class="form-control operationDataKeys" data-key="ldapAccountPassword" maxlength="100" placeholder="[ Optional field ]" disabled>
+                        <input id="ldap-account-password" type="password" class="form-control operationDataKeys" data-key="ldapAccountPassword" maxlength="100" placeholder="[ Optional field ]">
                     </div>
 
                     <div class="wr-input-control">
@@ -1587,7 +1583,7 @@
                                 <tbody data-add-form-container="#ldap-search-settings-grid">
                                     <tr data-help-text="add-form">
                                         <td colspan="5">
-                                            No entries added yet .
+                                            EK-No_Entries_Added_yet
                                         </td>
                                     </tr>
                                 </tbody>
@@ -1599,10 +1595,10 @@
                                             <span class="index"></span>
                                         </td>
                                         <td data-title="Description">
-                                            <input type="text" class="form-control grid-input-text" data-child-key="searchSettingDescription" maxlength="100" data-default="LDAP Search" value="LDAP Search" placeholder="[ Optional field ]" disabled/>
+                                            <input type="text" class="form-control grid-input-text" data-child-key="searchSettingDescription" maxlength="100" data-default="LDAP Search" value="LDAP Search" placeholder="[ Optional field ]" />
                                         </td>
                                         <td data-title="Search Base">
-                                            <select class="form-control grid-input-select" data-child-key="searchSettingSearchBase" data-default="0" disabled>
+                                            <select class="form-control grid-input-select" data-child-key="searchSettingSearchBase" data-default="0">
                                                 <option value="LDAPSearchSettingScopeBase" selected="selected">
                                                     Base
                                                 </option>
@@ -1611,7 +1607,7 @@
                                             </select>
                                         </td>
                                         <td data-title="Scope">
-                                            <input type="text" class="form-control grid-input-text" data-child-key="searchSettingScope" maxlength="100" data-default="ou=department, o=company" value="ou=department, o=company" placeholder="[ Requires path to node where a search should start. ]" disabled/>
+                                            <input type="text" class="form-control grid-input-text" data-child-key="searchSettingScope" maxlength="100" data-default="ou=department, o=company" value="ou=department, o=company" placeholder="[ Requires path to node where a search should start. ]" />
                                         </td>
                                         <td>
                                             <span class="list-group-item-actions">
@@ -1666,7 +1662,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="calendar-account-description" type="text" class="form-control operationDataKeys" data-key="calendarAccountDescription" maxlength="100" data-default="Company CalDAV Account" value="Company CalDAV Account" placeholder="[ Optional field ]" disabled/>
+                        <input id="calendar-account-description" type="text" class="form-control operationDataKeys" data-key="calendarAccountDescription" maxlength="100" data-default="Company CalDAV Account" value="Company CalDAV Account" placeholder="[ Optional field ]" />
                     </div>
 
                     <div class="wr-input-control">
@@ -1676,12 +1672,12 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="calendar-account-hostname" type="text" class="form-control operationDataKeys" data-key="calendarAccountHostname" maxlength="100" data-default="" placeholder="[ Required field ]" disabled/>
+                        <input id="calendar-account-hostname" type="text" class="form-control operationDataKeys" data-key="calendarAccountHostname" maxlength="100" data-default="" placeholder="[ Required field ]" />
                     </div>
 
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
-                            <input id="calendar-use-ssl" type="checkbox" class="form-control operationDataKeys" data-key="calendarUseSSL" checked="checked" disabled/>
+                            <input id="calendar-use-ssl" type="checkbox" class="form-control operationDataKeys" data-key="calendarUseSSL" checked="checked" />
                             <span class="helper" title="Having this checked, would enable Secure Socket Layer communication with CalDAV server.">
                                 &nbsp;&nbsp;&nbsp;Use Secure Socket Layer ( SSL )
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -1696,7 +1692,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="calendar-account-port" type="text" class="form-control operationDataKeys" data-key="calendarAccountPort" maxlength="5" data-default="" placeholder="[ Required field which requires Number Input ]" disabled/>
+                        <input id="calendar-account-port" type="text" class="form-control operationDataKeys" data-key="calendarAccountPort" maxlength="5" data-default="" placeholder="[ Required field which requires Number Input ]" />
                     </div>
 
                     <div class="wr-input-control">
@@ -1706,7 +1702,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="calendar-principal-url" type="text" class="form-control operationDataKeys" data-key="calendarPrincipalURL" maxlength="100" data-default="" placeholder="[ Optional field ]" disabled>
+                        <input id="calendar-principal-url" type="text" class="form-control operationDataKeys" data-key="calendarPrincipalURL" maxlength="100" data-default="" placeholder="[ Optional field ]">
                     </div>
 
                     <div class="wr-input-control">
@@ -1716,7 +1712,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="calendar-account-username" type="text" class="form-control operationDataKeys" data-key="calendarAccountUsername" maxlength="100" data-default="" placeholder="[ Optional field. Set On Device ]" disabled>
+                        <input id="calendar-account-username" type="text" class="form-control operationDataKeys" data-key="calendarAccountUsername" maxlength="100" data-default="" placeholder="[ Optional field. Set On Device ]">
                     </div>
 
                     <div class="wr-input-control">
@@ -1726,7 +1722,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="calendar-account-password" type="password" class="form-control operationDataKeys" data-key="calendarAccountPassword" maxlength="100" placeholder="[ Optional field ]" disabled>
+                        <input id="calendar-account-password" type="password" class="form-control operationDataKeys" data-key="calendarAccountPassword" maxlength="100" placeholder="[ Optional field ]">
                     </div>
 
                 </div>
@@ -1766,7 +1762,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="calendar-subscription-description" type="text" class="form-control operationDataKeys" data-key="calendarSubscriptionDescription" maxlength="100" data-default="Subscribed Calendar" value="Company Subscribed Calendar" placeholder="[ Optional field ]" disabled/>
+                        <input id="calendar-subscription-description" type="text" class="form-control operationDataKeys" data-key="calendarSubscriptionDescription" maxlength="100" data-default="Subscribed Calendar" value="Company Subscribed Calendar" placeholder="[ Optional field ]" />
                     </div>
 
                     <div class="wr-input-control">
@@ -1776,12 +1772,12 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="calendar-subscription-hostname" type="text" class="form-control operationDataKeys" data-key="calendarSubscriptionHostname" maxlength="100" data-default="" placeholder="[ Required field ]" disabled/>
+                        <input id="calendar-subscription-hostname" type="text" class="form-control operationDataKeys" data-key="calendarSubscriptionHostname" maxlength="100" data-default="" placeholder="[ Required field ]" />
                     </div>
 
                     <div class="wr-input-control">
                         <label class="wr-input-control checkbox">
-                            <input id="calendar-subscription-use-ssl" type="checkbox" class="form-control operationDataKeys" data-key="calendarSubscriptionUseSSL" checked="checked" disabled/>
+                            <input id="calendar-subscription-use-ssl" type="checkbox" class="form-control operationDataKeys" data-key="calendarSubscriptionUseSSL" checked="checked" />
                             <span class="helper" title="Having this checked, would enable Secure Socket Layer communication.">
                                 &nbsp;&nbsp;&nbsp;Use Secure Socket Layer ( SSL )
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -1796,7 +1792,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="calendar-subscription-username" type="text" class="form-control operationDataKeys" data-key="calendarSubscriptionUsername" maxlength="100" data-default="" placeholder="[ Optional field ]" disabled>
+                        <input id="calendar-subscription-username" type="text" class="form-control operationDataKeys" data-key="calendarSubscriptionUsername" maxlength="100" data-default="" placeholder="[ Optional field ]">
                     </div>
 
                     <div class="wr-input-control">
@@ -1806,7 +1802,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="calendar-subscription-password" type="password" class="form-control operationDataKeys" data-key="calendarSubscriptionPassword" maxlength="100" placeholder="[ Optional field ]" disabled>
+                        <input id="calendar-subscription-password" type="password" class="form-control operationDataKeys" data-key="calendarSubscriptionPassword" maxlength="100" placeholder="[ Optional field ]">
                     </div>
 
                 </div>
@@ -1872,7 +1868,7 @@
                                 <tbody data-add-form-container="#apn-configurations-grid">
                                     <tr data-help-text="add-form">
                                         <td colspan="7">
-                                            No entries added yet .
+                                            EK-No_Entries_Added_yet
                                         </td>
                                     </tr>
                                 </tbody>
@@ -1884,19 +1880,19 @@
                                             <span class="index"></span>
                                         </td>
                                         <td data-title="APN">
-                                            <input type="text" class="form-control grid-input-text" data-child-key="apn" maxlength="100" data-default="" placeholder="[ Required ]" disabled/>
+                                            <input type="text" class="form-control grid-input-text" data-child-key="apn" maxlength="100" data-default="" placeholder="[ Required ]" />
                                         </td>
                                         <td data-title="Username">
-                                            <input type="text" class="form-control grid-input-text" data-child-key="username" maxlength="100" data-default="" placeholder="[ Optional ]" disabled/>
+                                            <input type="text" class="form-control grid-input-text" data-child-key="username" maxlength="100" data-default="" placeholder="[ Optional ]" />
                                         </td>
                                         <td data-title="Password">
-                                            <input type="password" class="form-control grid-input-text" data-child-key="password" maxlength="100" data-default="" placeholder="[ Optional ]" disabled/>
+                                            <input type="password" class="form-control grid-input-text" data-child-key="password" maxlength="100" data-default="" placeholder="[ Optional ]" />
                                         </td>
                                         <td data-title="Proxy">
-                                            <input type="text" class="form-control grid-input-text" data-child-key="proxyServer" maxlength="100" data-default="" placeholder="[ Optional ]" disabled/>
+                                            <input type="text" class="form-control grid-input-text" data-child-key="proxyServer" maxlength="100" data-default="" placeholder="[ Optional ]" />
                                         </td>
                                         <td data-title="Port">
-                                            <input type="text" class="form-control grid-input-text" data-child-key="proxyPort" maxlength="5" data-default="" placeholder="[ Optional ]" disabled/>
+                                            <input type="text" class="form-control grid-input-text" data-child-key="proxyPort" maxlength="5" data-default="" placeholder="[ Optional ]" />
                                         </td>
                                         <td>
                                             <span class="list-group-item-actions">
@@ -1953,7 +1949,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="cellular-attach-apn-name" type="text" class="form-control operationDataKeys" data-key="cellularAttachAPNName" maxlength="100" data-default="" placeholder="[ Required field ]" disabled>
+                        <input id="cellular-attach-apn-name" type="text" class="form-control operationDataKeys" data-key="cellularAttachAPNName" maxlength="100" data-default="" placeholder="[ Required field ]">
                     </div>
 
                     <div class="wr-input-control">
@@ -1963,7 +1959,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <select id="cellular-authentication-type" class="form-control operationDataKeys" data-key="cellularAuthenticationType" data-default="0" disabled>
+                        <select id="cellular-authentication-type" class="form-control operationDataKeys" data-key="cellularAuthenticationType" data-default="0">
                             <option value="PAP" selected="selected">PAP</option>
                             <option value="CHAP">CHAP</option>
                         </select>
@@ -1976,7 +1972,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="cellular-username" type="text" class="form-control operationDataKeys" data-key="cellularUsername" maxlength="100" data-default="" placeholder="[ Optional field ]" disabled>
+                        <input id="cellular-username" type="text" class="form-control operationDataKeys" data-key="cellularUsername" maxlength="100" data-default="" placeholder="[ Optional field ]">
                     </div>
 
                     <div class="wr-input-control">
@@ -1986,7 +1982,7 @@
                                 <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                             </span>
                         </label>
-                        <input id="cellular-password" type="password" class="form-control operationDataKeys" data-key="cellularPassword" maxlength="100" placeholder="[ Optional field ]" disabled>
+                        <input id="cellular-password" type="password" class="form-control operationDataKeys" data-key="cellularPassword" maxlength="100" placeholder="[ Optional field ]">
                     </div>
 
                     <div class="wr-input-control">
@@ -2022,7 +2018,7 @@
                                 <tbody data-add-form-container="#cellular-apn-configurations-grid">
                                     <tr data-help-text="add-form">
                                         <td colspan="8">
-                                            No entries added yet .
+                                            EK-No_Entries_Added_yet
                                         </td>
                                     </tr>
                                 </tbody>
@@ -2034,25 +2030,25 @@
                                             <span class="index"></span>
                                         </td>
                                         <td data-title="APN">
-                                            <input type="text" class="form-control grid-input-text" data-child-key="configurationName" maxlength="100" data-default="" placeholder="[ Required ]" disabled/>
+                                            <input type="text" class="form-control grid-input-text" data-child-key="configurationName" maxlength="100" data-default="" placeholder="[ Required ]" />
                                         </td>
                                         <td data-title="Auth.Type">
-                                            <select class="form-control grid-input-select" data-child-key="authenticationType" data-default="0" disabled>
+                                            <select class="form-control grid-input-select" data-child-key="authenticationType" data-default="0">
                                                 <option value="PAP" selected="selected">PAP</option>
                                                 <option value="CHAP">CHAP</option>
                                             </select>
                                         </td>
                                         <td data-title="Username">
-                                            <input type="text" class="form-control grid-input-text" data-child-key="username" maxlength="100" data-default="" placeholder="[ Optional ]" disabled/>
+                                            <input type="text" class="form-control grid-input-text" data-child-key="username" maxlength="100" data-default="" placeholder="[ Optional ]" />
                                         </td>
                                         <td data-title="Password">
-                                            <input type="password" class="form-control grid-input-text" data-child-key="password" maxlength="100" data-default="" placeholder="[ Optional ]" disabled/>
+                                            <input type="password" class="form-control grid-input-text" data-child-key="password" maxlength="100" data-default="" placeholder="[ Optional ]" />
                                         </td>
                                         <td data-title="Proxy">
-                                            <input type="text" class="form-control grid-input-text" data-child-key="proxyServer" maxlength="100" data-default="" placeholder="[ Optional ]" disabled/>
+                                            <input type="text" class="form-control grid-input-text" data-child-key="proxyServer" maxlength="100" data-default="" placeholder="[ Optional ]" />
                                         </td>
                                         <td data-title="Port">
-                                            <input type="text" class="form-control grid-input-text" data-child-key="proxyPort" maxlength="5" data-default="" placeholder="[ Optional ]" disabled/>
+                                            <input type="text" class="form-control grid-input-text" data-child-key="proxyPort" maxlength="5" data-default="" placeholder="[ Optional ]" />
                                         </td>
                                         <td>
                                             <span class="list-group-item-actions">
@@ -2107,7 +2103,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-camera" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowCamera" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-camera" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowCamera" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would enable Usage of phone camera in the device">
                                             &nbsp;&nbsp;&nbsp;Allow use of camera
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2118,7 +2114,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-Chat" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowChat" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-Chat" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowChat" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would enable use of Messages app with supervised devices. Available in iOS 6.0 and later.">
                                             &nbsp;&nbsp;&nbsp;Allow Chat
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2129,7 +2125,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-screen-shot" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowScreenShot" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-screen-shot" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowScreenShot" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would allow taking screenshots in the device">
                                             &nbsp;&nbsp;&nbsp;Allow screenshots
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2140,7 +2136,7 @@
                             <li style="visibility:hidden; position:absolute">
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-air-drop" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowAirDrop" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-air-drop" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowAirDrop" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would allow AirDrop feature in the device. Available only in iOS 7.0 and later.">
                                             &nbsp;&nbsp;&nbsp;Allow AirDrop ( Supervised only )
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2151,7 +2147,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-voice-dialing" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowVoiceDialing" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-voice-dialing" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowVoiceDialing" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would allow voice dialing feature in the device.">
                                             &nbsp;&nbsp;&nbsp;Allow voice dialing while device is locked
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2162,7 +2158,7 @@
                             <li class="grouped-input">
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-assistant" type="checkbox" class="parent-input operationDataKeys" data-key="restrictionsAllowAssistant" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-assistant" type="checkbox" class="parent-input operationDataKeys" data-key="restrictionsAllowAssistant" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would enable Siri as assistant in the device.">
                                             &nbsp;&nbsp;&nbsp;Allow Siri
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2173,7 +2169,7 @@
                                     <li>
                                         <div class="wr-input-control">
                                             <label class="wr-input-control checkbox">
-                                                <input id="restrictions-allow-assistant-while-locked" type="checkbox" class="child-input operationDataKeys" data-key="restrictionsAllowAssistantWhileLocked" data-default="true" checked="checked" disabled/>
+                                                <input id="restrictions-allow-assistant-while-locked" type="checkbox" class="child-input operationDataKeys" data-key="restrictionsAllowAssistantWhileLocked" data-default="true" checked="checked" />
                                                 <span class="helper" title="Having this checked would allow Siri as assistant while device is locked. Available only in iOS 5.1 and later.">
                                                     &nbsp;&nbsp;&nbsp;Allow Siri while device is locked
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2184,7 +2180,7 @@
                                     <li>
                                         <div class="wr-input-control">
                                             <label class="wr-input-control checkbox">
-                                                <input id="restrictions-force-assistant-profanity-filter" type="checkbox" class="child-input operationDataKeys" data-key="restrictionsForceAssistantProfanityFilter" data-default="true" checked="checked" disabled/>
+                                                <input id="restrictions-force-assistant-profanity-filter" type="checkbox" class="child-input operationDataKeys" data-key="restrictionsForceAssistantProfanityFilter" data-default="true" checked="checked" />
                                                 <span class="helper" title="Having this checked would force use of Siri profanity filter.">
                                                     &nbsp;&nbsp;&nbsp;Force use of Siri profanity filter
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2195,7 +2191,7 @@
                                     <li style="visibility:hidden; position:absolute">
                                         <div class="wr-input-control">
                                             <label class="wr-input-control checkbox">
-                                                <input id="restrictions-allow-assistant-user-generated-content" type="checkbox" class="child-input operationDataKeys" data-key="restrictionsAllowAssistantUserGeneratedContent" data-default="true" checked="checked" disabled/>
+                                                <input id="restrictions-allow-assistant-user-generated-content" type="checkbox" class="child-input operationDataKeys" data-key="restrictionsAllowAssistantUserGeneratedContent" data-default="true" checked="checked" />
                                                 <span class="helper" title="Having this checked would allow Siri to query user-generated content from web in the device. Available in iOS 7 and later.">
                                                     &nbsp;&nbsp;&nbsp;Allow Siri to query user-generated content from web ( Supervised only )
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2208,7 +2204,7 @@
                             <li style="visibility:hidden; position:absolute">
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-account-modification" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowAccountModification" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-account-modification" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowAccountModification" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would allow modifying account settings in the device. Available only in iOS 7.0 and later.">
                                             &nbsp;&nbsp;&nbsp;Allow modifying account settings ( Supervised only )
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2219,7 +2215,7 @@
                             <li style="visibility:hidden; position:absolute">
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-app-cellular-data-modification" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowAppCellularDataModification" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-app-cellular-data-modification" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowAppCellularDataModification" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would allow changes to cellular data usage for apps in the device. Available only in iOS 7.0 and later.">
                                             &nbsp;&nbsp;&nbsp;Allow modifying cellular data app settings ( Supervised only )
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2230,7 +2226,7 @@
                             <li style="visibility:hidden; position:absolute">
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-bookstore" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowBookstore" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-bookstore" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowBookstore" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would enable iBookStore in the device. Available in iOS 6.0 and later.">
                                             &nbsp;&nbsp;&nbsp;Enable iBookStore ( Supervised only )
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2241,7 +2237,7 @@
                             <li style="visibility:hidden; position:absolute">
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-bookstore-erotica" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowBookstoreErotica" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-bookstore-erotica" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowBookstoreErotica" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would enable iBookStore tagged as Erotica in the device. Available in iOS 6.0 and later.">
                                             &nbsp;&nbsp;&nbsp;Enable iBookStore Erotica ( Supervised only prior to iOS 6.1 )
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2252,7 +2248,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-app-installation" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowAppInstallation" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-app-installation" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowAppInstallation" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would allow installing apps in the device.">
                                             &nbsp;&nbsp;&nbsp;Allow installing apps
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2263,7 +2259,7 @@
                             <li style="visibility:hidden; position:absolute" >
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-app-removal" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowAppRemoval" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-app-removal" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowAppRemoval" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would allow removal of apps in the device.">
                                             &nbsp;&nbsp;&nbsp;Allow removing apps
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2274,7 +2270,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-in-app-purchases" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowInAppPurchases" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-in-app-purchases" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowInAppPurchases" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would allow in-app purchase in the device.">
                                             &nbsp;&nbsp;&nbsp;Allow in-app purchase
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2285,7 +2281,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-force-itunes-store-password-entry" type="checkbox" class="operationDataKeys" data-key="restrictionsForceITunesStorePasswordEntry" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-force-itunes-store-password-entry" type="checkbox" class="operationDataKeys" data-key="restrictionsForceITunesStorePasswordEntry" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would force iTunes store password in the device.">
                                             &nbsp;&nbsp;&nbsp;Require iTunes store password for all purchases
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2296,7 +2292,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-cloud-backup" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowCloudBackup" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-cloud-backup" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowCloudBackup" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would enable iCloud backup in the device.">
                                             &nbsp;&nbsp;&nbsp;Allow iCloud backup
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2307,7 +2303,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-cloud-document-sync" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowCloudDocumentSync" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-cloud-document-sync" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowCloudDocumentSync" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would enable syncing iCloud documents and data in the device.">
                                             &nbsp;&nbsp;&nbsp;Allow iCloud documents and data
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2318,7 +2314,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-cloud-keychain-sync" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowCloudKeychainSync" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-cloud-keychain-sync" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowCloudKeychainSync" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would enable syncing iCloud keychain in the device.">
                                             &nbsp;&nbsp;&nbsp;Allow iCloud keychain
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2329,7 +2325,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-managed-apps-cloud-sync" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowManagedAppsCloudSync" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-managed-apps-cloud-sync" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowManagedAppsCloudSync" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would allow managed apps in the device to store data in iCloud.">
                                             &nbsp;&nbsp;&nbsp;Allow managed apps to store data in iCloud
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2340,7 +2336,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-enterprise-book-backup" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowEnterpriseBookBackup" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-enterprise-book-backup" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowEnterpriseBookBackup" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would allow backup of enterprise books in the device.">
                                             &nbsp;&nbsp;&nbsp;Allow backup of enterprise books
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2351,7 +2347,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-enterprise-book-metadata-sync" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowEnterpriseBookMetadataSync" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-enterprise-book-metadata-sync" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowEnterpriseBookMetadataSync" data-default="true" checked="checked" />
                                         <span class="helper" title="When unchecked, Enterprise books notes and highlights will not be synced.">
                                             &nbsp;&nbsp;&nbsp;Allow enterprise books data sync
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2362,7 +2358,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-diagnostic-submission" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowDiagnosticSubmission" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-diagnostic-submission" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowDiagnosticSubmission" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would automatically submit diagnostic reports to Apple.">
                                             &nbsp;&nbsp;&nbsp;Allow diagnostic submission
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2373,7 +2369,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-explicit-content" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowExplicitContent" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-explicit-content" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowExplicitContent" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this unchecked would hide explicit music or video content purchased from the iTunes Store. Explicit content is marked as such by content providers, such as record labels, when sold through the iTunes Store.">
                                             &nbsp;&nbsp;&nbsp;Allow explicit content
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2384,7 +2380,7 @@
                             <li style="visibility:hidden; position:absolute">
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-find-my-friends-modification" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowFindMyFriendsModification" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-find-my-friends-modification" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowFindMyFriendsModification" data-default="true" checked="checked" />
                                         <span class="helper" title="When unchecked, changes to Find My Friends are disabled.">
                                             &nbsp;&nbsp;&nbsp;Allow Find My Friends modification
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2395,7 +2391,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-fingerprint-for-unlock" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowFingerprintForUnlock" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-fingerprint-for-unlock" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowFingerprintForUnlock" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this unchecked would prevent Touch ID from unlocking a device.">
                                             &nbsp;&nbsp;&nbsp;Allow fingerprint for unlock
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2406,7 +2402,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-global-background-fetch-when-roaming" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowGlobalBackgroundFetchWhenRoaming" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-global-background-fetch-when-roaming" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowGlobalBackgroundFetchWhenRoaming" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this unchecked would disable global background fetch activity when an iOS phone is roaming.">
                                             &nbsp;&nbsp;&nbsp;Allow global background fetch when roaming
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2417,7 +2413,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-lock-screen-control-center" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowLockScreenControlCenter" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-lock-screen-control-center" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowLockScreenControlCenter" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this unchecked would prevent Control Center from appearing on the Lock screen. Available in iOS 7 and later.">
                                             &nbsp;&nbsp;&nbsp;Show Control Center in lock screen
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2428,7 +2424,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-lock-screen-notifications-view" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowLockScreenNotificationsView" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-lock-screen-notifications-view" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowLockScreenNotificationsView" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this unchecked would disable Notifications view in Notification Center on the lock screen. Available only in iOS 7.0 and later.">
                                             &nbsp;&nbsp;&nbsp;Show Notifications Center in lock screen
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2439,7 +2435,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-lock-screen-today-view" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowLockScreenTodayView" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-lock-screen-today-view" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowLockScreenTodayView" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this unchecked would disable Today view in Notification Center on the lock screen. Available only in iOS 7.0 and later.">
                                             &nbsp;&nbsp;&nbsp;Show Today view in lock screen
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2450,7 +2446,7 @@
                             <li style="visibility:hidden; position:absolute">
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-host-pairing" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowHostPairing" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-host-pairing" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowHostPairing" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this unchecked would disable host pairing with the exception of the supervision host. If no supervision host certificate has been configured, all pairing is disabled. Host pairing lets the administrator control which devices an iOS 7 device can pair with. Available only in iOS 7.0 and later.">
                                             &nbsp;&nbsp;&nbsp;Allow Host Pairing ( Supervised only )
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2461,7 +2457,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-open-from-managed-to-unmanaged" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowOpenFromManagedToUnmanaged" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-open-from-managed-to-unmanaged" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowOpenFromManagedToUnmanaged" data-default="true" checked="checked" />
                                         <span class="helper" title="When unchecked, documents in managed apps and accounts only open in other managed apps and accounts. Available only in iOS 7.0 and later.">
                                             &nbsp;&nbsp;&nbsp;Allow documents from managed sources in unmanaged destinations
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2472,7 +2468,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-open-from-unmanaged-to-managed" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowOpenFromUnmanagedToManaged" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-open-from-unmanaged-to-managed" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowOpenFromUnmanagedToManaged" data-default="true" checked="checked" />
                                         <span class="helper" title="When unchecked, documents in unmanaged apps and accounts will only open in other unmanaged apps and accounts. Available only in iOS 7.0 and later.">
                                             &nbsp;&nbsp;&nbsp;Allow documents from unmanaged sources in managed destinations
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2483,7 +2479,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-ota-pki-updates" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowOTAPKIUpdates" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-ota-pki-updates" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowOTAPKIUpdates" data-default="true" checked="checked" />
                                         <span class="helper" title="When unchecked, over-the-air PKI updates are disabled. Setting this restriction to false does not disable CRL and OCSP checks. Available only in iOS 7.0 and later.">
                                             &nbsp;&nbsp;&nbsp;Allow over-the-air PKI updates
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2494,7 +2490,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictionsAllowPassbookWhileLocked" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowPassbookWhileLocked" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictionsAllowPassbookWhileLocked" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowPassbookWhileLocked" data-default="true" checked="checked" />
                                         <span class="helper" title="When unchecked, Passbook notifications will not be shown on the lock screen. Available only in iOS 6.0 and later.">
                                             &nbsp;&nbsp;&nbsp;Show Passbook notifications in lock screen
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2505,7 +2501,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-photo-stream" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowPhotoStream" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-photo-stream" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowPhotoStream" data-default="true" checked="checked" />
                                         <span class="helper" title="When unchecked, Photo Stream is disabled. Available only in iOS 5.0 and later.">
                                             &nbsp;&nbsp;&nbsp;Allow Photo Stream
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2516,7 +2512,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-shared-stream" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowSharedStream" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-shared-stream" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowSharedStream" data-default="true" checked="checked" />
                                         <span class="helper" title="When unchecked, Shared Photo Stream will be disabled. Available only in iOS 6.0 and later.">
                                             &nbsp;&nbsp;&nbsp;Allow Shared Photo Stream
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2527,7 +2523,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-ui-configuration-profile-installation" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowUIConfigurationProfileInstallation" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-ui-configuration-profile-installation" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowUIConfigurationProfileInstallation" data-default="true" checked="checked" />
                                         <span class="helper" title="When unchecked, the user is prohibited from installing configuration profiles and certificates interactively. Available only in iOS 6.0 and later.">
                                             &nbsp;&nbsp;&nbsp;Allow user prompted profile installation
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2538,7 +2534,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-untrusted-tls-prompt" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowUntrustedTLSPrompt" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-untrusted-tls-prompt" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowUntrustedTLSPrompt" data-default="true" checked="checked" />
                                         <span class="helper" title="When unchecked, automatically rejects untrusted HTTPS certificates without prompting the user. Available only in iOS 5.0 and later.">
                                             &nbsp;&nbsp;&nbsp;Allow untrusted TLS prompt
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2549,7 +2545,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-video-conferencing" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowVideoConferencing" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-video-conferencing" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowVideoConferencing" data-default="true" checked="checked" />
                                         <span class="helper" title="When unchecked, video conferencing is disabled.">
                                             &nbsp;&nbsp;&nbsp;Allow video conferencing
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2560,7 +2556,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-voice-dialing" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowVoiceDialing" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-voice-dialing" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowVoiceDialing" data-default="true" checked="checked" />
                                         <span class="helper" title="When unchecked, voice dialing is disabled.">
                                             &nbsp;&nbsp;&nbsp;Allow voice dialing
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2571,7 +2567,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-force-encrypted-backup" type="checkbox" class="operationDataKeys" data-key="restrictionsForceEncryptedBackup" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-force-encrypted-backup" type="checkbox" class="operationDataKeys" data-key="restrictionsForceEncryptedBackup" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would force encrypting all backups.">
                                             &nbsp;&nbsp;&nbsp;Force encrypting all backups
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2582,7 +2578,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-force-limit-ad-tracking" type="checkbox" class="operationDataKeys" data-key="restrictionsForceLimitAdTracking" data-default="false" disabled/>
+                                        <input id="restrictions-force-limit-ad-tracking" type="checkbox" class="operationDataKeys" data-key="restrictionsForceLimitAdTracking" data-default="false" />
                                         <span class="helper" title="Having this checked would limit ad tracking. Available only in iOS 7.0 and later.">
                                             &nbsp;&nbsp;&nbsp;Limit ad tracking
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2593,7 +2589,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-force-airplay-outgoing-requests-pairing-password" type="checkbox" class="operationDataKeys" data-key="restrictionsForceAirPlayOutgoingRequestsPairingPassword" data-default="false" disabled/>
+                                        <input id="restrictions-force-airplay-outgoing-requests-pairing-password" type="checkbox" class="operationDataKeys" data-key="restrictionsForceAirPlayOutgoingRequestsPairingPassword" data-default="false" />
                                         <span class="helper" title="Having this checked would force all devices receiving AirPlay requests from this device to use a pairing password. Available only in iOS 7.1 and later.">
                                             &nbsp;&nbsp;&nbsp;Force a pairing password for Airplay outgoing requests
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2604,7 +2600,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-force-airplay-incoming-requests-pairing-password" type="checkbox" class="operationDataKeys" data-key="restrictionsForceAirPlayIncomingRequestsPairingPassword" data-default="false" disabled/>
+                                        <input id="restrictions-force-airplay-incoming-requests-pairing-password" type="checkbox" class="operationDataKeys" data-key="restrictionsForceAirPlayIncomingRequestsPairingPassword" data-default="false" />
                                         <span class="helper" title="Having this checked would force all devices sending AirPlay requests to this device to use a pairing password. Available only in Apple TV 6.1 and later.">
                                             &nbsp;&nbsp;&nbsp;Force a pairing password for Airplay incoming requests
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2615,7 +2611,7 @@
                             <li style="visibility:hidden; position:absolute">
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-erase-content-and-settings" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowEraseContentAndSettings" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-erase-content-and-settings" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowEraseContentAndSettings" data-default="true" checked="checked" />
                                         <span class="helper" title="When unchecked, “Erase All Content And Settings” option in the Reset UI is disabled.">
                                             &nbsp;&nbsp;&nbsp;Allow Erase All Content And Settings ( Supervised only )
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2626,7 +2622,7 @@
                             <li style="visibility:hidden; position:absolute">
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-spotlight-internet-results" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowSpotlightInternetResults" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-spotlight-internet-results" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowSpotlightInternetResults" data-default="true" checked="checked" />
                                         <span class="helper" title="When unchecked, Spotlight will not return Internet search results.">
                                             &nbsp;&nbsp;&nbsp;Allow Spotlight Internet results ( Supervised only )
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2637,7 +2633,7 @@
                             <li style="visibility:hidden; position:absolute">
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictionsAllowEnablingRestrictions" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowEnablingRestrictions" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictionsAllowEnablingRestrictions" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowEnablingRestrictions" data-default="true" checked="checked" />
                                         <span class="helper" title="When unchecked, “Enable Restrictions” option in the Restrictions UI in Settings is disabled.">
                                             &nbsp;&nbsp;&nbsp;Allow Enable Restrictions option ( Supervised only )
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2648,7 +2644,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-activity-continuation" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowActivityContinuation" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-activity-continuation" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowActivityContinuation" data-default="true" checked="checked" />
                                         <span class="helper" title="When unchecked, Activity Continuation will be disabled.">
                                             &nbsp;&nbsp;&nbsp;Allow Activity Continuation
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2659,7 +2655,7 @@
                             <li style="visibility:hidden; position:absolute">
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-definition-lookup" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowDefinitionLookup" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-definition-lookup" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowDefinitionLookup" data-default="true" checked="checked" />
                                         <span class="helper" title="When unchecked, definition lookup is disabled.">
                                             &nbsp;&nbsp;&nbsp;Allow definition lookup
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2670,7 +2666,7 @@
                             <li style="visibility:hidden; position:absolute">
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-predictive-keyboard" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowPredictiveKeyboard" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-predictive-keyboard" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowPredictiveKeyboard" data-default="true" checked="checked" />
                                         <span class="helper" title="When unchecked, predictive keyboards are disabled. Available in iOS 8.1.3 and later.">
                                             &nbsp;&nbsp;&nbsp;Allow predictive keyboard ( Supervised only )
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2681,7 +2677,7 @@
                             <li style="visibility:hidden; position:absolute">
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-auto-correction" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowAutoCorrection" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-auto-correction" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowAutoCorrection" data-default="true" checked="checked" />
                                         <span class="helper" title="When unchecked, keyboard auto-correction is disabled. Available in iOS 8.1.3 and later.">
                                             &nbsp;&nbsp;&nbsp;Allow keyboard auto-correction ( Supervised only )
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2692,7 +2688,7 @@
                             <li style="visibility:hidden; position:absolute">
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-spell-check" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowSpellCheck" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-spell-check" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowSpellCheck" data-default="true" checked="checked" />
                                         <span class="helper" title="When unchecked, keyboard spell-check is disabled. Available in iOS 8.1.3 and later.">
                                             &nbsp;&nbsp;&nbsp;Allow keyboard spell-check ( Supervised only )
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2710,7 +2706,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-itunes" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowITunes" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-itunes" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowITunes" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would allow use of iTunes store in the device.">
                                             &nbsp;&nbsp;&nbsp;Allow use of iTunes Store
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2721,7 +2717,7 @@
                             <li style="visibility:hidden; position:absolute">
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-podcasts" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowPodcasts" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-podcasts" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowPodcasts" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would allow use of Podcasts in the device.">
                                             &nbsp;&nbsp;&nbsp;Allow use of Podcasts ( Supervised only )
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2732,7 +2728,7 @@
                             <li class="grouped-input">
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-safari" type="checkbox" class="parent-input operationDataKeys" data-key="restrictionsAllowSafari" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-safari" type="checkbox" class="parent-input operationDataKeys" data-key="restrictionsAllowSafari" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would allow use of Safari in the device.">
                                             &nbsp;&nbsp;&nbsp;Allow Safari
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2743,7 +2739,7 @@
                                     <li>
                                         <div class="wr-input-control">
                                             <label class="wr-input-control checkbox">
-                                                <input id="restrictions-safari-allow-auto-fill" type="checkbox" class="child-input operationDataKeys" data-key="restrictionsSafariAllowAutoFill" data-default="true" checked="checked" disabled/>
+                                                <input id="restrictions-safari-allow-auto-fill" type="checkbox" class="child-input operationDataKeys" data-key="restrictionsSafariAllowAutoFill" data-default="true" checked="checked" />
                                                 <span class="helper" title="Having this checked would enable Safari AutoFill feature in the device.">
                                                     &nbsp;&nbsp;&nbsp;Enable AutoFill
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2754,7 +2750,7 @@
                                     <li>
                                         <div class="wr-input-control">
                                             <label class="wr-input-control checkbox">
-                                                <input id="restrictions-safari-force-fraud-warning" type="checkbox" class="child-input operationDataKeys" data-key="restrictionsSafariForceFraudWarning" data-default="false" disabled/>
+                                                <input id="restrictions-safari-force-fraud-warning" type="checkbox" class="child-input operationDataKeys" data-key="restrictionsSafariForceFraudWarning" data-default="false" />
                                                 <span class="helper" title="Having this checked would force Safari Fraud warning feature in the device.">
                                                     &nbsp;&nbsp;&nbsp;Force Fraud warning
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2765,7 +2761,7 @@
                                     <li>
                                         <div class="wr-input-control">
                                             <label class="wr-input-control checkbox">
-                                                <input id="restrictions-safari-allow-javaScript" type="checkbox" class="child-input operationDataKeys" data-key="restrictionsSafariAllowJavaScript" data-default="true" checked="checked" disabled/>
+                                                <input id="restrictions-safari-allow-javaScript" type="checkbox" class="child-input operationDataKeys" data-key="restrictionsSafariAllowJavaScript" data-default="true" checked="checked" />
                                                 <span class="helper" title="Having this checked would enable Javascript on Safari in the device.">
                                                     &nbsp;&nbsp;&nbsp;Enable Javascript
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2776,7 +2772,7 @@
                                     <li>
                                         <div class="wr-input-control">
                                             <label class="wr-input-control checkbox">
-                                                <input id="restrictions-safari-allow-popups" type="checkbox" class="child-input operationDataKeys" data-key="restrictionsSafariAllowPopups" data-default="true" checked="checked" disabled/>
+                                                <input id="restrictions-safari-allow-popups" type="checkbox" class="child-input operationDataKeys" data-key="restrictionsSafariAllowPopups" data-default="true" checked="checked" />
                                                 <span class="helper" title="Having this checked would enable Pop-ups on Safari in the device.">
                                                     &nbsp;&nbsp;&nbsp;Enable Pop-ups
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2792,7 +2788,7 @@
                                                     <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
                                                 </span>
                                             </label>
-                                            <select id="restrictions-safari-accept-cookies" class="form-control child-input operationDataKeys" data-key="restrictionsSafariAcceptCookies" data-default="2" disabled>
+                                            <select id="restrictions-safari-accept-cookies" class="form-control child-input operationDataKeys" data-key="restrictionsSafariAcceptCookies" data-default="2">
                                                 <option value="0">Never</option>
                                                 <option value="1">From visited sites only</option>
                                                 <option value="2" selected="selected">Always</option>
@@ -2804,7 +2800,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-youtube" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowYouTube" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-youtube" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowYouTube" data-default="true" checked="checked" />
                                         <span class="helper" title="When unchecked, YouTube application is disabled and its icon is removed from the Home screen. This key is ignored in iOS 6 and later because the YouTube app is not provided.">
                                             &nbsp;&nbsp;&nbsp;Allow YouTube
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2815,7 +2811,7 @@
                             <li style="visibility:hidden; position:absolute">
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-game-center" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowGameCenter" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-game-center" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowGameCenter" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would allow use of Game Center in the device.">
                                             &nbsp;&nbsp;&nbsp;Allow use of Game Center ( Supervised only )
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2826,7 +2822,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-multiplayer-gaming" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowMultiplayerGaming" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-multiplayer-gaming" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowMultiplayerGaming" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would allow multiplayer gaming in the device.">
                                             &nbsp;&nbsp;&nbsp;Allow multiplayer gaming
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2837,7 +2833,7 @@
                             <li>
                                 <div class="wr-input-control">
                                     <label class="wr-input-control checkbox">
-                                        <input id="restrictions-allow-adding-game-center-friends" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowAddingGameCenterFriends" data-default="true" checked="checked" disabled/>
+                                        <input id="restrictions-allow-adding-game-center-friends" type="checkbox" class="operationDataKeys" data-key="restrictionsAllowAddingGameCenterFriends" data-default="true" checked="checked" />
                                         <span class="helper" title="Having this checked would allow adding Game Center friends in the device.">
                                             &nbsp;&nbsp;&nbsp;Allow adding Game Center friends
                                             <span class="wr-help-tip glyphicon glyphicon-question-sign"></span>
@@ -2882,7 +2878,7 @@
                                             <tbody data-add-form-container="#restrictions-autonomous-single-app-mode-permitted-app-ids-grid">
                                                 <tr data-help-text="add-form">
                                                     <td colspan="3">
-                                                        No entries added yet .
+                                                        EK-No_Entries_Added_yet
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -2894,7 +2890,7 @@
                                                         <span class="index"></span>
                                                     </td>
                                                     <td data-title="Application Bundle ID">
-                                                        <input type="text" class="form-control grid-input-text" maxlength="100" data-default="" placeholder="[ Requires an Application Bundle ID ]" disabled/>
+                                                        <input type="text" class="form-control grid-input-text" maxlength="100" data-default="" placeholder="[ Requires an Application Bundle ID ]" />
                                                     </td>
                                                     <td>
                                                         <span class="list-group-item-actions">
